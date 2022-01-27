@@ -1,0 +1,2 @@
+/usr/bin/ar qc libpclviewer.cpp.a  CMakeFiles/pclviewer.cpp.dir/pclviewer.cpp_autogen/mocs_compilation.cpp.o
+/usr/bin/ranlib libpclviewer.cpp.a
