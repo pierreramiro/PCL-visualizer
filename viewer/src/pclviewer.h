@@ -48,11 +48,18 @@ protected:
   refreshView();
 
   pcl::visualization::PCLVisualizer::Ptr viewer;
-  PointCloudT::Ptr cloud;
+  PointCloudT::Ptr Donut;
+  PointCloudT::Ptr Donut2;
+  PointCloudT::Ptr Donut3;
+  PointCloudT::Ptr Donut4;
+  PointCloudT::Ptr Donut5;
+  PointCloudT::Ptr Donut6;
 
   unsigned int red;
   unsigned int green;
   unsigned int blue;
+  int counter=2;
+  int pointSize;
 
 private slots:
   void on_pushButton_random_pressed();
