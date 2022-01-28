@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/catolica/Documents/PCLtest/viewer/src
+CMAKE_SOURCE_DIR = /home/catolica/Documents/Github/PCL-visualizer/viewer/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/catolica/Documents/PCLtest/viewer/build
+CMAKE_BINARY_DIR = /home/catolica/Documents/Github/PCL-visualizer/viewer/build
 
 # Utility rule file for pcl_visualizer_autogen.
 
@@ -67,8 +67,8 @@ include CMakeFiles/pcl_visualizer_autogen.dir/compiler_depend.make
 include CMakeFiles/pcl_visualizer_autogen.dir/progress.make
 
 CMakeFiles/pcl_visualizer_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/catolica/Documents/PCLtest/viewer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target pcl_visualizer"
-	/usr/bin/cmake -E cmake_autogen /home/catolica/Documents/PCLtest/viewer/build/CMakeFiles/pcl_visualizer_autogen.dir/AutogenInfo.json ""
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/catolica/Documents/Github/PCL-visualizer/viewer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target pcl_visualizer"
+	/usr/bin/cmake -E cmake_autogen /home/catolica/Documents/Github/PCL-visualizer/viewer/build/CMakeFiles/pcl_visualizer_autogen.dir/AutogenInfo.json ""
 
 pcl_visualizer_autogen: CMakeFiles/pcl_visualizer_autogen
 pcl_visualizer_autogen: CMakeFiles/pcl_visualizer_autogen.dir/build.make
@@ -83,6 +83,6 @@ CMakeFiles/pcl_visualizer_autogen.dir/clean:
 .PHONY : CMakeFiles/pcl_visualizer_autogen.dir/clean
 
 CMakeFiles/pcl_visualizer_autogen.dir/depend:
-	cd /home/catolica/Documents/PCLtest/viewer/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/catolica/Documents/PCLtest/viewer/src /home/catolica/Documents/PCLtest/viewer/src /home/catolica/Documents/PCLtest/viewer/build /home/catolica/Documents/PCLtest/viewer/build /home/catolica/Documents/PCLtest/viewer/build/CMakeFiles/pcl_visualizer_autogen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/catolica/Documents/Github/PCL-visualizer/viewer/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/catolica/Documents/Github/PCL-visualizer/viewer/src /home/catolica/Documents/Github/PCL-visualizer/viewer/src /home/catolica/Documents/Github/PCL-visualizer/viewer/build /home/catolica/Documents/Github/PCL-visualizer/viewer/build /home/catolica/Documents/Github/PCL-visualizer/viewer/build/CMakeFiles/pcl_visualizer_autogen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/pcl_visualizer_autogen.dir/depend
 

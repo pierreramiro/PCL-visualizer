@@ -1,8 +1,8 @@
 CMakeFiles/pcl_visualizer.dir/pcl_visualizer_autogen/mocs_compilation.cpp.o: \
- /home/catolica/Documents/PCLtest/viewer/build/pcl_visualizer_autogen/mocs_compilation.cpp \
+ /home/catolica/Documents/Github/PCL-visualizer/viewer/build/pcl_visualizer_autogen/mocs_compilation.cpp \
  /usr/include/stdc-predef.h \
- /home/catolica/Documents/PCLtest/viewer/build/pcl_visualizer_autogen/EWIEGA46WW/moc_pclviewer.cpp \
- /home/catolica/Documents/PCLtest/viewer/build/pcl_visualizer_autogen/EWIEGA46WW/../../../src/pclviewer.h \
+ /home/catolica/Documents/Github/PCL-visualizer/viewer/build/pcl_visualizer_autogen/EWIEGA46WW/moc_pclviewer.cpp \
+ /home/catolica/Documents/Github/PCL-visualizer/viewer/build/pcl_visualizer_autogen/EWIEGA46WW/../../../src/pclviewer.h \
  /usr/include/c++/7/iostream \
  /usr/include/x86_64-linux-gnu/c++/7/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/7/bits/os_defines.h \

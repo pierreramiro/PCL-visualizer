@@ -1,7 +1,7 @@
 CMakeFiles/pcl_visualizer.dir/main.cpp.o: \
- /home/catolica/Documents/PCLtest/viewer/src/main.cpp \
+ /home/catolica/Documents/Github/PCL-visualizer/viewer/src/main.cpp \
  /usr/include/stdc-predef.h \
- /home/catolica/Documents/PCLtest/viewer/src/pclviewer.h \
+ /home/catolica/Documents/Github/PCL-visualizer/viewer/src/pclviewer.h \
  /usr/include/c++/7/iostream \
  /usr/include/x86_64-linux-gnu/c++/7/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/7/bits/os_defines.h \

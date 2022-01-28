@@ -177,7 +177,6 @@ void PCLViewer::on_pushButton_random_pressed()
 
     viewer->updatePointCloud (cloud, "cloud");
     refreshView();
-    viewer->resetCamera ();
 }
 
 

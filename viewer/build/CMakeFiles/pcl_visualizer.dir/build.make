@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/catolica/Documents/PCLtest/viewer/src
+CMAKE_SOURCE_DIR = /home/catolica/Documents/Github/PCL-visualizer/viewer/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/catolica/Documents/PCLtest/viewer/build
+CMAKE_BINARY_DIR = /home/catolica/Documents/Github/PCL-visualizer/viewer/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/pcl_visualizer.dir/depend.make
@@ -72,44 +72,44 @@ include CMakeFiles/pcl_visualizer.dir/flags.make
 CMakeFiles/pcl_visualizer.dir/pcl_visualizer_autogen/mocs_compilation.cpp.o: CMakeFiles/pcl_visualizer.dir/flags.make
 CMakeFiles/pcl_visualizer.dir/pcl_visualizer_autogen/mocs_compilation.cpp.o: pcl_visualizer_autogen/mocs_compilation.cpp
 CMakeFiles/pcl_visualizer.dir/pcl_visualizer_autogen/mocs_compilation.cpp.o: CMakeFiles/pcl_visualizer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catolica/Documents/PCLtest/viewer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/pcl_visualizer.dir/pcl_visualizer_autogen/mocs_compilation.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pcl_visualizer.dir/pcl_visualizer_autogen/mocs_compilation.cpp.o -MF CMakeFiles/pcl_visualizer.dir/pcl_visualizer_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/pcl_visualizer.dir/pcl_visualizer_autogen/mocs_compilation.cpp.o -c /home/catolica/Documents/PCLtest/viewer/build/pcl_visualizer_autogen/mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catolica/Documents/Github/PCL-visualizer/viewer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/pcl_visualizer.dir/pcl_visualizer_autogen/mocs_compilation.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pcl_visualizer.dir/pcl_visualizer_autogen/mocs_compilation.cpp.o -MF CMakeFiles/pcl_visualizer.dir/pcl_visualizer_autogen/mocs_compilation.cpp.o.d -o CMakeFiles/pcl_visualizer.dir/pcl_visualizer_autogen/mocs_compilation.cpp.o -c /home/catolica/Documents/Github/PCL-visualizer/viewer/build/pcl_visualizer_autogen/mocs_compilation.cpp
 
 CMakeFiles/pcl_visualizer.dir/pcl_visualizer_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcl_visualizer.dir/pcl_visualizer_autogen/mocs_compilation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/catolica/Documents/PCLtest/viewer/build/pcl_visualizer_autogen/mocs_compilation.cpp > CMakeFiles/pcl_visualizer.dir/pcl_visualizer_autogen/mocs_compilation.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/catolica/Documents/Github/PCL-visualizer/viewer/build/pcl_visualizer_autogen/mocs_compilation.cpp > CMakeFiles/pcl_visualizer.dir/pcl_visualizer_autogen/mocs_compilation.cpp.i
 
 CMakeFiles/pcl_visualizer.dir/pcl_visualizer_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcl_visualizer.dir/pcl_visualizer_autogen/mocs_compilation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/catolica/Documents/PCLtest/viewer/build/pcl_visualizer_autogen/mocs_compilation.cpp -o CMakeFiles/pcl_visualizer.dir/pcl_visualizer_autogen/mocs_compilation.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/catolica/Documents/Github/PCL-visualizer/viewer/build/pcl_visualizer_autogen/mocs_compilation.cpp -o CMakeFiles/pcl_visualizer.dir/pcl_visualizer_autogen/mocs_compilation.cpp.s
 
 CMakeFiles/pcl_visualizer.dir/main.cpp.o: CMakeFiles/pcl_visualizer.dir/flags.make
-CMakeFiles/pcl_visualizer.dir/main.cpp.o: /home/catolica/Documents/PCLtest/viewer/src/main.cpp
+CMakeFiles/pcl_visualizer.dir/main.cpp.o: /home/catolica/Documents/Github/PCL-visualizer/viewer/src/main.cpp
 CMakeFiles/pcl_visualizer.dir/main.cpp.o: CMakeFiles/pcl_visualizer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catolica/Documents/PCLtest/viewer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/pcl_visualizer.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pcl_visualizer.dir/main.cpp.o -MF CMakeFiles/pcl_visualizer.dir/main.cpp.o.d -o CMakeFiles/pcl_visualizer.dir/main.cpp.o -c /home/catolica/Documents/PCLtest/viewer/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catolica/Documents/Github/PCL-visualizer/viewer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/pcl_visualizer.dir/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pcl_visualizer.dir/main.cpp.o -MF CMakeFiles/pcl_visualizer.dir/main.cpp.o.d -o CMakeFiles/pcl_visualizer.dir/main.cpp.o -c /home/catolica/Documents/Github/PCL-visualizer/viewer/src/main.cpp
 
 CMakeFiles/pcl_visualizer.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcl_visualizer.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/catolica/Documents/PCLtest/viewer/src/main.cpp > CMakeFiles/pcl_visualizer.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/catolica/Documents/Github/PCL-visualizer/viewer/src/main.cpp > CMakeFiles/pcl_visualizer.dir/main.cpp.i
 
 CMakeFiles/pcl_visualizer.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcl_visualizer.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/catolica/Documents/PCLtest/viewer/src/main.cpp -o CMakeFiles/pcl_visualizer.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/catolica/Documents/Github/PCL-visualizer/viewer/src/main.cpp -o CMakeFiles/pcl_visualizer.dir/main.cpp.s
 
 CMakeFiles/pcl_visualizer.dir/pclviewer.cpp.o: CMakeFiles/pcl_visualizer.dir/flags.make
-CMakeFiles/pcl_visualizer.dir/pclviewer.cpp.o: /home/catolica/Documents/PCLtest/viewer/src/pclviewer.cpp
+CMakeFiles/pcl_visualizer.dir/pclviewer.cpp.o: /home/catolica/Documents/Github/PCL-visualizer/viewer/src/pclviewer.cpp
 CMakeFiles/pcl_visualizer.dir/pclviewer.cpp.o: CMakeFiles/pcl_visualizer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catolica/Documents/PCLtest/viewer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/pcl_visualizer.dir/pclviewer.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pcl_visualizer.dir/pclviewer.cpp.o -MF CMakeFiles/pcl_visualizer.dir/pclviewer.cpp.o.d -o CMakeFiles/pcl_visualizer.dir/pclviewer.cpp.o -c /home/catolica/Documents/PCLtest/viewer/src/pclviewer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/catolica/Documents/Github/PCL-visualizer/viewer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/pcl_visualizer.dir/pclviewer.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pcl_visualizer.dir/pclviewer.cpp.o -MF CMakeFiles/pcl_visualizer.dir/pclviewer.cpp.o.d -o CMakeFiles/pcl_visualizer.dir/pclviewer.cpp.o -c /home/catolica/Documents/Github/PCL-visualizer/viewer/src/pclviewer.cpp
 
 CMakeFiles/pcl_visualizer.dir/pclviewer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/pcl_visualizer.dir/pclviewer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/catolica/Documents/PCLtest/viewer/src/pclviewer.cpp > CMakeFiles/pcl_visualizer.dir/pclviewer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/catolica/Documents/Github/PCL-visualizer/viewer/src/pclviewer.cpp > CMakeFiles/pcl_visualizer.dir/pclviewer.cpp.i
 
 CMakeFiles/pcl_visualizer.dir/pclviewer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/pcl_visualizer.dir/pclviewer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/catolica/Documents/PCLtest/viewer/src/pclviewer.cpp -o CMakeFiles/pcl_visualizer.dir/pclviewer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/catolica/Documents/Github/PCL-visualizer/viewer/src/pclviewer.cpp -o CMakeFiles/pcl_visualizer.dir/pclviewer.cpp.s
 
 # Object files for target pcl_visualizer
 pcl_visualizer_OBJECTS = \
@@ -221,7 +221,7 @@ pcl_visualizer: /usr/lib/x86_64-linux-gnu/libGL.so
 pcl_visualizer: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.9.5
 pcl_visualizer: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.9.5
 pcl_visualizer: CMakeFiles/pcl_visualizer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/catolica/Documents/PCLtest/viewer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable pcl_visualizer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/catolica/Documents/Github/PCL-visualizer/viewer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable pcl_visualizer"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pcl_visualizer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -233,6 +233,6 @@ CMakeFiles/pcl_visualizer.dir/clean:
 .PHONY : CMakeFiles/pcl_visualizer.dir/clean
 
 CMakeFiles/pcl_visualizer.dir/depend:
-	cd /home/catolica/Documents/PCLtest/viewer/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/catolica/Documents/PCLtest/viewer/src /home/catolica/Documents/PCLtest/viewer/src /home/catolica/Documents/PCLtest/viewer/build /home/catolica/Documents/PCLtest/viewer/build /home/catolica/Documents/PCLtest/viewer/build/CMakeFiles/pcl_visualizer.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/catolica/Documents/Github/PCL-visualizer/viewer/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/catolica/Documents/Github/PCL-visualizer/viewer/src /home/catolica/Documents/Github/PCL-visualizer/viewer/src /home/catolica/Documents/Github/PCL-visualizer/viewer/build /home/catolica/Documents/Github/PCL-visualizer/viewer/build /home/catolica/Documents/Github/PCL-visualizer/viewer/build/CMakeFiles/pcl_visualizer.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/pcl_visualizer.dir/depend
 

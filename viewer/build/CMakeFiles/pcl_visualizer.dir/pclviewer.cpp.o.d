@@ -1,7 +1,7 @@
 CMakeFiles/pcl_visualizer.dir/pclviewer.cpp.o: \
- /home/catolica/Documents/PCLtest/viewer/src/pclviewer.cpp \
+ /home/catolica/Documents/Github/PCL-visualizer/viewer/src/pclviewer.cpp \
  /usr/include/stdc-predef.h \
- /home/catolica/Documents/PCLtest/viewer/src/pclviewer.h \
+ /home/catolica/Documents/Github/PCL-visualizer/viewer/src/pclviewer.h \
  /usr/include/c++/7/iostream \
  /usr/include/x86_64-linux-gnu/c++/7/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/7/bits/os_defines.h \
@@ -1321,7 +1321,7 @@ CMakeFiles/pcl_visualizer.dir/pclviewer.cpp.o: \
  /usr/include/vtk-6.3/vtkPolygon.h \
  /usr/include/vtk-6.3/vtkUnstructuredGrid.h \
  /usr/include/vtk-6.3/vtkUnstructuredGridBase.h \
- /home/catolica/Documents/PCLtest/viewer/build/pcl_visualizer_autogen/include/ui_pclviewer.h \
+ /home/catolica/Documents/Github/PCL-visualizer/viewer/build/pcl_visualizer_autogen/include/ui_pclviewer.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h \

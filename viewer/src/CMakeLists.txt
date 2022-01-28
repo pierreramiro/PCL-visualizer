@@ -28,7 +28,6 @@ list(REMOVE_ITEM PCL_LIBRARIES "vtkproj4")
 include_directories(${PCL_INCLUDE_DIRS})
 add_definitions(${PCL_DEFINITIONS})
 
-
 set(project_SOURCES main.cpp pclviewer.cpp)
 
 add_executable(${PROJECT_NAME} ${project_SOURCES})

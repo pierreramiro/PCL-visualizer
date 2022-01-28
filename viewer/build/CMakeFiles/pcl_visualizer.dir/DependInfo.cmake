@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/catolica/Documents/PCLtest/viewer/src/main.cpp" "CMakeFiles/pcl_visualizer.dir/main.cpp.o" "gcc" "CMakeFiles/pcl_visualizer.dir/main.cpp.o.d"
-  "/home/catolica/Documents/PCLtest/viewer/build/pcl_visualizer_autogen/mocs_compilation.cpp" "CMakeFiles/pcl_visualizer.dir/pcl_visualizer_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/pcl_visualizer.dir/pcl_visualizer_autogen/mocs_compilation.cpp.o.d"
-  "/home/catolica/Documents/PCLtest/viewer/src/pclviewer.cpp" "CMakeFiles/pcl_visualizer.dir/pclviewer.cpp.o" "gcc" "CMakeFiles/pcl_visualizer.dir/pclviewer.cpp.o.d"
+  "/home/catolica/Documents/Github/PCL-visualizer/viewer/src/main.cpp" "CMakeFiles/pcl_visualizer.dir/main.cpp.o" "gcc" "CMakeFiles/pcl_visualizer.dir/main.cpp.o.d"
+  "/home/catolica/Documents/Github/PCL-visualizer/viewer/build/pcl_visualizer_autogen/mocs_compilation.cpp" "CMakeFiles/pcl_visualizer.dir/pcl_visualizer_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/pcl_visualizer.dir/pcl_visualizer_autogen/mocs_compilation.cpp.o.d"
+  "/home/catolica/Documents/Github/PCL-visualizer/viewer/src/pclviewer.cpp" "CMakeFiles/pcl_visualizer.dir/pclviewer.cpp.o" "gcc" "CMakeFiles/pcl_visualizer.dir/pclviewer.cpp.o.d"
   )
 
 # Targets to which this target links.
