@@ -6,6 +6,7 @@
 #include <string.h>
 #include "math.h"
 #include <time.h>
+#include <iostream>
 #if VTK_MAJOR_VERSION > 8
 #include <vtkGenericOpenGLRenderWindow.h>
 #endif
@@ -34,6 +35,7 @@ PCLViewer::PCLViewer (QWidget *parent) :
   Donut4->resize (16384);
   Donut5->resize (16384);
   Donut6->resize (16384);
+
   // The default color
   red   = 128;
   green = 128;
@@ -42,7 +44,7 @@ PCLViewer::PCLViewer (QWidget *parent) :
   // Fill the cloud with some points
   //aqui podemos poner la nube de puntos
   FILE* archivo;
-  archivo = fopen("../src/MinaData.csv", "r+");
+  archivo = fopen("/home/catolica/Documents/Github/PCL-visualizer/viewer/src/MinaData.csv", "r+");
   char buffer[400];
   char* token;
   //Saltamos la primera línea
@@ -126,7 +128,7 @@ PCLViewer::PCLViewer (QWidget *parent) :
     point.b = blue;
   }
   fclose(archivo);
-  archivo = fopen("../src/MinaData.csv", "r+");
+  archivo = fopen("/home/catolica/Documents/Github/PCL-visualizer/viewer/src/MinaData.csv", "r+");
   fgets(buffer,sizeof(buffer),archivo);
   for (auto& point: *cloud){
     fgets(buffer,sizeof(buffer),archivo);
@@ -141,22 +143,107 @@ PCLViewer::PCLViewer (QWidget *parent) :
     point.g = green;
     point.b = blue;
   }
-  //Add vertices and Faces
-  /*archivo = fopen("../src/MinaTriangleMesh.csv", "r+");
+  //Add Mina surface 1
+#define MESH_OPTION 1
+#if MESH_OPTION==0
+  mesh.polygons.resize(95143);
+  vex.vertices.resize(3);
+  cloudXYZ.resize(16384*6);
+  for (size_t i = 0; i < 16384*6; i++) {
+      cloudXYZ[i].x = cloud->points[i].x;
+      cloudXYZ[i].y = cloud->points[i].y;
+      cloudXYZ[i].z = cloud->points[i].z;
+  }
+  pcl::toPCLPointCloud2(cloudXYZ, mesh.cloud);
+  archivo = fopen("/home/catolica/Documents/Github/PCL-visualizer/viewer/src/MinaTriangleMesh.csv", "r+");
   fgets(buffer,sizeof(buffer),archivo);
   for (unsigned int i=0; i<95143; ++i)
   { 
     fgets(buffer,sizeof(buffer),archivo);
     token = strtok(buffer,",");
-    vi.push_back (mesh.addVertex (MyVertexData (atoi(token))));
+    vex.vertices[0]=atoi(token);
     token = strtok(NULL,",");
-    vi.push_back (mesh.addVertex (MyVertexData (atoi(token))));
+    vex.vertices[1]=atoi(token);
     token = strtok(NULL,",\n");
-    vi.push_back (mesh.addVertex (MyVertexData (atoi(token))));
-    mesh.addFace (vi [i*3], vi [i*3+1], vi [i*3+2]);
+    vex.vertices[2]=atoi(token);
+    mesh.polygons[i]= vex;
   }
-  */
-  // Set up the QVTK window  
+#elif MESH_OPTION==1
+  //Add Mina downsampled
+  mesh.polygons.resize(7898);
+  vex.vertices.resize(3);
+  cloudXYZ.resize(3969);
+  archivo = fopen("/home/catolica/Documents/Github/PCL-visualizer/viewer/src/downsamp_cloud.csv", "r+");
+  for (size_t i = 0; i < 3969; i++) {
+    fgets(buffer,sizeof(buffer),archivo);
+    token = strtok(buffer," ");
+    cloudXYZ[i].x = atof(token)/1000;
+    token = strtok(NULL," ");
+    cloudXYZ[i].y = atof(token)/1000;
+    token = strtok(NULL," \n");
+    cloudXYZ[i].z = atof(token)/1000;    
+  }
+  pcl::toPCLPointCloud2(cloudXYZ, mesh.cloud);
+  archivo = fopen("/home/catolica/Documents/Github/PCL-visualizer/viewer/src/downsamp_surf.csv", "r+");
+  for (unsigned int i=0; i<7898; ++i)
+  { 
+    fgets(buffer,sizeof(buffer),archivo);
+    token = strtok(buffer," ");
+    vex.vertices[0]=atoi(token);
+    vex.vertices[1]=atoi(token);
+    token = strtok(NULL," \n");
+    vex.vertices[2]=atoi(token);
+    //vex.vertices[3]=vex.vertices[0];
+    mesh.polygons[i]= vex;
+  }
+#else
+  //Add Mina downsampled
+  cloudDS.reset(new  pcl::PointCloud<pcl::PointXYZ>);
+  cloudDS->resize(3969);
+  archivo = fopen("/home/catolica/Documents/Github/PCL-visualizer/viewer/src/downsamp_cloud.csv", "r+");
+  
+  for (auto& point: *cloudDS){
+    fgets(buffer,sizeof(buffer),archivo);
+    token = strtok(buffer," ");
+    point.x=atof(token);
+    token = strtok(NULL," ");
+    point.y=atof(token);
+    token = strtok(NULL," \n");
+    point.z=atof(token);
+  }
+  // Normal estimation*
+  pcl::NormalEstimation<PointTxyz, pcl::Normal> n;
+  pcl::PointCloud<pcl::Normal>::Ptr normals (new pcl::PointCloud<pcl::Normal>);
+  pcl::search::KdTree<PointTxyz>::Ptr tree (new pcl::search::KdTree<PointTxyz>);
+  tree->setInputCloud (cloudDS);
+  n.setInputCloud (cloudDS);
+  n.setSearchMethod (tree);
+  n.setKSearch (20);
+  n.compute (*normals);
+  //* normals should not contain the point normals + surface curvatures
+
+  // Concatenate the XYZ and normal fields*
+  pcl::PointCloud<pcl::PointNormal>::Ptr cloud_with_normals (new pcl::PointCloud<pcl::PointNormal>);
+  pcl::concatenateFields (*cloudDS, *normals, *cloud_with_normals);
+  //* cloud_with_normals = cloud + normals
+  mesh.polygons.resize(7898);
+  pcl::toPCLPointCloud2(*cloud_with_normals, mesh.cloud);
+  vex.vertices.resize(3);
+  archivo = fopen("/home/catolica/Documents/Github/PCL-visualizer/viewer/src/downsamp_surf.csv", "r+");
+  for (unsigned int i=0; i<7898; ++i)
+  { 
+    fgets(buffer,sizeof(buffer),archivo);
+    token = strtok(buffer," ");
+    vex.vertices[0]=atoi(token);
+    vex.vertices[1]=atoi(token);
+    token = strtok(NULL," \n");
+    vex.vertices[2]=atoi(token);
+    //vex.vertices[3]=vex.vertices[0];
+    mesh.polygons[i]= vex;
+  }
+#endif
+
+// Set up the QVTK window  
 #if VTK_MAJOR_VERSION > 8
   auto renderer = vtkSmartPointer<vtkRenderer>::New();
   auto renderWindow = vtkSmartPointer<vtkGenericOpenGLRenderWindow>::New();
@@ -199,11 +286,11 @@ PCLViewer::PCLViewer (QWidget *parent) :
   //ponemos color
   viewer->setBackgroundColor (0, 0, 0);
   //configuramos para poder hacer 3d
-  viewer->addPointCloud (cloud, "cloud");
-  //viewer->addPolygonMesh (mesh,"polygon");
-  viewer->addPolygon<PointT>(Donut1);
-  //Le ponemos un valor al tamaño de los puntos
-  pSliderValueChanged (1);
+  //viewer->addPointCloud (cloud, "cloud");
+  //viewer->addPolygon<PointT>(Donut1);
+  viewer->addPolygonMesh (mesh,"polygon");
+ //Le ponemos un valor al tamaño de los puntos
+  pSliderValueChanged (4);
   //Reseteamos el view de la camara
   viewer->resetCamera ();
   

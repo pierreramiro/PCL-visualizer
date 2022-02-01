@@ -11,9 +11,20 @@
 #include <pcl/visualization/pcl_visualizer.h>
 #include <pcl/geometry/polygon_mesh.h>
 #include <pcl/io/vtk_lib_io.h>
+#include <pcl/Vertices.h>
+#include <pcl/conversions.h>
+
+// for KdTree
+#include <pcl/search/kdtree.h> 
+#include <pcl/features/normal_3d.h>
+#include <pcl/surface/gp3.h>
+
 
 typedef pcl::PointXYZRGBA PointT;
 typedef pcl::PointCloud<PointT> PointCloudT;
+
+typedef pcl::PointXYZ PointTxyz;
+
 
 namespace Ui
 {
@@ -33,12 +44,6 @@ class MyVertexData
 
     int id_;
 };
-
-// Declare the mesh.
-using Mesh = pcl::geometry::PolygonMesh<pcl::geometry::DefaultMeshTraits<MyVertexData> >;
-using VertexIndex = Mesh::VertexIndex;
-using VertexIndices = Mesh::VertexIndices;
-
 
 class PCLViewer : public QMainWindow
 {
@@ -68,11 +73,12 @@ public Q_SLOTS:
 protected:
   void
   refreshView();
-
   pcl::visualization::PCLVisualizer::Ptr viewer;
   pcl::PolygonMesh mesh;
-  VertexIndices vi;
-
+  pcl::Vertices vex;
+  
+  pcl::PointCloud<pcl::PointXYZ> cloudXYZ;
+  pcl::PointCloud<pcl::PointXYZ>::Ptr cloudDS;
   PointCloudT::Ptr cloud;
   PointCloudT::Ptr Donut1;
   PointCloudT::Ptr Donut2;

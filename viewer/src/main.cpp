@@ -10,3 +10,12 @@ int main (int argc, char *argv[])
 
   return a.exec ();
 }
+
+/*
+
+mesh.polygons.clear();
+  pcl::toPCLPointCloud2(cloud, mesh.cloud);
+  mesh.polygons.resize(91000);
+  Vex.vertices.resize(3);
+  Vex.vertices[i]
+  mesh.polygons[]=Vex; */
