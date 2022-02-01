@@ -1470,6 +1470,69 @@ CMakeFiles/pcl_visualizer.dir/main.cpp.o
  /usr/include/vtk-6.3/vtkPolygon.h
  /usr/include/vtk-6.3/vtkUnstructuredGrid.h
  /usr/include/vtk-6.3/vtkUnstructuredGridBase.h
+ /usr/local/include/pcl-1.12/pcl/geometry/polygon_mesh.h
+ /usr/local/include/pcl-1.12/pcl/geometry/mesh_base.h
+ /usr/local/include/pcl-1.12/pcl/geometry/mesh_circulators.h
+ /usr/local/include/pcl-1.12/pcl/geometry/boost.h
+ /usr/include/boost/operators.hpp
+ /usr/local/include/pcl-1.12/pcl/geometry/mesh_indices.h
+ /usr/local/include/pcl-1.12/pcl/geometry/mesh_elements.h
+ /usr/local/include/pcl-1.12/pcl/geometry/mesh_traits.h
+ /usr/local/include/pcl-1.12/pcl/io/vtk_lib_io.h
+ /usr/local/include/pcl-1.12/pcl/range_image/range_image_planar.h
+ /usr/local/include/pcl-1.12/pcl/range_image/range_image.h
+ /usr/local/include/pcl-1.12/pcl/common/angles.h
+ /usr/local/include/pcl-1.12/pcl/common/impl/angles.hpp
+ /usr/local/include/pcl-1.12/pcl/range_image/impl/range_image.hpp
+ /usr/local/include/pcl-1.12/pcl/common/distances.h
+ /usr/local/include/pcl-1.12/pcl/common/vector_average.h
+ /usr/local/include/pcl-1.12/pcl/common/impl/vector_average.hpp
+ /usr/local/include/pcl-1.12/pcl/common/eigen.h
+ /usr/include/eigen3/Eigen/LU
+ /usr/local/include/pcl-1.12/pcl/common/impl/eigen.hpp
+ /usr/include/eigen3/Eigen/Eigenvalues
+ /usr/include/eigen3/Eigen/Geometry
+ /usr/include/eigen3/Eigen/src/Eigenvalues/Tridiagonalization.h
+ /usr/include/eigen3/Eigen/src/Eigenvalues/RealSchur.h
+ /usr/include/eigen3/Eigen/src/Eigenvalues/HessenbergDecomposition.h
+ /usr/include/eigen3/Eigen/src/Eigenvalues/EigenSolver.h
+ /usr/include/eigen3/Eigen/src/Eigenvalues/RealSchur.h
+ /usr/include/eigen3/Eigen/src/Eigenvalues/SelfAdjointEigenSolver.h
+ /usr/include/eigen3/Eigen/src/Eigenvalues/Tridiagonalization.h
+ /usr/include/eigen3/Eigen/src/Eigenvalues/GeneralizedSelfAdjointEigenSolver.h
+ /usr/include/eigen3/Eigen/src/Eigenvalues/HessenbergDecomposition.h
+ /usr/include/eigen3/Eigen/src/Eigenvalues/ComplexSchur.h
+ /usr/include/eigen3/Eigen/src/Eigenvalues/ComplexEigenSolver.h
+ /usr/include/eigen3/Eigen/src/Eigenvalues/ComplexSchur.h
+ /usr/include/eigen3/Eigen/src/Eigenvalues/RealQZ.h
+ /usr/include/eigen3/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h
+ /usr/include/eigen3/Eigen/src/Eigenvalues/RealQZ.h
+ /usr/include/eigen3/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h
+ /usr/local/include/pcl-1.12/pcl/range_image/impl/range_image_planar.hpp
+ /usr/include/vtk-6.3/vtkStructuredGrid.h
+ /usr/include/vtk-6.3/vtkStructuredData.h
+ /usr/include/vtk-6.3/vtkPolyDataReader.h
+ /usr/include/vtk-6.3/vtkIOLegacyModule.h
+ /usr/include/vtk-6.3/vtkDataReader.h
+ /usr/include/vtk-6.3/vtkPolyDataWriter.h
+ /usr/include/vtk-6.3/vtkDataWriter.h
+ /usr/include/vtk-6.3/vtkWriter.h
+ /usr/include/vtk-6.3/vtkIOCoreModule.h
+ /usr/include/vtk-6.3/vtkPLYReader.h
+ /usr/include/vtk-6.3/vtkIOPLYModule.h
+ /usr/include/vtk-6.3/vtkIOGeometryModule.h
+ /usr/include/vtk-6.3/vtkAbstractPolyDataReader.h
+ /usr/include/vtk-6.3/vtkPLYWriter.h
+ /usr/include/vtk-6.3/vtkOBJReader.h
+ /usr/include/vtk-6.3/vtkSTLReader.h
+ /usr/include/vtk-6.3/vtkSTLWriter.h
+ /usr/include/vtk-6.3/vtkPNGReader.h
+ /usr/include/vtk-6.3/vtkImageReader2.h
+ /usr/include/vtk-6.3/vtkImageData.h
+ /usr/include/vtk-6.3/vtkPolyDataNormals.h
+ /usr/local/include/pcl-1.12/pcl/io/impl/vtk_lib_io.hpp
+ /usr/include/vtk-6.3/vtkPolyData.h
+ /usr/include/vtk-6.3/vtkVertexGlyphFilter.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreapplication.h
@@ -2951,6 +3014,69 @@ CMakeFiles/pcl_visualizer.dir/pcl_visualizer_autogen/mocs_compilation.cpp.o
  /usr/include/vtk-6.3/vtkPolygon.h
  /usr/include/vtk-6.3/vtkUnstructuredGrid.h
  /usr/include/vtk-6.3/vtkUnstructuredGridBase.h
+ /usr/local/include/pcl-1.12/pcl/geometry/polygon_mesh.h
+ /usr/local/include/pcl-1.12/pcl/geometry/mesh_base.h
+ /usr/local/include/pcl-1.12/pcl/geometry/mesh_circulators.h
+ /usr/local/include/pcl-1.12/pcl/geometry/boost.h
+ /usr/include/boost/operators.hpp
+ /usr/local/include/pcl-1.12/pcl/geometry/mesh_indices.h
+ /usr/local/include/pcl-1.12/pcl/geometry/mesh_elements.h
+ /usr/local/include/pcl-1.12/pcl/geometry/mesh_traits.h
+ /usr/local/include/pcl-1.12/pcl/io/vtk_lib_io.h
+ /usr/local/include/pcl-1.12/pcl/range_image/range_image_planar.h
+ /usr/local/include/pcl-1.12/pcl/range_image/range_image.h
+ /usr/local/include/pcl-1.12/pcl/common/angles.h
+ /usr/local/include/pcl-1.12/pcl/common/impl/angles.hpp
+ /usr/local/include/pcl-1.12/pcl/range_image/impl/range_image.hpp
+ /usr/local/include/pcl-1.12/pcl/common/distances.h
+ /usr/local/include/pcl-1.12/pcl/common/vector_average.h
+ /usr/local/include/pcl-1.12/pcl/common/impl/vector_average.hpp
+ /usr/local/include/pcl-1.12/pcl/common/eigen.h
+ /usr/include/eigen3/Eigen/LU
+ /usr/local/include/pcl-1.12/pcl/common/impl/eigen.hpp
+ /usr/include/eigen3/Eigen/Eigenvalues
+ /usr/include/eigen3/Eigen/Geometry
+ /usr/include/eigen3/Eigen/src/Eigenvalues/Tridiagonalization.h
+ /usr/include/eigen3/Eigen/src/Eigenvalues/RealSchur.h
+ /usr/include/eigen3/Eigen/src/Eigenvalues/HessenbergDecomposition.h
+ /usr/include/eigen3/Eigen/src/Eigenvalues/EigenSolver.h
+ /usr/include/eigen3/Eigen/src/Eigenvalues/RealSchur.h
+ /usr/include/eigen3/Eigen/src/Eigenvalues/SelfAdjointEigenSolver.h
+ /usr/include/eigen3/Eigen/src/Eigenvalues/Tridiagonalization.h
+ /usr/include/eigen3/Eigen/src/Eigenvalues/GeneralizedSelfAdjointEigenSolver.h
+ /usr/include/eigen3/Eigen/src/Eigenvalues/HessenbergDecomposition.h
+ /usr/include/eigen3/Eigen/src/Eigenvalues/ComplexSchur.h
+ /usr/include/eigen3/Eigen/src/Eigenvalues/ComplexEigenSolver.h
+ /usr/include/eigen3/Eigen/src/Eigenvalues/ComplexSchur.h
+ /usr/include/eigen3/Eigen/src/Eigenvalues/RealQZ.h
+ /usr/include/eigen3/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h
+ /usr/include/eigen3/Eigen/src/Eigenvalues/RealQZ.h
+ /usr/include/eigen3/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h
+ /usr/local/include/pcl-1.12/pcl/range_image/impl/range_image_planar.hpp
+ /usr/include/vtk-6.3/vtkStructuredGrid.h
+ /usr/include/vtk-6.3/vtkStructuredData.h
+ /usr/include/vtk-6.3/vtkPolyDataReader.h
+ /usr/include/vtk-6.3/vtkIOLegacyModule.h
+ /usr/include/vtk-6.3/vtkDataReader.h
+ /usr/include/vtk-6.3/vtkPolyDataWriter.h
+ /usr/include/vtk-6.3/vtkDataWriter.h
+ /usr/include/vtk-6.3/vtkWriter.h
+ /usr/include/vtk-6.3/vtkIOCoreModule.h
+ /usr/include/vtk-6.3/vtkPLYReader.h
+ /usr/include/vtk-6.3/vtkIOPLYModule.h
+ /usr/include/vtk-6.3/vtkIOGeometryModule.h
+ /usr/include/vtk-6.3/vtkAbstractPolyDataReader.h
+ /usr/include/vtk-6.3/vtkPLYWriter.h
+ /usr/include/vtk-6.3/vtkOBJReader.h
+ /usr/include/vtk-6.3/vtkSTLReader.h
+ /usr/include/vtk-6.3/vtkSTLWriter.h
+ /usr/include/vtk-6.3/vtkPNGReader.h
+ /usr/include/vtk-6.3/vtkImageReader2.h
+ /usr/include/vtk-6.3/vtkImageData.h
+ /usr/include/vtk-6.3/vtkPolyDataNormals.h
+ /usr/local/include/pcl-1.12/pcl/io/impl/vtk_lib_io.hpp
+ /usr/include/vtk-6.3/vtkPolyData.h
+ /usr/include/vtk-6.3/vtkVertexGlyphFilter.h
 
 CMakeFiles/pcl_visualizer.dir/pclviewer.cpp.o
  /home/catolica/Documents/Github/PCL-visualizer/viewer/src/pclviewer.cpp
@@ -4421,6 +4547,69 @@ CMakeFiles/pcl_visualizer.dir/pclviewer.cpp.o
  /usr/include/vtk-6.3/vtkPolygon.h
  /usr/include/vtk-6.3/vtkUnstructuredGrid.h
  /usr/include/vtk-6.3/vtkUnstructuredGridBase.h
+ /usr/local/include/pcl-1.12/pcl/geometry/polygon_mesh.h
+ /usr/local/include/pcl-1.12/pcl/geometry/mesh_base.h
+ /usr/local/include/pcl-1.12/pcl/geometry/mesh_circulators.h
+ /usr/local/include/pcl-1.12/pcl/geometry/boost.h
+ /usr/include/boost/operators.hpp
+ /usr/local/include/pcl-1.12/pcl/geometry/mesh_indices.h
+ /usr/local/include/pcl-1.12/pcl/geometry/mesh_elements.h
+ /usr/local/include/pcl-1.12/pcl/geometry/mesh_traits.h
+ /usr/local/include/pcl-1.12/pcl/io/vtk_lib_io.h
+ /usr/local/include/pcl-1.12/pcl/range_image/range_image_planar.h
+ /usr/local/include/pcl-1.12/pcl/range_image/range_image.h
+ /usr/local/include/pcl-1.12/pcl/common/angles.h
+ /usr/local/include/pcl-1.12/pcl/common/impl/angles.hpp
+ /usr/local/include/pcl-1.12/pcl/range_image/impl/range_image.hpp
+ /usr/local/include/pcl-1.12/pcl/common/distances.h
+ /usr/local/include/pcl-1.12/pcl/common/vector_average.h
+ /usr/local/include/pcl-1.12/pcl/common/impl/vector_average.hpp
+ /usr/local/include/pcl-1.12/pcl/common/eigen.h
+ /usr/include/eigen3/Eigen/LU
+ /usr/local/include/pcl-1.12/pcl/common/impl/eigen.hpp
+ /usr/include/eigen3/Eigen/Eigenvalues
+ /usr/include/eigen3/Eigen/Geometry
+ /usr/include/eigen3/Eigen/src/Eigenvalues/Tridiagonalization.h
+ /usr/include/eigen3/Eigen/src/Eigenvalues/RealSchur.h
+ /usr/include/eigen3/Eigen/src/Eigenvalues/HessenbergDecomposition.h
+ /usr/include/eigen3/Eigen/src/Eigenvalues/EigenSolver.h
+ /usr/include/eigen3/Eigen/src/Eigenvalues/RealSchur.h
+ /usr/include/eigen3/Eigen/src/Eigenvalues/SelfAdjointEigenSolver.h
+ /usr/include/eigen3/Eigen/src/Eigenvalues/Tridiagonalization.h
+ /usr/include/eigen3/Eigen/src/Eigenvalues/GeneralizedSelfAdjointEigenSolver.h
+ /usr/include/eigen3/Eigen/src/Eigenvalues/HessenbergDecomposition.h
+ /usr/include/eigen3/Eigen/src/Eigenvalues/ComplexSchur.h
+ /usr/include/eigen3/Eigen/src/Eigenvalues/ComplexEigenSolver.h
+ /usr/include/eigen3/Eigen/src/Eigenvalues/ComplexSchur.h
+ /usr/include/eigen3/Eigen/src/Eigenvalues/RealQZ.h
+ /usr/include/eigen3/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h
+ /usr/include/eigen3/Eigen/src/Eigenvalues/RealQZ.h
+ /usr/include/eigen3/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h
+ /usr/local/include/pcl-1.12/pcl/range_image/impl/range_image_planar.hpp
+ /usr/include/vtk-6.3/vtkStructuredGrid.h
+ /usr/include/vtk-6.3/vtkStructuredData.h
+ /usr/include/vtk-6.3/vtkPolyDataReader.h
+ /usr/include/vtk-6.3/vtkIOLegacyModule.h
+ /usr/include/vtk-6.3/vtkDataReader.h
+ /usr/include/vtk-6.3/vtkPolyDataWriter.h
+ /usr/include/vtk-6.3/vtkDataWriter.h
+ /usr/include/vtk-6.3/vtkWriter.h
+ /usr/include/vtk-6.3/vtkIOCoreModule.h
+ /usr/include/vtk-6.3/vtkPLYReader.h
+ /usr/include/vtk-6.3/vtkIOPLYModule.h
+ /usr/include/vtk-6.3/vtkIOGeometryModule.h
+ /usr/include/vtk-6.3/vtkAbstractPolyDataReader.h
+ /usr/include/vtk-6.3/vtkPLYWriter.h
+ /usr/include/vtk-6.3/vtkOBJReader.h
+ /usr/include/vtk-6.3/vtkSTLReader.h
+ /usr/include/vtk-6.3/vtkSTLWriter.h
+ /usr/include/vtk-6.3/vtkPNGReader.h
+ /usr/include/vtk-6.3/vtkImageReader2.h
+ /usr/include/vtk-6.3/vtkImageData.h
+ /usr/include/vtk-6.3/vtkPolyDataNormals.h
+ /usr/local/include/pcl-1.12/pcl/io/impl/vtk_lib_io.hpp
+ /usr/include/vtk-6.3/vtkPolyData.h
+ /usr/include/vtk-6.3/vtkVertexGlyphFilter.h
  /home/catolica/Documents/Github/PCL-visualizer/viewer/build/pcl_visualizer_autogen/include/ui_pclviewer.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h

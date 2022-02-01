@@ -9,6 +9,8 @@
 #include <pcl/point_cloud.h>
 #include <pcl/point_types.h>
 #include <pcl/visualization/pcl_visualizer.h>
+#include <pcl/geometry/polygon_mesh.h>
+#include <pcl/io/vtk_lib_io.h>
 
 typedef pcl::PointXYZRGBA PointT;
 typedef pcl::PointCloud<PointT> PointCloudT;
@@ -17,6 +19,26 @@ namespace Ui
 {
   class PCLViewer;
 }
+
+class MyVertexData
+{
+  public:
+
+    MyVertexData (const int id = -1) : id_ (id) {}
+
+    int  id () const {return (id_);}
+    int& id ()       {return (id_);}
+
+  private:
+
+    int id_;
+};
+
+// Declare the mesh.
+using Mesh = pcl::geometry::PolygonMesh<pcl::geometry::DefaultMeshTraits<MyVertexData> >;
+using VertexIndex = Mesh::VertexIndex;
+using VertexIndices = Mesh::VertexIndices;
+
 
 class PCLViewer : public QMainWindow
 {
@@ -48,17 +70,22 @@ protected:
   refreshView();
 
   pcl::visualization::PCLVisualizer::Ptr viewer;
-  PointCloudT::Ptr Donut;
+  pcl::PolygonMesh mesh;
+  VertexIndices vi;
+
+  PointCloudT::Ptr cloud;
+  PointCloudT::Ptr Donut1;
   PointCloudT::Ptr Donut2;
   PointCloudT::Ptr Donut3;
   PointCloudT::Ptr Donut4;
   PointCloudT::Ptr Donut5;
   PointCloudT::Ptr Donut6;
 
+
   unsigned int red;
   unsigned int green;
   unsigned int blue;
-  int counter=2;
+  int counter=6;
   int pointSize;
 
 private slots:

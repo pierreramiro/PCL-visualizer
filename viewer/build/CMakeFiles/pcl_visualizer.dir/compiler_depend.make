@@ -1469,6 +1469,69 @@ CMakeFiles/pcl_visualizer.dir/main.cpp.o: /home/catolica/Documents/Github/PCL-vi
   /usr/include/vtk-6.3/vtkPolygon.h \
   /usr/include/vtk-6.3/vtkUnstructuredGrid.h \
   /usr/include/vtk-6.3/vtkUnstructuredGridBase.h \
+  /usr/local/include/pcl-1.12/pcl/geometry/polygon_mesh.h \
+  /usr/local/include/pcl-1.12/pcl/geometry/mesh_base.h \
+  /usr/local/include/pcl-1.12/pcl/geometry/mesh_circulators.h \
+  /usr/local/include/pcl-1.12/pcl/geometry/boost.h \
+  /usr/include/boost/operators.hpp \
+  /usr/local/include/pcl-1.12/pcl/geometry/mesh_indices.h \
+  /usr/local/include/pcl-1.12/pcl/geometry/mesh_elements.h \
+  /usr/local/include/pcl-1.12/pcl/geometry/mesh_traits.h \
+  /usr/local/include/pcl-1.12/pcl/io/vtk_lib_io.h \
+  /usr/local/include/pcl-1.12/pcl/range_image/range_image_planar.h \
+  /usr/local/include/pcl-1.12/pcl/range_image/range_image.h \
+  /usr/local/include/pcl-1.12/pcl/common/angles.h \
+  /usr/local/include/pcl-1.12/pcl/common/impl/angles.hpp \
+  /usr/local/include/pcl-1.12/pcl/range_image/impl/range_image.hpp \
+  /usr/local/include/pcl-1.12/pcl/common/distances.h \
+  /usr/local/include/pcl-1.12/pcl/common/vector_average.h \
+  /usr/local/include/pcl-1.12/pcl/common/impl/vector_average.hpp \
+  /usr/local/include/pcl-1.12/pcl/common/eigen.h \
+  /usr/include/eigen3/Eigen/LU \
+  /usr/local/include/pcl-1.12/pcl/common/impl/eigen.hpp \
+  /usr/include/eigen3/Eigen/Eigenvalues \
+  /usr/include/eigen3/Eigen/Geometry \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/Tridiagonalization.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/RealSchur.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/HessenbergDecomposition.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/EigenSolver.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/RealSchur.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/SelfAdjointEigenSolver.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/Tridiagonalization.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/GeneralizedSelfAdjointEigenSolver.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/HessenbergDecomposition.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/ComplexSchur.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/ComplexEigenSolver.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/ComplexSchur.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/RealQZ.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/RealQZ.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h \
+  /usr/local/include/pcl-1.12/pcl/range_image/impl/range_image_planar.hpp \
+  /usr/include/vtk-6.3/vtkStructuredGrid.h \
+  /usr/include/vtk-6.3/vtkStructuredData.h \
+  /usr/include/vtk-6.3/vtkPolyDataReader.h \
+  /usr/include/vtk-6.3/vtkIOLegacyModule.h \
+  /usr/include/vtk-6.3/vtkDataReader.h \
+  /usr/include/vtk-6.3/vtkPolyDataWriter.h \
+  /usr/include/vtk-6.3/vtkDataWriter.h \
+  /usr/include/vtk-6.3/vtkWriter.h \
+  /usr/include/vtk-6.3/vtkIOCoreModule.h \
+  /usr/include/vtk-6.3/vtkPLYReader.h \
+  /usr/include/vtk-6.3/vtkIOPLYModule.h \
+  /usr/include/vtk-6.3/vtkIOGeometryModule.h \
+  /usr/include/vtk-6.3/vtkAbstractPolyDataReader.h \
+  /usr/include/vtk-6.3/vtkPLYWriter.h \
+  /usr/include/vtk-6.3/vtkOBJReader.h \
+  /usr/include/vtk-6.3/vtkSTLReader.h \
+  /usr/include/vtk-6.3/vtkSTLWriter.h \
+  /usr/include/vtk-6.3/vtkPNGReader.h \
+  /usr/include/vtk-6.3/vtkImageReader2.h \
+  /usr/include/vtk-6.3/vtkImageData.h \
+  /usr/include/vtk-6.3/vtkPolyDataNormals.h \
+  /usr/local/include/pcl-1.12/pcl/io/impl/vtk_lib_io.hpp \
+  /usr/include/vtk-6.3/vtkPolyData.h \
+  /usr/include/vtk-6.3/vtkVertexGlyphFilter.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreapplication.h \
@@ -2948,7 +3011,70 @@ CMakeFiles/pcl_visualizer.dir/pcl_visualizer_autogen/mocs_compilation.cpp.o: pcl
   /usr/local/include/pcl-1.12/pcl/visualization/common/impl/shapes.hpp \
   /usr/include/vtk-6.3/vtkPolygon.h \
   /usr/include/vtk-6.3/vtkUnstructuredGrid.h \
-  /usr/include/vtk-6.3/vtkUnstructuredGridBase.h
+  /usr/include/vtk-6.3/vtkUnstructuredGridBase.h \
+  /usr/local/include/pcl-1.12/pcl/geometry/polygon_mesh.h \
+  /usr/local/include/pcl-1.12/pcl/geometry/mesh_base.h \
+  /usr/local/include/pcl-1.12/pcl/geometry/mesh_circulators.h \
+  /usr/local/include/pcl-1.12/pcl/geometry/boost.h \
+  /usr/include/boost/operators.hpp \
+  /usr/local/include/pcl-1.12/pcl/geometry/mesh_indices.h \
+  /usr/local/include/pcl-1.12/pcl/geometry/mesh_elements.h \
+  /usr/local/include/pcl-1.12/pcl/geometry/mesh_traits.h \
+  /usr/local/include/pcl-1.12/pcl/io/vtk_lib_io.h \
+  /usr/local/include/pcl-1.12/pcl/range_image/range_image_planar.h \
+  /usr/local/include/pcl-1.12/pcl/range_image/range_image.h \
+  /usr/local/include/pcl-1.12/pcl/common/angles.h \
+  /usr/local/include/pcl-1.12/pcl/common/impl/angles.hpp \
+  /usr/local/include/pcl-1.12/pcl/range_image/impl/range_image.hpp \
+  /usr/local/include/pcl-1.12/pcl/common/distances.h \
+  /usr/local/include/pcl-1.12/pcl/common/vector_average.h \
+  /usr/local/include/pcl-1.12/pcl/common/impl/vector_average.hpp \
+  /usr/local/include/pcl-1.12/pcl/common/eigen.h \
+  /usr/include/eigen3/Eigen/LU \
+  /usr/local/include/pcl-1.12/pcl/common/impl/eigen.hpp \
+  /usr/include/eigen3/Eigen/Eigenvalues \
+  /usr/include/eigen3/Eigen/Geometry \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/Tridiagonalization.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/RealSchur.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/HessenbergDecomposition.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/EigenSolver.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/RealSchur.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/SelfAdjointEigenSolver.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/Tridiagonalization.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/GeneralizedSelfAdjointEigenSolver.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/HessenbergDecomposition.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/ComplexSchur.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/ComplexEigenSolver.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/ComplexSchur.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/RealQZ.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/RealQZ.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h \
+  /usr/local/include/pcl-1.12/pcl/range_image/impl/range_image_planar.hpp \
+  /usr/include/vtk-6.3/vtkStructuredGrid.h \
+  /usr/include/vtk-6.3/vtkStructuredData.h \
+  /usr/include/vtk-6.3/vtkPolyDataReader.h \
+  /usr/include/vtk-6.3/vtkIOLegacyModule.h \
+  /usr/include/vtk-6.3/vtkDataReader.h \
+  /usr/include/vtk-6.3/vtkPolyDataWriter.h \
+  /usr/include/vtk-6.3/vtkDataWriter.h \
+  /usr/include/vtk-6.3/vtkWriter.h \
+  /usr/include/vtk-6.3/vtkIOCoreModule.h \
+  /usr/include/vtk-6.3/vtkPLYReader.h \
+  /usr/include/vtk-6.3/vtkIOPLYModule.h \
+  /usr/include/vtk-6.3/vtkIOGeometryModule.h \
+  /usr/include/vtk-6.3/vtkAbstractPolyDataReader.h \
+  /usr/include/vtk-6.3/vtkPLYWriter.h \
+  /usr/include/vtk-6.3/vtkOBJReader.h \
+  /usr/include/vtk-6.3/vtkSTLReader.h \
+  /usr/include/vtk-6.3/vtkSTLWriter.h \
+  /usr/include/vtk-6.3/vtkPNGReader.h \
+  /usr/include/vtk-6.3/vtkImageReader2.h \
+  /usr/include/vtk-6.3/vtkImageData.h \
+  /usr/include/vtk-6.3/vtkPolyDataNormals.h \
+  /usr/local/include/pcl-1.12/pcl/io/impl/vtk_lib_io.hpp \
+  /usr/include/vtk-6.3/vtkPolyData.h \
+  /usr/include/vtk-6.3/vtkVertexGlyphFilter.h
 
 CMakeFiles/pcl_visualizer.dir/pclviewer.cpp.o: /home/catolica/Documents/Github/PCL-visualizer/viewer/src/pclviewer.cpp \
   /usr/include/stdc-predef.h \
@@ -4418,6 +4544,69 @@ CMakeFiles/pcl_visualizer.dir/pclviewer.cpp.o: /home/catolica/Documents/Github/P
   /usr/include/vtk-6.3/vtkPolygon.h \
   /usr/include/vtk-6.3/vtkUnstructuredGrid.h \
   /usr/include/vtk-6.3/vtkUnstructuredGridBase.h \
+  /usr/local/include/pcl-1.12/pcl/geometry/polygon_mesh.h \
+  /usr/local/include/pcl-1.12/pcl/geometry/mesh_base.h \
+  /usr/local/include/pcl-1.12/pcl/geometry/mesh_circulators.h \
+  /usr/local/include/pcl-1.12/pcl/geometry/boost.h \
+  /usr/include/boost/operators.hpp \
+  /usr/local/include/pcl-1.12/pcl/geometry/mesh_indices.h \
+  /usr/local/include/pcl-1.12/pcl/geometry/mesh_elements.h \
+  /usr/local/include/pcl-1.12/pcl/geometry/mesh_traits.h \
+  /usr/local/include/pcl-1.12/pcl/io/vtk_lib_io.h \
+  /usr/local/include/pcl-1.12/pcl/range_image/range_image_planar.h \
+  /usr/local/include/pcl-1.12/pcl/range_image/range_image.h \
+  /usr/local/include/pcl-1.12/pcl/common/angles.h \
+  /usr/local/include/pcl-1.12/pcl/common/impl/angles.hpp \
+  /usr/local/include/pcl-1.12/pcl/range_image/impl/range_image.hpp \
+  /usr/local/include/pcl-1.12/pcl/common/distances.h \
+  /usr/local/include/pcl-1.12/pcl/common/vector_average.h \
+  /usr/local/include/pcl-1.12/pcl/common/impl/vector_average.hpp \
+  /usr/local/include/pcl-1.12/pcl/common/eigen.h \
+  /usr/include/eigen3/Eigen/LU \
+  /usr/local/include/pcl-1.12/pcl/common/impl/eigen.hpp \
+  /usr/include/eigen3/Eigen/Eigenvalues \
+  /usr/include/eigen3/Eigen/Geometry \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/Tridiagonalization.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/RealSchur.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/HessenbergDecomposition.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/EigenSolver.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/RealSchur.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/SelfAdjointEigenSolver.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/Tridiagonalization.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/GeneralizedSelfAdjointEigenSolver.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/HessenbergDecomposition.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/ComplexSchur.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/ComplexEigenSolver.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/ComplexSchur.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/RealQZ.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/RealQZ.h \
+  /usr/include/eigen3/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h \
+  /usr/local/include/pcl-1.12/pcl/range_image/impl/range_image_planar.hpp \
+  /usr/include/vtk-6.3/vtkStructuredGrid.h \
+  /usr/include/vtk-6.3/vtkStructuredData.h \
+  /usr/include/vtk-6.3/vtkPolyDataReader.h \
+  /usr/include/vtk-6.3/vtkIOLegacyModule.h \
+  /usr/include/vtk-6.3/vtkDataReader.h \
+  /usr/include/vtk-6.3/vtkPolyDataWriter.h \
+  /usr/include/vtk-6.3/vtkDataWriter.h \
+  /usr/include/vtk-6.3/vtkWriter.h \
+  /usr/include/vtk-6.3/vtkIOCoreModule.h \
+  /usr/include/vtk-6.3/vtkPLYReader.h \
+  /usr/include/vtk-6.3/vtkIOPLYModule.h \
+  /usr/include/vtk-6.3/vtkIOGeometryModule.h \
+  /usr/include/vtk-6.3/vtkAbstractPolyDataReader.h \
+  /usr/include/vtk-6.3/vtkPLYWriter.h \
+  /usr/include/vtk-6.3/vtkOBJReader.h \
+  /usr/include/vtk-6.3/vtkSTLReader.h \
+  /usr/include/vtk-6.3/vtkSTLWriter.h \
+  /usr/include/vtk-6.3/vtkPNGReader.h \
+  /usr/include/vtk-6.3/vtkImageReader2.h \
+  /usr/include/vtk-6.3/vtkImageData.h \
+  /usr/include/vtk-6.3/vtkPolyDataNormals.h \
+  /usr/local/include/pcl-1.12/pcl/io/impl/vtk_lib_io.hpp \
+  /usr/include/vtk-6.3/vtkPolyData.h \
+  /usr/include/vtk-6.3/vtkVertexGlyphFilter.h \
   pcl_visualizer_autogen/include/ui_pclviewer.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h \
@@ -4508,6 +4697,88 @@ CMakeFiles/pcl_visualizer.dir/pclviewer.cpp.o: /home/catolica/Documents/Github/P
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qrubberband.h:
 
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qstyle.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractslider.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qslider.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qregularexpression.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qvalidator.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractspinbox.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractitemdelegate.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qset.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractitemmodel.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractscrollarea.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractitemview.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QHeaderView:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qbuttongroup.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qaction.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant:
+
+pcl_visualizer_autogen/include/ui_pclviewer.h:
+
+/home/catolica/Documents/Github/PCL-visualizer/viewer/src/pclviewer.cpp:
+
+pcl_visualizer_autogen/EWIEGA46WW/moc_pclviewer.cpp:
+
+pcl_visualizer_autogen/mocs_compilation.cpp:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qlocale.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qeventloop.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreevent.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreapplication.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication:
+
+/usr/include/vtk-6.3/vtkVertexGlyphFilter.h:
+
+/usr/local/include/pcl-1.12/pcl/io/impl/vtk_lib_io.hpp:
+
+/usr/include/vtk-6.3/vtkPolyDataNormals.h:
+
+/usr/include/vtk-6.3/vtkImageData.h:
+
+/usr/include/vtk-6.3/vtkSTLWriter.h:
+
+/usr/include/vtk-6.3/vtkSTLReader.h:
+
+/usr/include/vtk-6.3/vtkOBJReader.h:
+
+/usr/include/vtk-6.3/vtkIOGeometryModule.h:
+
+/usr/include/vtk-6.3/vtkIOPLYModule.h:
+
+/usr/include/vtk-6.3/vtkPLYReader.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qinputmethod.h:
+
+/usr/include/vtk-6.3/vtkWriter.h:
+
+/usr/include/vtk-6.3/vtkDataReader.h:
+
 /usr/local/include/pcl-1.12/pcl/types.h:
 
 /usr/include/c++/7/bits/exception_defines.h:
@@ -4572,13 +4843,15 @@ CMakeFiles/pcl_visualizer.dir/pclviewer.cpp.o: /home/catolica/Documents/Github/P
 
 /usr/include/boost/preprocessor/array/elem.hpp:
 
-/usr/include/eigen3/Eigen/Cholesky:
-
 /usr/include/boost/mpl/aux_/config/has_xxx.hpp:
 
 /usr/include/asm-generic/errno.h:
 
 /usr/include/boost/mpl/if.hpp:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qheaderview.h:
+
+/usr/include/boost/predef/detail/os_detected.h:
 
 /usr/include/boost/mpl/aux_/arithmetic_op.hpp:
 
@@ -4597,8 +4870,6 @@ CMakeFiles/pcl_visualizer.dir/pclviewer.cpp.o: /home/catolica/Documents/Github/P
 /usr/include/boost/mpl/vector/aux_/pop_front.hpp:
 
 /usr/include/boost/predef/architecture/rs6k.h:
-
-/home/catolica/Documents/Github/PCL-visualizer/viewer/src/pclviewer.cpp:
 
 /usr/include/boost/mpl/vector/aux_/front.hpp:
 
@@ -4632,8 +4903,6 @@ CMakeFiles/pcl_visualizer.dir/pclviewer.cpp.o: /home/catolica/Documents/Github/P
 
 /usr/include/c++/7/bits/allocated_ptr.h:
 
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h:
-
 /usr/include/boost/preprocessor/arithmetic/inc.hpp:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabbar.h:
@@ -4661,6 +4930,8 @@ CMakeFiles/pcl_visualizer.dir/pclviewer.cpp.o: /home/catolica/Documents/Github/P
 /usr/include/boost/mpl/next.hpp:
 
 /usr/include/eigen3/Eigen/src/QR/CompleteOrthogonalDecomposition.h:
+
+/usr/local/include/pcl-1.12/pcl/common/impl/angles.hpp:
 
 /usr/include/boost/mpl/aux_/config/dtp.hpp:
 
@@ -4706,6 +4977,8 @@ CMakeFiles/pcl_visualizer.dir/pclviewer.cpp.o: /home/catolica/Documents/Github/P
 
 /usr/include/boost/predef/compiler.h:
 
+/usr/include/eigen3/Eigen/src/Eigenvalues/GeneralizedSelfAdjointEigenSolver.h:
+
 /usr/include/boost/mpl/aux_/config/ctps.hpp:
 
 /usr/include/boost/mpl/aux_/config/intel.hpp:
@@ -4727,10 +5000,6 @@ CMakeFiles/pcl_visualizer.dir/pclviewer.cpp.o: /home/catolica/Documents/Github/P
 /usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
 
 /usr/include/x86_64-linux-gnu/bits/confname.h:
-
-/usr/include/boost/mpl/aux_/config/eti.hpp:
-
-/usr/local/include/pcl-1.12/pcl/visualization/point_cloud_color_handlers.h:
 
 /usr/include/vtk-6.3/QVTKInteractor.h:
 
@@ -4800,6 +5069,8 @@ CMakeFiles/pcl_visualizer.dir/pclviewer.cpp.o: /home/catolica/Documents/Github/P
 
 /usr/include/boost/iterator/reverse_iterator.hpp:
 
+/usr/local/include/pcl-1.12/pcl/range_image/range_image_planar.h:
+
 /usr/include/eigen3/Eigen/src/LU/PartialPivLU.h:
 
 /usr/include/eigen3/Eigen/src/misc/Kernel.h:
@@ -4807,6 +5078,8 @@ CMakeFiles/pcl_visualizer.dir/pclviewer.cpp.o: /home/catolica/Documents/Github/P
 /usr/include/boost/multi_index/detail/scope_guard.hpp:
 
 /usr/include/boost/signals2/detail/replace_slot_function.hpp:
+
+/usr/include/eigen3/Eigen/src/Eigenvalues/RealSchur.h:
 
 /usr/include/boost/mpl/integral_c.hpp:
 
@@ -4884,6 +5157,10 @@ CMakeFiles/pcl_visualizer.dir/pclviewer.cpp.o: /home/catolica/Documents/Github/P
 
 /usr/include/boost/mpl/pair_view.hpp:
 
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QButtonGroup:
+
+/usr/include/eigen3/Eigen/src/Core/CoreIterators.h:
+
 /usr/include/boost/predef/hardware.h:
 
 /usr/include/boost/mpl/begin_end_fwd.hpp:
@@ -4914,6 +5191,10 @@ CMakeFiles/pcl_visualizer.dir/pclviewer.cpp.o: /home/catolica/Documents/Github/P
 
 /usr/include/eigen3/Eigen/src/Core/PermutationMatrix.h:
 
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qguiapplication.h:
+
+/usr/include/eigen3/Eigen/src/Core/SolverBase.h:
+
 /usr/include/x86_64-linux-gnu/bits/select.h:
 
 /usr/include/x86_64-linux-gnu/sys/types.h:
@@ -4938,6 +5219,10 @@ CMakeFiles/pcl_visualizer.dir/pclviewer.cpp.o: /home/catolica/Documents/Github/P
 
 /usr/include/boost/integer.hpp:
 
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qactiongroup.h:
+
+/usr/include/eigen3/Eigen/src/Core/Visitor.h:
+
 /usr/lib/gcc/x86_64-linux-gnu/7/include/mm_malloc.h:
 
 /usr/include/boost/mpl/vector/aux_/at.hpp:
@@ -4956,6 +5241,8 @@ CMakeFiles/pcl_visualizer.dir/pclviewer.cpp.o: /home/catolica/Documents/Github/P
 
 /usr/include/eigen3/Eigen/src/Core/VectorBlock.h:
 
+/usr/local/include/pcl-1.12/pcl/range_image/impl/range_image.hpp:
+
 /usr/include/boost/preprocessor/config/config.hpp:
 
 /usr/include/boost/mpl/aux_/nttp_decl.hpp:
@@ -4970,17 +5257,11 @@ CMakeFiles/pcl_visualizer.dir/pclviewer.cpp.o: /home/catolica/Documents/Github/P
 
 /usr/include/boost/type_index.hpp:
 
-/usr/include/vtk-6.3/vtkCellTypes.h:
-
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h:
 
 /usr/include/boost/iterator/interoperable.hpp:
 
 /usr/include/eigen3/Eigen/src/Core/CwiseBinaryOp.h:
-
-/usr/include/eigen3/Eigen/src/Core/CoreIterators.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QButtonGroup:
 
 /usr/include/boost/mpl/assert.hpp:
 
@@ -5001,6 +5282,8 @@ CMakeFiles/pcl_visualizer.dir/pclviewer.cpp.o: /home/catolica/Documents/Github/P
 /usr/include/boost/mpl/vector/aux_/item.hpp:
 
 /usr/include/eigen3/Eigen/src/Core/DenseStorage.h:
+
+/usr/include/eigen3/Eigen/src/Eigenvalues/MatrixBaseEigenvalues.h:
 
 /usr/include/eigen3/Eigen/src/plugins/ArrayCwiseUnaryOps.h:
 
@@ -5065,10 +5348,6 @@ CMakeFiles/pcl_visualizer.dir/pclviewer.cpp.o: /home/catolica/Documents/Github/P
 /usr/local/include/pcl-1.12/pcl/pcl_config.h:
 
 /usr/include/boost/mpl/aux_/nested_type_wknd.hpp:
-
-/usr/include/eigen3/Eigen/src/Core/SolverBase.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qguiapplication.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/7/include/stddef.h:
 
@@ -5136,6 +5415,8 @@ CMakeFiles/pcl_visualizer.dir/pclviewer.cpp.o: /home/catolica/Documents/Github/P
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlcdnumber.h:
 
+/usr/include/vtk-6.3/vtkPolyDataWriter.h:
+
 /usr/include/boost/type_traits/same_traits.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h:
@@ -5149,6 +5430,8 @@ CMakeFiles/pcl_visualizer.dir/pclviewer.cpp.o: /home/catolica/Documents/Github/P
 /usr/include/boost/mpl/vector/vector10.hpp:
 
 /usr/include/boost/predef/library/c.h:
+
+/usr/local/include/pcl-1.12/pcl/geometry/mesh_indices.h:
 
 /usr/include/c++/7/backward/binders.h:
 
@@ -5194,10 +5477,6 @@ CMakeFiles/pcl_visualizer.dir/pclviewer.cpp.o: /home/catolica/Documents/Github/P
 
 /usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
 
-/usr/include/boost/predef/detail/os_detected.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qheaderview.h:
-
 /usr/include/boost/mpl/aux_/numeric_op.hpp:
 
 /usr/include/eigen3/Eigen/src/Core/Array.h:
@@ -5211,6 +5490,8 @@ CMakeFiles/pcl_visualizer.dir/pclviewer.cpp.o: /home/catolica/Documents/Github/P
 /usr/include/x86_64-linux-gnu/bits/sys_errlist.h:
 
 /usr/include/eigen3/Eigen/src/QR/FullPivHouseholderQR.h:
+
+/usr/local/include/pcl-1.12/pcl/geometry/mesh_traits.h:
 
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
 
@@ -5284,8 +5565,6 @@ CMakeFiles/pcl_visualizer.dir/pclviewer.cpp.o: /home/catolica/Documents/Github/P
 
 /usr/include/c++/7/climits:
 
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractslider.h:
-
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qline.h:
 
 /usr/include/c++/7/bits/basic_string.h:
@@ -5293,8 +5572,6 @@ CMakeFiles/pcl_visualizer.dir/pclviewer.cpp.o: /home/catolica/Documents/Github/P
 /usr/include/boost/mpl/front_fwd.hpp:
 
 /usr/include/boost/mpl/list/list20.hpp:
-
-/usr/include/boost/mpl/vector/aux_/iterator.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
 
@@ -5460,6 +5737,8 @@ CMakeFiles/pcl_visualizer.dir/pclviewer.cpp.o: /home/catolica/Documents/Github/P
 
 /usr/include/x86_64-linux-gnu/c++/7/bits/messages_members.h:
 
+/usr/include/vtk-6.3/vtkImageReader2.h:
+
 /usr/local/include/pcl-1.12/pcl/for_each_type.h:
 
 /usr/include/boost/smart_ptr/detail/yield_k.hpp:
@@ -5481,8 +5760,6 @@ CMakeFiles/pcl_visualizer.dir/pclviewer.cpp.o: /home/catolica/Documents/Github/P
 /usr/include/boost/mpl/vector.hpp:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qconfig.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qeventloop.h:
 
 /usr/include/x86_64-linux-gnu/bits/wchar.h:
 
@@ -5656,6 +5933,8 @@ CMakeFiles/pcl_visualizer.dir/pclviewer.cpp.o: /home/catolica/Documents/Github/P
 
 /usr/include/boost/variant/detail/has_result_type.hpp:
 
+/usr/include/eigen3/Eigen/Eigenvalues:
+
 /usr/include/eigen3/Eigen/src/Core/SelfCwiseBinaryOp.h:
 
 /usr/local/include/pcl-1.12/pcl/point_types.h:
@@ -5706,6 +5985,8 @@ CMakeFiles/pcl_visualizer.dir/pclviewer.cpp.o: /home/catolica/Documents/Github/P
 
 /usr/include/c++/7/bits/exception_ptr.h:
 
+/usr/include/eigen3/Eigen/src/Eigenvalues/ComplexSchur.h:
+
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLCDNumber:
 
 /usr/include/math.h:
@@ -5731,8 +6012,6 @@ CMakeFiles/pcl_visualizer.dir/pclviewer.cpp.o: /home/catolica/Documents/Github/P
 /usr/local/include/pcl-1.12/pcl/visualization/pcl_visualizer.h:
 
 /usr/include/boost/mpl/distance_fwd.hpp:
-
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h:
 
 /usr/include/x86_64-linux-gnu/gnu/stubs.h:
 
@@ -5852,6 +6131,8 @@ CMakeFiles/pcl_visualizer.dir/pclviewer.cpp.o: /home/catolica/Documents/Github/P
 
 /usr/include/vtk-6.3/vtkPolyDataMapper.h:
 
+/usr/include/vtk-6.3/vtkAbstractPolyDataReader.h:
+
 /usr/include/c++/7/typeinfo:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qrefcount.h:
@@ -5900,8 +6181,6 @@ CMakeFiles/pcl_visualizer.dir/pclviewer.cpp.o: /home/catolica/Documents/Github/P
 
 /usr/include/boost/predef/architecture/mips.h:
 
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qstyle.h:
-
 /usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
 
 /usr/include/boost/mpl/aux_/arg_typedef.hpp:
@@ -5946,8 +6225,6 @@ CMakeFiles/pcl_visualizer.dir/pclviewer.cpp.o: /home/catolica/Documents/Github/P
 
 /usr/include/vtk-6.3/vtkPropCollection.h:
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant:
-
 /usr/include/c++/7/bits/uses_allocator.h:
 
 /usr/include/c++/7/cerrno:
@@ -5976,6 +6253,8 @@ CMakeFiles/pcl_visualizer.dir/pclviewer.cpp.o: /home/catolica/Documents/Github/P
 
 /usr/include/vtk-6.3/vtkViewport.h:
 
+/usr/include/vtk-6.3/vtkStructuredGrid.h:
+
 /usr/include/eigen3/Eigen/src/Core/MatrixBase.h:
 
 /usr/include/c++/7/iterator:
@@ -5998,6 +6277,8 @@ CMakeFiles/pcl_visualizer.dir/pclviewer.cpp.o: /home/catolica/Documents/Github/P
 
 /usr/include/boost/mpl/integral_c_tag.hpp:
 
+/usr/include/vtk-6.3/vtkPNGReader.h:
+
 /usr/include/boost/preprocessor/tuple/detail/is_single_return.hpp:
 
 /usr/include/eigen3/Eigen/src/Cholesky/LLT.h:
@@ -6009,6 +6290,8 @@ CMakeFiles/pcl_visualizer.dir/pclviewer.cpp.o: /home/catolica/Documents/Github/P
 /usr/include/boost/variant/recursive_wrapper_fwd.hpp:
 
 /usr/include/boost/move/detail/to_raw_pointer.hpp:
+
+/usr/include/vtk-6.3/vtkIOLegacyModule.h:
 
 /usr/include/c++/7/bits/ostream.tcc:
 
@@ -6042,6 +6325,8 @@ CMakeFiles/pcl_visualizer.dir/pclviewer.cpp.o: /home/catolica/Documents/Github/P
 
 /usr/include/boost/predef/platform/windows_store.h:
 
+/usr/include/vtk-6.3/vtkPLYWriter.h:
+
 /usr/include/c++/7/numeric:
 
 /usr/include/boost/mpl/aux_/unwrap.hpp:
@@ -6061,8 +6346,6 @@ CMakeFiles/pcl_visualizer.dir/pclviewer.cpp.o: /home/catolica/Documents/Github/P
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer.h:
 
 /usr/include/boost/detail/no_exceptions_support.hpp:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h:
 
 /usr/include/boost/preprocessor/punctuation/comma_if.hpp:
 
@@ -6101,6 +6384,8 @@ CMakeFiles/pcl_visualizer.dir/pclviewer.cpp.o: /home/catolica/Documents/Github/P
 /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
 
 /usr/include/boost/mpl/aux_/na_assert.hpp:
+
+/usr/include/vtk-6.3/vtkIOCoreModule.h:
 
 /usr/include/c++/7/ratio:
 
@@ -6156,6 +6441,10 @@ CMakeFiles/pcl_visualizer.dir/pclviewer.cpp.o: /home/catolica/Documents/Github/P
 
 /usr/include/boost/core/ref.hpp:
 
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QAction:
+
+/usr/include/eigen3/Eigen/src/Core/DiagonalProduct.h:
+
 /usr/include/boost/visit_each.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
@@ -6205,8 +6494,6 @@ CMakeFiles/pcl_visualizer.dir/pclviewer.cpp.o: /home/catolica/Documents/Github/P
 /usr/include/c++/7/bits/std_abs.h:
 
 /usr/include/boost/mpl/aux_/preprocessed/gcc/quote.hpp:
-
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qvalidator.h:
 
 /usr/include/x86_64-linux-gnu/bits/time.h:
 
@@ -6288,8 +6575,6 @@ CMakeFiles/pcl_visualizer.dir/pclviewer.cpp.o: /home/catolica/Documents/Github/P
 
 /usr/include/boost/type_traits/add_reference.hpp:
 
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication:
-
 /usr/include/boost/mpl/aux_/iter_apply.hpp:
 
 /usr/include/boost/signals2/expired_slot.hpp:
@@ -6342,8 +6627,6 @@ CMakeFiles/pcl_visualizer.dir/pclviewer.cpp.o: /home/catolica/Documents/Github/P
 
 /usr/include/boost/mpl/deref.hpp:
 
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qslider.h:
-
 /usr/include/boost/preprocessor/facilities/expand.hpp:
 
 /usr/include/boost/mpl/iter_fold_if.hpp:
@@ -6357,8 +6640,6 @@ CMakeFiles/pcl_visualizer.dir/pclviewer.cpp.o: /home/catolica/Documents/Github/P
 /usr/include/boost/mpl/or.hpp:
 
 /usr/include/vtk-6.3/vtkAbstractMapper.h:
-
-pcl_visualizer_autogen/include/ui_pclviewer.h:
 
 /usr/include/boost/mpl/aux_/preprocessed/gcc/or.hpp:
 
@@ -6440,6 +6721,10 @@ pcl_visualizer_autogen/include/ui_pclviewer.h:
 
 /usr/include/boost/predef/compiler/ekopath.h:
 
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qitemselectionmodel.h:
+
+/usr/include/c++/7/bits/locale_facets_nonio.tcc:
+
 /usr/include/c++/7/chrono:
 
 /usr/include/c++/7/bits/locale_conv.h:
@@ -6473,6 +6758,8 @@ pcl_visualizer_autogen/include/ui_pclviewer.h:
 /usr/include/boost/mpl/aux_/common_name_wknd.hpp:
 
 /usr/include/boost/variant/detail/generic_result_type.hpp:
+
+/usr/include/eigen3/Eigen/src/Eigenvalues/SelfAdjointEigenSolver.h:
 
 /usr/include/boost/mpl/aux_/push_back_impl.hpp:
 
@@ -6592,13 +6879,7 @@ pcl_visualizer_autogen/include/ui_pclviewer.h:
 
 /usr/include/boost/signals2/connection.hpp:
 
-/usr/include/vtk-6.3/vtkCellArray.h:
-
-/usr/include/vtk-6.3/vtkProperty2D.h:
-
 /usr/include/boost/type_traits/is_function.hpp:
-
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractspinbox.h:
 
 /usr/include/boost/iterator/detail/facade_iterator_category.hpp:
 
@@ -6643,8 +6924,6 @@ pcl_visualizer_autogen/include/ui_pclviewer.h:
 /usr/include/vtk-6.3/vtkCommonCoreModule.h:
 
 /usr/include/vtk-6.3/vtkIndent.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QHeaderView:
 
 /usr/include/vtk-6.3/vtkIOStream.h:
 
@@ -6698,10 +6977,6 @@ pcl_visualizer_autogen/include/ui_pclviewer.h:
 
 /usr/include/vtk-6.3/vtkTypeTemplate.h:
 
-/usr/include/boost/mpl/aux_/is_msvc_eti_arg.hpp:
-
-/usr/include/vtk-6.3/vtkTypeTraits.h:
-
 /usr/include/boost/type_traits/is_assignable.hpp:
 
 /usr/local/include/pcl-1.12/pcl/visualization/common/common.h:
@@ -6721,8 +6996,6 @@ pcl_visualizer_autogen/include/ui_pclviewer.h:
 /usr/local/include/pcl-1.12/pcl/visualization/impl/point_cloud_color_handlers.hpp:
 
 /usr/include/boost/preprocessor/iteration/detail/bounds/upper1.hpp:
-
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractitemview.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qpolygon.h:
 
@@ -6804,6 +7077,8 @@ pcl_visualizer_autogen/include/ui_pclviewer.h:
 
 /usr/include/boost/mpl/aux_/advance_forward.hpp:
 
+/usr/local/include/pcl-1.12/pcl/geometry/polygon_mesh.h:
+
 /usr/include/boost/preprocessor/slot/slot.hpp:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringmatcher.h:
@@ -6828,6 +7103,8 @@ pcl_visualizer_autogen/include/ui_pclviewer.h:
 
 /usr/include/boost/limits.hpp:
 
+/usr/include/eigen3/Eigen/src/Eigenvalues/EigenSolver.h:
+
 /usr/include/boost/type_index/stl_type_index.hpp:
 
 /usr/include/boost/type_index/type_index_facade.hpp:
@@ -6839,6 +7116,12 @@ pcl_visualizer_autogen/include/ui_pclviewer.h:
 /usr/include/boost/optional/detail/optional_config.hpp:
 
 /usr/include/boost/type_traits/is_constructible.hpp:
+
+/usr/include/boost/mpl/vector/aux_/iterator.hpp:
+
+/usr/local/include/pcl-1.12/pcl/geometry/boost.h:
+
+/usr/local/include/pcl-1.12/pcl/geometry/mesh_elements.h:
 
 /usr/include/vtk-6.3/vtkAutoInit.h:
 
@@ -6932,8 +7215,6 @@ pcl_visualizer_autogen/include/ui_pclviewer.h:
 
 /usr/include/boost/smart_ptr/detail/sp_counted_impl.hpp:
 
-pcl_visualizer_autogen/EWIEGA46WW/moc_pclviewer.cpp:
-
 /usr/include/eigen3/Eigen/src/Core/GeneralProduct.h:
 
 /usr/include/boost/smart_ptr/detail/spinlock_pool.hpp:
@@ -6956,9 +7237,13 @@ pcl_visualizer_autogen/EWIEGA46WW/moc_pclviewer.cpp:
 
 /usr/include/boost/predef/architecture/arm.h:
 
+/usr/local/include/pcl-1.12/pcl/common/distances.h:
+
 /usr/include/c++/7/bits/stl_iterator.h:
 
 /usr/include/boost/predef/architecture/blackfin.h:
+
+/usr/include/eigen3/Eigen/src/Eigenvalues/ComplexEigenSolver.h:
 
 /usr/include/boost/predef/architecture/ia64.h:
 
@@ -6989,8 +7274,6 @@ pcl_visualizer_autogen/EWIEGA46WW/moc_pclviewer.cpp:
 /usr/include/vtk-6.3/vtkMath.h:
 
 /usr/include/boost/predef/compiler/clang.h:
-
-/usr/include/boost/predef/compiler/comeau.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h:
 
@@ -7082,11 +7365,9 @@ pcl_visualizer_autogen/EWIEGA46WW/moc_pclviewer.cpp:
 
 /usr/include/boost/signals2/detail/variadic_arg_type.hpp:
 
+/usr/local/include/pcl-1.12/pcl/range_image/range_image.h:
+
 /usr/include/boost/predef/library/std/libcomo.h:
-
-/usr/include/eigen3/Eigen/src/Core/DiagonalProduct.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QAction:
 
 /usr/include/vtk-6.3/vtkVersionMacros.h:
 
@@ -7107,6 +7388,12 @@ pcl_visualizer_autogen/EWIEGA46WW/moc_pclviewer.cpp:
 /usr/include/boost/mpl/aux_/has_type.hpp:
 
 /usr/include/boost/predef/os/beos.h:
+
+/usr/include/boost/mpl/aux_/is_msvc_eti_arg.hpp:
+
+/usr/include/vtk-6.3/vtkTypeTraits.h:
+
+/usr/include/eigen3/Eigen/src/Eigenvalues/RealQZ.h:
 
 /usr/include/c++/7/locale:
 
@@ -7163,6 +7450,10 @@ pcl_visualizer_autogen/EWIEGA46WW/moc_pclviewer.cpp:
 /usr/include/boost/smart_ptr/detail/sp_has_sync.hpp:
 
 /usr/include/boost/type_traits/aligned_storage.hpp:
+
+/usr/include/eigen3/Eigen/Cholesky:
+
+/usr/local/include/pcl-1.12/pcl/common/impl/eigen.hpp:
 
 /usr/include/boost/type_traits/type_with_alignment.hpp:
 
@@ -7238,9 +7529,9 @@ pcl_visualizer_autogen/EWIEGA46WW/moc_pclviewer.cpp:
 
 /usr/include/boost/mpl/aux_/advance_backward.hpp:
 
-/usr/include/c++/7/ext/string_conversions.h:
-
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qstyleoption.h:
+
+/usr/include/c++/7/ext/string_conversions.h:
 
 /usr/include/boost/mpl/size.hpp:
 
@@ -7376,8 +7667,6 @@ pcl_visualizer_autogen/EWIEGA46WW/moc_pclviewer.cpp:
 
 /usr/include/boost/mpl/max_element.hpp:
 
-/usr/include/boost/mpl/size_t_fwd.hpp:
-
 /usr/include/boost/mpl/iterator_category.hpp:
 
 /usr/include/vtk-6.3/vtkDataSetMapper.h:
@@ -7409,6 +7698,8 @@ pcl_visualizer_autogen/EWIEGA46WW/moc_pclviewer.cpp:
 /usr/include/boost/preprocessor/control/expr_if.hpp:
 
 /usr/include/boost/type_traits/function_traits.hpp:
+
+/usr/include/eigen3/Eigen/src/Eigenvalues/GeneralizedEigenSolver.h:
 
 /usr/include/vtk-6.3/vtkInteractionStyleModule.h:
 
@@ -7452,6 +7743,8 @@ pcl_visualizer_autogen/EWIEGA46WW/moc_pclviewer.cpp:
 
 /usr/lib/gcc/x86_64-linux-gnu/7/include/float.h:
 
+/usr/include/vtk-6.3/vtkDataWriter.h:
+
 /usr/include/boost/smart_ptr/detail/sp_counted_base_std_atomic.hpp:
 
 /usr/include/vtk-6.3/vtkDataSetSurfaceFilter.h:
@@ -7474,36 +7767,42 @@ pcl_visualizer_autogen/EWIEGA46WW/moc_pclviewer.cpp:
 
 /usr/local/include/pcl-1.12/pcl/visualization/common/shapes.h:
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreapplication.h:
+/usr/local/include/pcl-1.12/pcl/geometry/mesh_base.h:
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreevent.h:
+/usr/local/include/pcl-1.12/pcl/geometry/mesh_circulators.h:
 
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qinputmethod.h:
+/usr/include/boost/operators.hpp:
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qlocale.h:
+/usr/include/boost/predef/compiler/comeau.h:
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h:
+/usr/local/include/pcl-1.12/pcl/io/vtk_lib_io.h:
 
-pcl_visualizer_autogen/mocs_compilation.cpp:
+/usr/local/include/pcl-1.12/pcl/common/angles.h:
 
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qaction.h:
+/usr/local/include/pcl-1.12/pcl/common/vector_average.h:
 
-/usr/include/eigen3/Eigen/src/Core/Visitor.h:
+/usr/local/include/pcl-1.12/pcl/common/impl/vector_average.hpp:
 
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qactiongroup.h:
+/usr/local/include/pcl-1.12/pcl/common/eigen.h:
 
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qbuttongroup.h:
+/usr/include/vtk-6.3/vtkCellTypes.h:
 
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractscrollarea.h:
+/usr/include/eigen3/Eigen/src/Eigenvalues/Tridiagonalization.h:
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractitemmodel.h:
+/usr/include/boost/mpl/aux_/config/eti.hpp:
 
-/usr/include/c++/7/bits/locale_facets_nonio.tcc:
+/usr/local/include/pcl-1.12/pcl/visualization/point_cloud_color_handlers.h:
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qitemselectionmodel.h:
+/usr/include/eigen3/Eigen/src/Eigenvalues/HessenbergDecomposition.h:
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qset.h:
+/usr/local/include/pcl-1.12/pcl/range_image/impl/range_image_planar.hpp:
 
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractitemdelegate.h:
+/usr/include/boost/mpl/size_t_fwd.hpp:
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qregularexpression.h:
+/usr/include/vtk-6.3/vtkStructuredData.h:
+
+/usr/include/vtk-6.3/vtkCellArray.h:
+
+/usr/include/vtk-6.3/vtkProperty2D.h:
+
+/usr/include/vtk-6.3/vtkPolyDataReader.h:

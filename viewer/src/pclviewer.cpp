@@ -16,9 +16,10 @@ PCLViewer::PCLViewer (QWidget *parent) :
 {
   ui->setupUi (this);
   this->setWindowTitle ("TUMI Visualizer");
-
+  
   // Setup the cloud pointer
-  Donut.reset (new PointCloudT);
+  cloud.reset (new PointCloudT);
+  Donut1.reset (new PointCloudT);
   Donut2.reset (new PointCloudT);
   Donut3.reset (new PointCloudT);
   Donut4.reset (new PointCloudT);
@@ -26,8 +27,8 @@ PCLViewer::PCLViewer (QWidget *parent) :
   Donut6.reset (new PointCloudT);
 
   // The number of points in the cloud
-  //cloud->resize (200);
-  Donut->resize (16384);
+  cloud->resize (16384*6);
+  Donut1->resize (16384);
   Donut2->resize (16384);
   Donut3->resize (16384);
   Donut4->resize (16384);
@@ -46,7 +47,7 @@ PCLViewer::PCLViewer (QWidget *parent) :
   char* token;
   //Saltamos la primera línea
   fgets(buffer,sizeof(buffer),archivo);
-  for (auto& point: *Donut){
+  for (auto& point: *Donut1){
     fgets(buffer,sizeof(buffer),archivo);
     token = strtok(buffer,",");
     point.x=atof(token);
@@ -125,6 +126,36 @@ PCLViewer::PCLViewer (QWidget *parent) :
     point.b = blue;
   }
   fclose(archivo);
+  archivo = fopen("../src/MinaData.csv", "r+");
+  fgets(buffer,sizeof(buffer),archivo);
+  for (auto& point: *cloud){
+    fgets(buffer,sizeof(buffer),archivo);
+    token = strtok(buffer,",");
+    point.x=atof(token);
+    token = strtok(NULL,",");
+    point.y=atof(token);
+    token = strtok(NULL,",\n");
+    point.z=atof(token);
+    
+    point.r = red;
+    point.g = green;
+    point.b = blue;
+  }
+  //Add vertices and Faces
+  /*archivo = fopen("../src/MinaTriangleMesh.csv", "r+");
+  fgets(buffer,sizeof(buffer),archivo);
+  for (unsigned int i=0; i<95143; ++i)
+  { 
+    fgets(buffer,sizeof(buffer),archivo);
+    token = strtok(buffer,",");
+    vi.push_back (mesh.addVertex (MyVertexData (atoi(token))));
+    token = strtok(NULL,",");
+    vi.push_back (mesh.addVertex (MyVertexData (atoi(token))));
+    token = strtok(NULL,",\n");
+    vi.push_back (mesh.addVertex (MyVertexData (atoi(token))));
+    mesh.addFace (vi [i*3], vi [i*3+1], vi [i*3+2]);
+  }
+  */
   // Set up the QVTK window  
 #if VTK_MAJOR_VERSION > 8
   auto renderer = vtkSmartPointer<vtkRenderer>::New();
@@ -166,13 +197,16 @@ PCLViewer::PCLViewer (QWidget *parent) :
   */
 
   //ponemos color
-  viewer->setBackgroundColor (0, 0, 255);
+  viewer->setBackgroundColor (0, 0, 0);
   //configuramos para poder hacer 3d
-  //viewer->setPointCloudRenderingProperties (pcl::visualization::PCL_VISUALIZER_POINT_SIZE, 3, "cloud");
-
-  viewer->addPointCloud (Donut, "cloud");
-  pSliderValueChanged (2);
+  viewer->addPointCloud (cloud, "cloud");
+  //viewer->addPolygonMesh (mesh,"polygon");
+  viewer->addPolygon<PointT>(Donut1);
+  //Le ponemos un valor al tamaño de los puntos
+  pSliderValueChanged (1);
+  //Reseteamos el view de la camara
   viewer->resetCamera ();
+  
   
   refreshView();
 }
@@ -181,7 +215,13 @@ void
 PCLViewer::RGBsliderReleased ()
 {
   // Set the new color
-  for (auto& point: *Donut)
+  for (auto& point: *cloud)
+  {
+    point.r = red;
+    point.g = green;
+    point.b = blue;
+  }
+  for (auto& point: *Donut1)
   {
     point.r = red;
     point.g = green;
@@ -218,7 +258,8 @@ PCLViewer::RGBsliderReleased ()
     point.b = blue;
   }
 
-  viewer->updatePointCloud (Donut, "cloud");
+  viewer->updatePointCloud (cloud, "cloud");
+  viewer->updatePointCloud (Donut1, "cloud1");
   viewer->updatePointCloud (Donut2, "cloud2");
   viewer->updatePointCloud (Donut3, "cloud3");
   viewer->updatePointCloud (Donut4, "cloud4");
@@ -232,6 +273,7 @@ PCLViewer::pSliderValueChanged (int value)
 {
   pointSize=value;
   viewer->setPointCloudRenderingProperties (pcl::visualization::PCL_VISUALIZER_POINT_SIZE, pointSize, "cloud");
+  viewer->setPointCloudRenderingProperties (pcl::visualization::PCL_VISUALIZER_POINT_SIZE, pointSize, "cloud1");
   viewer->setPointCloudRenderingProperties (pcl::visualization::PCL_VISUALIZER_POINT_SIZE, pointSize, "cloud2");
   viewer->setPointCloudRenderingProperties (pcl::visualization::PCL_VISUALIZER_POINT_SIZE, pointSize, "cloud3");
   viewer->setPointCloudRenderingProperties (pcl::visualization::PCL_VISUALIZER_POINT_SIZE, pointSize, "cloud4");
@@ -281,7 +323,13 @@ void PCLViewer::on_pushButton_random_pressed()
     printf ("Random button was pressed\n");
 
     // Set the new color
-    for (auto& point: *Donut)
+    for (auto& point: *cloud)
+    {
+      point.r = 255 *(1024 * rand () / (RAND_MAX + 1.0f));
+      point.g = 255 *(1024 * rand () / (RAND_MAX + 1.0f));
+      point.b = 255 *(1024 * rand () / (RAND_MAX + 1.0f));
+    }
+    for (auto& point: *Donut1)
     {
       point.r = 255 *(1024 * rand () / (RAND_MAX + 1.0f));
       point.g = 255 *(1024 * rand () / (RAND_MAX + 1.0f));
@@ -318,7 +366,8 @@ void PCLViewer::on_pushButton_random_pressed()
       point.b = 255 *(1024 * rand () / (RAND_MAX + 1.0f));
     }
 
-    viewer->updatePointCloud (Donut, "cloud");
+    viewer->updatePointCloud (cloud, "cloud");
+    viewer->updatePointCloud (Donut1, "cloud1");
     viewer->updatePointCloud (Donut2, "cloud2");
     viewer->updatePointCloud (Donut3, "cloud3");
     viewer->updatePointCloud (Donut4, "cloud4");
@@ -330,8 +379,9 @@ void PCLViewer::on_pushButton_random_pressed()
 
 void PCLViewer::on_pushButton_clear_pressed()
 {
-  counter=1;
+  counter=0;
     viewer->removePointCloud("cloud");
+    viewer->removePointCloud("cloud1");
     viewer->removePointCloud("cloud2");
     viewer->removePointCloud("cloud3");
     viewer->removePointCloud("cloud4");
@@ -343,35 +393,35 @@ void PCLViewer::on_pushButton_clear_pressed()
 void PCLViewer::on_pushButton_add_pressed()
 {
   switch(counter){
-    case 1:
-      viewer->addPointCloud (Donut,"cloud");
+    case 0:
+      viewer->addPointCloud (Donut1,"cloud1");
       counter++;
       break;
-    case 2:
+    case 1:
       viewer->addPointCloud (Donut2,"cloud2");
       counter++;
       break;
-    case 3:
+    case 2:
       viewer->addPointCloud (Donut3,"cloud3");
       counter++;
       break;
-    case 4:
+    case 3:
       viewer->addPointCloud (Donut4,"cloud4");
       counter++;
       break;
-    case 5:
+    case 4:
       viewer->addPointCloud (Donut5,"cloud5");
       counter++;
       break;
-    case 6:
+    case 5:
       viewer->addPointCloud (Donut6,"cloud6");
       break;
     default:
-      counter=1;
+      //counter=1;
       break;
   }
   printf("counter: %d\n",counter);
-  viewer->setPointCloudRenderingProperties (pcl::visualization::PCL_VISUALIZER_POINT_SIZE, pointSize, "cloud");
+  viewer->setPointCloudRenderingProperties (pcl::visualization::PCL_VISUALIZER_POINT_SIZE, pointSize, "cloud1");
   viewer->setPointCloudRenderingProperties (pcl::visualization::PCL_VISUALIZER_POINT_SIZE, pointSize, "cloud2");
   viewer->setPointCloudRenderingProperties (pcl::visualization::PCL_VISUALIZER_POINT_SIZE, pointSize, "cloud3");
   viewer->setPointCloudRenderingProperties (pcl::visualization::PCL_VISUALIZER_POINT_SIZE, pointSize, "cloud4");
