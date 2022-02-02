@@ -143,9 +143,10 @@ PCLViewer::PCLViewer (QWidget *parent) :
     point.g = green;
     point.b = blue;
   }
-  //Add Mina surface 1
-#define MESH_OPTION 1
+  
+#define MESH_OPTION 4
 #if MESH_OPTION==0
+  //Original data Mina
   mesh.polygons.resize(95143);
   vex.vertices.resize(3);
   cloudXYZ.resize(16384*6);
@@ -169,7 +170,7 @@ PCLViewer::PCLViewer (QWidget *parent) :
     mesh.polygons[i]= vex;
   }
 #elif MESH_OPTION==1
-  //Add Mina downsampled
+  //Downsample data Mina
   mesh.polygons.resize(7898);
   vex.vertices.resize(3);
   cloudXYZ.resize(3969);
@@ -190,18 +191,18 @@ PCLViewer::PCLViewer (QWidget *parent) :
     fgets(buffer,sizeof(buffer),archivo);
     token = strtok(buffer," ");
     vex.vertices[0]=atoi(token);
+    token = strtok(NULL," ");
     vex.vertices[1]=atoi(token);
     token = strtok(NULL," \n");
     vex.vertices[2]=atoi(token);
     //vex.vertices[3]=vex.vertices[0];
     mesh.polygons[i]= vex;
   }
-#else
-  //Add Mina downsampled
+#elif MESH_OPTION==2
+  //Downsampled with normals
   cloudDS.reset(new  pcl::PointCloud<pcl::PointXYZ>);
   cloudDS->resize(3969);
-  archivo = fopen("/home/catolica/Documents/Github/PCL-visualizer/viewer/src/downsamp_cloud.csv", "r+");
-  
+  archivo = fopen("/home/catolica/Documents/Github/PCL-visualizer/viewer/src/downsamp_cloud.csv", "r+"); 
   for (auto& point: *cloudDS){
     fgets(buffer,sizeof(buffer),archivo);
     token = strtok(buffer," ");
@@ -226,21 +227,137 @@ PCLViewer::PCLViewer (QWidget *parent) :
   pcl::PointCloud<pcl::PointNormal>::Ptr cloud_with_normals (new pcl::PointCloud<pcl::PointNormal>);
   pcl::concatenateFields (*cloudDS, *normals, *cloud_with_normals);
   //* cloud_with_normals = cloud + normals
+
   mesh.polygons.resize(7898);
   pcl::toPCLPointCloud2(*cloud_with_normals, mesh.cloud);
-  vex.vertices.resize(3);
+  vex.vertices.resize(4);
   archivo = fopen("/home/catolica/Documents/Github/PCL-visualizer/viewer/src/downsamp_surf.csv", "r+");
   for (unsigned int i=0; i<7898; ++i)
   { 
     fgets(buffer,sizeof(buffer),archivo);
     token = strtok(buffer," ");
     vex.vertices[0]=atoi(token);
+    token = strtok(NULL," ");
     vex.vertices[1]=atoi(token);
     token = strtok(NULL," \n");
     vex.vertices[2]=atoi(token);
-    //vex.vertices[3]=vex.vertices[0];
+    vex.vertices[3]=vex.vertices[0];
     mesh.polygons[i]= vex;
   }
+#elif MESH_OPTION ==3
+//KdTree downsample .csv
+  cloudDS.reset(new  pcl::PointCloud<pcl::PointXYZ>);
+  cloudDS->resize(3969);
+  archivo = fopen("/home/catolica/Documents/Github/PCL-visualizer/viewer/src/downsamp_cloud.csv", "r+"); 
+  for (auto& point: *cloudDS){
+    fgets(buffer,sizeof(buffer),archivo);
+    token = strtok(buffer," ");
+    point.x=atof(token)/1000;
+    token = strtok(NULL," ");
+    point.y=atof(token)/1000;
+    token = strtok(NULL," \n");
+    point.z=atof(token)/1000;
+  }
+  // Normal estimation*
+  pcl::NormalEstimation<PointTxyz, pcl::Normal> n;
+  pcl::PointCloud<pcl::Normal>::Ptr normals (new pcl::PointCloud<pcl::Normal>);
+  pcl::search::KdTree<PointTxyz>::Ptr tree (new pcl::search::KdTree<PointTxyz>);
+  tree->setInputCloud (cloudDS);
+  n.setInputCloud (cloudDS);
+  n.setSearchMethod (tree);
+  n.setKSearch (20);
+  n.compute (*normals);
+  //* normals should not contain the point normals + surface curvatures
+
+  // Concatenate the XYZ and normal fields*
+  pcl::PointCloud<pcl::PointNormal>::Ptr cloud_with_normals (new pcl::PointCloud<pcl::PointNormal>);
+  pcl::concatenateFields (*cloudDS, *normals, *cloud_with_normals);
+  //* cloud_with_normals = cloud + normals
+
+  // Create search tree*
+  pcl::search::KdTree<pcl::PointNormal>::Ptr tree2 (new pcl::search::KdTree<pcl::PointNormal>);
+  tree2->setInputCloud (cloud_with_normals);
+
+  // Initialize objects
+  pcl::GreedyProjectionTriangulation<pcl::PointNormal> gp3;
+  //pcl::PolygonMesh triangles;
+
+  // Set the maximum distance between connected points (maximum edge length)
+  gp3.setSearchRadius (50);
+
+  // Set typical values for the parameters
+  gp3.setMu (2.5);
+  gp3.setMaximumNearestNeighbors (200);
+  gp3.setMaximumSurfaceAngle(M_PI/4); // 45 degrees
+  gp3.setMinimumAngle(M_PI/18); // 10 degrees
+  gp3.setMaximumAngle(2*M_PI/3); // 120 degrees
+  gp3.setNormalConsistency(false);
+
+  // Get result
+  gp3.setInputCloud (cloud_with_normals);
+  gp3.setSearchMethod (tree2);
+  gp3.reconstruct (mesh);
+#else
+
+  cloudDS.reset (new pcl::PointCloud<PointTxyz>);
+  if (pcl::io::loadPCDFile<PointTxyz> ("/home/catolica/Documents/Github/PCL-visualizer/viewer/src/mine.pcd", *cloudDS) == -1) //* load the file
+  {
+    PCL_ERROR ("Couldn't read file \n");
+  }
+  for (auto& point: *cloudDS)
+  {
+    // cout << point.x << ", " << point.y << ", " << point.z << " | ";
+
+    point.x = point.x/1000;
+    point.y = point.y/1000;
+    point.z = point.z/1000;
+
+    // point.a = 128;
+
+    // cout << int(point.r) << ", " << int(point.g) << ", " << int(point.b) << std::endl;
+  }
+  // Normal estimation*
+  pcl::NormalEstimation<PointTxyz, pcl::Normal> n;
+  pcl::PointCloud<pcl::Normal>::Ptr normals (new pcl::PointCloud<pcl::Normal>);
+  pcl::search::KdTree<PointTxyz>::Ptr tree (new pcl::search::KdTree<PointTxyz>);
+  tree->setInputCloud (cloudDS);
+  n.setInputCloud (cloudDS);
+  n.setSearchMethod (tree);
+  n.setKSearch (20);
+  n.compute (*normals);
+  //* normals should not contain the point normals + surface curvatures
+
+  // Concatenate the XYZ and normal fields*
+  pcl::PointCloud<pcl::PointNormal>::Ptr cloud_with_normals (new pcl::PointCloud<pcl::PointNormal>);
+  pcl::concatenateFields (*cloudDS, *normals, *cloud_with_normals);
+  //* cloud_with_normals = cloud + normals
+
+  // Create search tree*
+  pcl::search::KdTree<pcl::PointNormal>::Ptr tree2 (new pcl::search::KdTree<pcl::PointNormal>);
+  tree2->setInputCloud (cloud_with_normals);
+
+  // Initialize objects
+  pcl::GreedyProjectionTriangulation<pcl::PointNormal> gp3;
+  //pcl::PolygonMesh triangles;
+
+  // Set the maximum distance between connected points (maximum edge length)
+  gp3.setSearchRadius (50);
+
+  // Set typical values for the parameters
+  gp3.setMu (2.5);
+  gp3.setMaximumNearestNeighbors (200);
+  gp3.setMaximumSurfaceAngle(M_PI/4); // 45 degrees
+  gp3.setMinimumAngle(M_PI/18); // 10 degrees
+  gp3.setMaximumAngle(2*M_PI/3); // 120 degrees
+  gp3.setNormalConsistency(false);
+
+  // Get result
+  gp3.setInputCloud (cloud_with_normals);
+  gp3.setSearchMethod (tree2);
+  gp3.reconstruct (mesh);
+
+  
+
 #endif
 
 // Set up the QVTK window  

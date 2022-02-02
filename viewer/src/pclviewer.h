@@ -18,7 +18,8 @@
 #include <pcl/search/kdtree.h> 
 #include <pcl/features/normal_3d.h>
 #include <pcl/surface/gp3.h>
-
+// for read pcd
+#include <pcl/io/pcd_io.h>
 
 typedef pcl::PointXYZRGBA PointT;
 typedef pcl::PointCloud<PointT> PointCloudT;

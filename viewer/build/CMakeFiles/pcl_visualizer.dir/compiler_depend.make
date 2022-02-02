@@ -1782,6 +1782,173 @@ CMakeFiles/pcl_visualizer.dir/main.cpp.o: /home/catolica/Documents/Github/PCL-vi
   /usr/local/include/pcl-1.12/pcl/surface/gp3.h \
   /usr/local/include/pcl-1.12/pcl/surface/reconstruction.h \
   /usr/local/include/pcl-1.12/pcl/surface/impl/reconstruction.hpp \
+  /usr/local/include/pcl-1.12/pcl/io/pcd_io.h \
+  /usr/local/include/pcl-1.12/pcl/io/file_io.h \
+  /usr/include/boost/numeric/conversion/cast.hpp \
+  /usr/include/boost/numeric/conversion/converter.hpp \
+  /usr/include/boost/numeric/conversion/conversion_traits.hpp \
+  /usr/include/boost/numeric/conversion/detail/conversion_traits.hpp \
+  /usr/include/boost/numeric/conversion/detail/meta.hpp \
+  /usr/include/boost/numeric/conversion/detail/int_float_mixture.hpp \
+  /usr/include/boost/numeric/conversion/int_float_mixture_enum.hpp \
+  /usr/include/boost/numeric/conversion/detail/sign_mixture.hpp \
+  /usr/include/boost/numeric/conversion/sign_mixture_enum.hpp \
+  /usr/include/boost/numeric/conversion/detail/udt_builtin_mixture.hpp \
+  /usr/include/boost/numeric/conversion/udt_builtin_mixture_enum.hpp \
+  /usr/include/boost/numeric/conversion/detail/is_subranged.hpp \
+  /usr/include/boost/mpl/multiplies.hpp \
+  /usr/include/boost/mpl/times.hpp \
+  /usr/include/boost/mpl/aux_/preprocessed/gcc/times.hpp \
+  /usr/include/boost/numeric/conversion/converter_policies.hpp \
+  /usr/include/boost/config/no_tr1/cmath.hpp \
+  /usr/include/boost/numeric/conversion/detail/converter.hpp \
+  /usr/include/boost/numeric/conversion/bounds.hpp \
+  /usr/include/boost/numeric/conversion/detail/bounds.hpp \
+  /usr/include/boost/numeric/conversion/numeric_cast_traits.hpp \
+  /usr/include/boost/numeric/conversion/detail/numeric_cast_traits.hpp \
+  /usr/include/boost/numeric/conversion/detail/preprocessed/numeric_cast_traits_common.hpp \
+  /usr/include/boost/numeric/conversion/detail/preprocessed/numeric_cast_traits_long_long.hpp \
+  /usr/include/boost/algorithm/string/predicate.hpp \
+  /usr/include/boost/algorithm/string/config.hpp \
+  /usr/include/boost/range/as_literal.hpp \
+  /usr/include/boost/range/iterator_range.hpp \
+  /usr/include/boost/range/iterator_range_core.hpp \
+  /usr/include/boost/range/functions.hpp \
+  /usr/include/boost/range/size.hpp \
+  /usr/include/boost/range/size_type.hpp \
+  /usr/include/boost/range/difference_type.hpp \
+  /usr/include/boost/range/has_range_iterator.hpp \
+  /usr/include/boost/range/concepts.hpp \
+  /usr/include/boost/concept_check.hpp \
+  /usr/include/boost/concept/assert.hpp \
+  /usr/include/boost/concept/detail/general.hpp \
+  /usr/include/boost/concept/detail/backward_compatibility.hpp \
+  /usr/include/boost/concept/detail/has_constraints.hpp \
+  /usr/include/boost/type_traits/conversion_traits.hpp \
+  /usr/include/boost/concept/usage.hpp \
+  /usr/include/boost/concept/detail/concept_def.hpp \
+  /usr/include/boost/preprocessor/seq/for_each_i.hpp \
+  /usr/include/boost/concept/detail/concept_undef.hpp \
+  /usr/include/boost/iterator/iterator_concepts.hpp \
+  /usr/include/boost/range/value_type.hpp \
+  /usr/include/boost/range/detail/misc_concept.hpp \
+  /usr/include/boost/type_traits/make_unsigned.hpp \
+  /usr/include/boost/type_traits/is_signed.hpp \
+  /usr/include/boost/type_traits/is_unsigned.hpp \
+  /usr/include/boost/type_traits/add_volatile.hpp \
+  /usr/include/boost/range/detail/has_member_size.hpp \
+  /usr/include/boost/utility.hpp \
+  /usr/include/boost/utility/base_from_member.hpp \
+  /usr/include/boost/preprocessor/repetition/repeat_from_to.hpp \
+  /usr/include/boost/utility/binary.hpp \
+  /usr/include/boost/preprocessor/control/deduce_d.hpp \
+  /usr/include/boost/preprocessor/seq/cat.hpp \
+  /usr/include/boost/preprocessor/arithmetic/mod.hpp \
+  /usr/include/boost/preprocessor/arithmetic/detail/div_base.hpp \
+  /usr/include/boost/utility/identity_type.hpp \
+  /usr/include/boost/next_prior.hpp \
+  /usr/include/boost/type_traits/has_plus.hpp \
+  /usr/include/boost/type_traits/detail/has_binary_operator.hpp \
+  /usr/include/boost/type_traits/is_fundamental.hpp \
+  /usr/include/boost/type_traits/has_plus_assign.hpp \
+  /usr/include/boost/type_traits/has_minus.hpp \
+  /usr/include/boost/type_traits/has_minus_assign.hpp \
+  /usr/include/boost/iterator/advance.hpp \
+  /usr/include/boost/range/distance.hpp \
+  /usr/include/boost/range/empty.hpp \
+  /usr/include/boost/range/algorithm/equal.hpp \
+  /usr/include/boost/range/detail/safe_bool.hpp \
+  /usr/include/boost/range/iterator_range_io.hpp \
+  /usr/include/boost/range/detail/str_types.hpp \
+  /usr/include/boost/algorithm/string/compare.hpp \
+  /usr/include/boost/algorithm/string/find.hpp \
+  /usr/include/boost/algorithm/string/finder.hpp \
+  /usr/include/boost/algorithm/string/constants.hpp \
+  /usr/include/boost/algorithm/string/detail/finder.hpp \
+  /usr/include/boost/algorithm/string/detail/predicate.hpp \
+  /usr/include/boost/interprocess/sync/file_lock.hpp \
+  /usr/include/boost/interprocess/detail/config_begin.hpp \
+  /usr/include/boost/interprocess/detail/workaround.hpp \
+  /usr/include/boost/interprocess/exceptions.hpp \
+  /usr/include/boost/interprocess/errors.hpp \
+  /usr/include/boost/interprocess/detail/config_end.hpp \
+  /usr/include/boost/interprocess/detail/os_file_functions.hpp \
+  /usr/include/boost/interprocess/permissions.hpp \
+  /usr/include/boost/interprocess/interprocess_fwd.hpp \
+  /usr/include/boost/interprocess/detail/std_fwd.hpp \
+  /usr/include/fcntl.h \
+  /usr/include/x86_64-linux-gnu/bits/fcntl.h \
+  /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
+  /usr/include/linux/falloc.h \
+  /usr/include/x86_64-linux-gnu/bits/stat.h \
+  /usr/include/x86_64-linux-gnu/sys/stat.h \
+  /usr/include/dirent.h \
+  /usr/include/x86_64-linux-gnu/bits/dirent.h \
+  /usr/include/boost/interprocess/detail/os_thread_functions.hpp \
+  /usr/include/boost/interprocess/streams/bufferstream.hpp \
+  /usr/include/boost/interprocess/detail/posix_time_types_wrk.hpp \
+  /usr/include/boost/date_time/microsec_time_clock.hpp \
+  /usr/include/boost/date_time/compiler_config.hpp \
+  /usr/include/boost/date_time/locale_config.hpp \
+  /usr/include/boost/config/auto_link.hpp \
+  /usr/include/boost/date_time/c_time.hpp \
+  /usr/include/x86_64-linux-gnu/sys/time.h \
+  /usr/include/boost/date_time/time_clock.hpp \
+  /usr/include/boost/date_time/filetime_functions.hpp \
+  /usr/include/boost/date_time/posix_time/ptime.hpp \
+  /usr/include/boost/date_time/posix_time/posix_time_system.hpp \
+  /usr/include/boost/date_time/posix_time/posix_time_config.hpp \
+  /usr/include/boost/date_time/time_duration.hpp \
+  /usr/include/boost/date_time/time_defs.hpp \
+  /usr/include/boost/date_time/special_defs.hpp \
+  /usr/include/boost/date_time/time_resolution_traits.hpp \
+  /usr/include/boost/date_time/int_adapter.hpp \
+  /usr/include/boost/date_time/gregorian/gregorian_types.hpp \
+  /usr/include/boost/date_time/date.hpp \
+  /usr/include/boost/date_time/year_month_day.hpp \
+  /usr/include/boost/date_time/period.hpp \
+  /usr/include/boost/date_time/gregorian/greg_calendar.hpp \
+  /usr/include/boost/date_time/gregorian/greg_weekday.hpp \
+  /usr/include/boost/date_time/constrained_value.hpp \
+  /usr/include/boost/date_time/date_defs.hpp \
+  /usr/include/boost/date_time/gregorian/greg_day_of_year.hpp \
+  /usr/include/boost/date_time/gregorian_calendar.hpp \
+  /usr/include/boost/date_time/gregorian_calendar.ipp \
+  /usr/include/boost/date_time/gregorian/greg_ymd.hpp \
+  /usr/include/boost/date_time/gregorian/greg_day.hpp \
+  /usr/include/boost/date_time/gregorian/greg_year.hpp \
+  /usr/include/boost/date_time/gregorian/greg_month.hpp \
+  /usr/include/boost/date_time/gregorian/greg_duration.hpp \
+  /usr/include/boost/date_time/date_duration.hpp \
+  /usr/include/boost/date_time/date_duration_types.hpp \
+  /usr/include/boost/date_time/gregorian/greg_duration_types.hpp \
+  /usr/include/boost/date_time/gregorian/greg_date.hpp \
+  /usr/include/boost/date_time/adjust_functors.hpp \
+  /usr/include/boost/date_time/wrapping_int.hpp \
+  /usr/include/boost/date_time/date_generators.hpp \
+  /usr/include/boost/date_time/date_clock_device.hpp \
+  /usr/include/boost/date_time/date_iterator.hpp \
+  /usr/include/boost/date_time/time_system_split.hpp \
+  /usr/include/boost/date_time/time_system_counted.hpp \
+  /usr/include/boost/date_time/time.hpp \
+  /usr/include/boost/date_time/posix_time/posix_time_duration.hpp \
+  /usr/include/boost/interprocess/sync/detail/common_algorithms.hpp \
+  /usr/include/boost/interprocess/sync/spin/wait.hpp \
+  /usr/include/boost/interprocess/sync/detail/locks.hpp \
+  /usr/local/include/pcl-1.12/pcl/io/impl/pcd_io.hpp \
+  /usr/include/boost/algorithm/string/trim.hpp \
+  /usr/include/boost/algorithm/string/detail/trim.hpp \
+  /usr/include/boost/algorithm/string/classification.hpp \
+  /usr/include/boost/algorithm/string/detail/classification.hpp \
+  /usr/include/boost/algorithm/string/predicate_facade.hpp \
+  /usr/local/include/pcl-1.12/pcl/io/low_level_io.h \
+  /usr/include/x86_64-linux-gnu/sys/mman.h \
+  /usr/include/x86_64-linux-gnu/bits/mman.h \
+  /usr/include/x86_64-linux-gnu/bits/mman-linux.h \
+  /usr/include/x86_64-linux-gnu/bits/mman-shared.h \
+  /usr/include/x86_64-linux-gnu/sys/fcntl.h \
+  /usr/local/include/pcl-1.12/pcl/io/lzf.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreapplication.h \
@@ -3574,7 +3741,174 @@ CMakeFiles/pcl_visualizer.dir/pcl_visualizer_autogen/mocs_compilation.cpp.o: pcl
   /usr/local/include/pcl-1.12/pcl/common/impl/centroid.hpp \
   /usr/local/include/pcl-1.12/pcl/surface/gp3.h \
   /usr/local/include/pcl-1.12/pcl/surface/reconstruction.h \
-  /usr/local/include/pcl-1.12/pcl/surface/impl/reconstruction.hpp
+  /usr/local/include/pcl-1.12/pcl/surface/impl/reconstruction.hpp \
+  /usr/local/include/pcl-1.12/pcl/io/pcd_io.h \
+  /usr/local/include/pcl-1.12/pcl/io/file_io.h \
+  /usr/include/boost/numeric/conversion/cast.hpp \
+  /usr/include/boost/numeric/conversion/converter.hpp \
+  /usr/include/boost/numeric/conversion/conversion_traits.hpp \
+  /usr/include/boost/numeric/conversion/detail/conversion_traits.hpp \
+  /usr/include/boost/numeric/conversion/detail/meta.hpp \
+  /usr/include/boost/numeric/conversion/detail/int_float_mixture.hpp \
+  /usr/include/boost/numeric/conversion/int_float_mixture_enum.hpp \
+  /usr/include/boost/numeric/conversion/detail/sign_mixture.hpp \
+  /usr/include/boost/numeric/conversion/sign_mixture_enum.hpp \
+  /usr/include/boost/numeric/conversion/detail/udt_builtin_mixture.hpp \
+  /usr/include/boost/numeric/conversion/udt_builtin_mixture_enum.hpp \
+  /usr/include/boost/numeric/conversion/detail/is_subranged.hpp \
+  /usr/include/boost/mpl/multiplies.hpp \
+  /usr/include/boost/mpl/times.hpp \
+  /usr/include/boost/mpl/aux_/preprocessed/gcc/times.hpp \
+  /usr/include/boost/numeric/conversion/converter_policies.hpp \
+  /usr/include/boost/config/no_tr1/cmath.hpp \
+  /usr/include/boost/numeric/conversion/detail/converter.hpp \
+  /usr/include/boost/numeric/conversion/bounds.hpp \
+  /usr/include/boost/numeric/conversion/detail/bounds.hpp \
+  /usr/include/boost/numeric/conversion/numeric_cast_traits.hpp \
+  /usr/include/boost/numeric/conversion/detail/numeric_cast_traits.hpp \
+  /usr/include/boost/numeric/conversion/detail/preprocessed/numeric_cast_traits_common.hpp \
+  /usr/include/boost/numeric/conversion/detail/preprocessed/numeric_cast_traits_long_long.hpp \
+  /usr/include/boost/algorithm/string/predicate.hpp \
+  /usr/include/boost/algorithm/string/config.hpp \
+  /usr/include/boost/range/as_literal.hpp \
+  /usr/include/boost/range/iterator_range.hpp \
+  /usr/include/boost/range/iterator_range_core.hpp \
+  /usr/include/boost/range/functions.hpp \
+  /usr/include/boost/range/size.hpp \
+  /usr/include/boost/range/size_type.hpp \
+  /usr/include/boost/range/difference_type.hpp \
+  /usr/include/boost/range/has_range_iterator.hpp \
+  /usr/include/boost/range/concepts.hpp \
+  /usr/include/boost/concept_check.hpp \
+  /usr/include/boost/concept/assert.hpp \
+  /usr/include/boost/concept/detail/general.hpp \
+  /usr/include/boost/concept/detail/backward_compatibility.hpp \
+  /usr/include/boost/concept/detail/has_constraints.hpp \
+  /usr/include/boost/type_traits/conversion_traits.hpp \
+  /usr/include/boost/concept/usage.hpp \
+  /usr/include/boost/concept/detail/concept_def.hpp \
+  /usr/include/boost/preprocessor/seq/for_each_i.hpp \
+  /usr/include/boost/concept/detail/concept_undef.hpp \
+  /usr/include/boost/iterator/iterator_concepts.hpp \
+  /usr/include/boost/range/value_type.hpp \
+  /usr/include/boost/range/detail/misc_concept.hpp \
+  /usr/include/boost/type_traits/make_unsigned.hpp \
+  /usr/include/boost/type_traits/is_signed.hpp \
+  /usr/include/boost/type_traits/is_unsigned.hpp \
+  /usr/include/boost/type_traits/add_volatile.hpp \
+  /usr/include/boost/range/detail/has_member_size.hpp \
+  /usr/include/boost/utility.hpp \
+  /usr/include/boost/utility/base_from_member.hpp \
+  /usr/include/boost/preprocessor/repetition/repeat_from_to.hpp \
+  /usr/include/boost/utility/binary.hpp \
+  /usr/include/boost/preprocessor/control/deduce_d.hpp \
+  /usr/include/boost/preprocessor/seq/cat.hpp \
+  /usr/include/boost/preprocessor/arithmetic/mod.hpp \
+  /usr/include/boost/preprocessor/arithmetic/detail/div_base.hpp \
+  /usr/include/boost/utility/identity_type.hpp \
+  /usr/include/boost/next_prior.hpp \
+  /usr/include/boost/type_traits/has_plus.hpp \
+  /usr/include/boost/type_traits/detail/has_binary_operator.hpp \
+  /usr/include/boost/type_traits/is_fundamental.hpp \
+  /usr/include/boost/type_traits/has_plus_assign.hpp \
+  /usr/include/boost/type_traits/has_minus.hpp \
+  /usr/include/boost/type_traits/has_minus_assign.hpp \
+  /usr/include/boost/iterator/advance.hpp \
+  /usr/include/boost/range/distance.hpp \
+  /usr/include/boost/range/empty.hpp \
+  /usr/include/boost/range/algorithm/equal.hpp \
+  /usr/include/boost/range/detail/safe_bool.hpp \
+  /usr/include/boost/range/iterator_range_io.hpp \
+  /usr/include/boost/range/detail/str_types.hpp \
+  /usr/include/boost/algorithm/string/compare.hpp \
+  /usr/include/boost/algorithm/string/find.hpp \
+  /usr/include/boost/algorithm/string/finder.hpp \
+  /usr/include/boost/algorithm/string/constants.hpp \
+  /usr/include/boost/algorithm/string/detail/finder.hpp \
+  /usr/include/boost/algorithm/string/detail/predicate.hpp \
+  /usr/include/boost/interprocess/sync/file_lock.hpp \
+  /usr/include/boost/interprocess/detail/config_begin.hpp \
+  /usr/include/boost/interprocess/detail/workaround.hpp \
+  /usr/include/boost/interprocess/exceptions.hpp \
+  /usr/include/boost/interprocess/errors.hpp \
+  /usr/include/boost/interprocess/detail/config_end.hpp \
+  /usr/include/boost/interprocess/detail/os_file_functions.hpp \
+  /usr/include/boost/interprocess/permissions.hpp \
+  /usr/include/boost/interprocess/interprocess_fwd.hpp \
+  /usr/include/boost/interprocess/detail/std_fwd.hpp \
+  /usr/include/fcntl.h \
+  /usr/include/x86_64-linux-gnu/bits/fcntl.h \
+  /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
+  /usr/include/linux/falloc.h \
+  /usr/include/x86_64-linux-gnu/bits/stat.h \
+  /usr/include/x86_64-linux-gnu/sys/stat.h \
+  /usr/include/dirent.h \
+  /usr/include/x86_64-linux-gnu/bits/dirent.h \
+  /usr/include/boost/interprocess/detail/os_thread_functions.hpp \
+  /usr/include/boost/interprocess/streams/bufferstream.hpp \
+  /usr/include/boost/interprocess/detail/posix_time_types_wrk.hpp \
+  /usr/include/boost/date_time/microsec_time_clock.hpp \
+  /usr/include/boost/date_time/compiler_config.hpp \
+  /usr/include/boost/date_time/locale_config.hpp \
+  /usr/include/boost/config/auto_link.hpp \
+  /usr/include/boost/date_time/c_time.hpp \
+  /usr/include/x86_64-linux-gnu/sys/time.h \
+  /usr/include/boost/date_time/time_clock.hpp \
+  /usr/include/boost/date_time/filetime_functions.hpp \
+  /usr/include/boost/date_time/posix_time/ptime.hpp \
+  /usr/include/boost/date_time/posix_time/posix_time_system.hpp \
+  /usr/include/boost/date_time/posix_time/posix_time_config.hpp \
+  /usr/include/boost/date_time/time_duration.hpp \
+  /usr/include/boost/date_time/time_defs.hpp \
+  /usr/include/boost/date_time/special_defs.hpp \
+  /usr/include/boost/date_time/time_resolution_traits.hpp \
+  /usr/include/boost/date_time/int_adapter.hpp \
+  /usr/include/boost/date_time/gregorian/gregorian_types.hpp \
+  /usr/include/boost/date_time/date.hpp \
+  /usr/include/boost/date_time/year_month_day.hpp \
+  /usr/include/boost/date_time/period.hpp \
+  /usr/include/boost/date_time/gregorian/greg_calendar.hpp \
+  /usr/include/boost/date_time/gregorian/greg_weekday.hpp \
+  /usr/include/boost/date_time/constrained_value.hpp \
+  /usr/include/boost/date_time/date_defs.hpp \
+  /usr/include/boost/date_time/gregorian/greg_day_of_year.hpp \
+  /usr/include/boost/date_time/gregorian_calendar.hpp \
+  /usr/include/boost/date_time/gregorian_calendar.ipp \
+  /usr/include/boost/date_time/gregorian/greg_ymd.hpp \
+  /usr/include/boost/date_time/gregorian/greg_day.hpp \
+  /usr/include/boost/date_time/gregorian/greg_year.hpp \
+  /usr/include/boost/date_time/gregorian/greg_month.hpp \
+  /usr/include/boost/date_time/gregorian/greg_duration.hpp \
+  /usr/include/boost/date_time/date_duration.hpp \
+  /usr/include/boost/date_time/date_duration_types.hpp \
+  /usr/include/boost/date_time/gregorian/greg_duration_types.hpp \
+  /usr/include/boost/date_time/gregorian/greg_date.hpp \
+  /usr/include/boost/date_time/adjust_functors.hpp \
+  /usr/include/boost/date_time/wrapping_int.hpp \
+  /usr/include/boost/date_time/date_generators.hpp \
+  /usr/include/boost/date_time/date_clock_device.hpp \
+  /usr/include/boost/date_time/date_iterator.hpp \
+  /usr/include/boost/date_time/time_system_split.hpp \
+  /usr/include/boost/date_time/time_system_counted.hpp \
+  /usr/include/boost/date_time/time.hpp \
+  /usr/include/boost/date_time/posix_time/posix_time_duration.hpp \
+  /usr/include/boost/interprocess/sync/detail/common_algorithms.hpp \
+  /usr/include/boost/interprocess/sync/spin/wait.hpp \
+  /usr/include/boost/interprocess/sync/detail/locks.hpp \
+  /usr/local/include/pcl-1.12/pcl/io/impl/pcd_io.hpp \
+  /usr/include/boost/algorithm/string/trim.hpp \
+  /usr/include/boost/algorithm/string/detail/trim.hpp \
+  /usr/include/boost/algorithm/string/classification.hpp \
+  /usr/include/boost/algorithm/string/detail/classification.hpp \
+  /usr/include/boost/algorithm/string/predicate_facade.hpp \
+  /usr/local/include/pcl-1.12/pcl/io/low_level_io.h \
+  /usr/include/x86_64-linux-gnu/sys/mman.h \
+  /usr/include/x86_64-linux-gnu/bits/mman.h \
+  /usr/include/x86_64-linux-gnu/bits/mman-linux.h \
+  /usr/include/x86_64-linux-gnu/bits/mman-shared.h \
+  /usr/include/x86_64-linux-gnu/sys/fcntl.h \
+  /usr/local/include/pcl-1.12/pcl/io/lzf.h
 
 CMakeFiles/pcl_visualizer.dir/pclviewer.cpp.o: /home/catolica/Documents/Github/PCL-visualizer/viewer/src/pclviewer.cpp \
   /usr/include/stdc-predef.h \
@@ -5357,6 +5691,173 @@ CMakeFiles/pcl_visualizer.dir/pclviewer.cpp.o: /home/catolica/Documents/Github/P
   /usr/local/include/pcl-1.12/pcl/surface/gp3.h \
   /usr/local/include/pcl-1.12/pcl/surface/reconstruction.h \
   /usr/local/include/pcl-1.12/pcl/surface/impl/reconstruction.hpp \
+  /usr/local/include/pcl-1.12/pcl/io/pcd_io.h \
+  /usr/local/include/pcl-1.12/pcl/io/file_io.h \
+  /usr/include/boost/numeric/conversion/cast.hpp \
+  /usr/include/boost/numeric/conversion/converter.hpp \
+  /usr/include/boost/numeric/conversion/conversion_traits.hpp \
+  /usr/include/boost/numeric/conversion/detail/conversion_traits.hpp \
+  /usr/include/boost/numeric/conversion/detail/meta.hpp \
+  /usr/include/boost/numeric/conversion/detail/int_float_mixture.hpp \
+  /usr/include/boost/numeric/conversion/int_float_mixture_enum.hpp \
+  /usr/include/boost/numeric/conversion/detail/sign_mixture.hpp \
+  /usr/include/boost/numeric/conversion/sign_mixture_enum.hpp \
+  /usr/include/boost/numeric/conversion/detail/udt_builtin_mixture.hpp \
+  /usr/include/boost/numeric/conversion/udt_builtin_mixture_enum.hpp \
+  /usr/include/boost/numeric/conversion/detail/is_subranged.hpp \
+  /usr/include/boost/mpl/multiplies.hpp \
+  /usr/include/boost/mpl/times.hpp \
+  /usr/include/boost/mpl/aux_/preprocessed/gcc/times.hpp \
+  /usr/include/boost/numeric/conversion/converter_policies.hpp \
+  /usr/include/boost/config/no_tr1/cmath.hpp \
+  /usr/include/boost/numeric/conversion/detail/converter.hpp \
+  /usr/include/boost/numeric/conversion/bounds.hpp \
+  /usr/include/boost/numeric/conversion/detail/bounds.hpp \
+  /usr/include/boost/numeric/conversion/numeric_cast_traits.hpp \
+  /usr/include/boost/numeric/conversion/detail/numeric_cast_traits.hpp \
+  /usr/include/boost/numeric/conversion/detail/preprocessed/numeric_cast_traits_common.hpp \
+  /usr/include/boost/numeric/conversion/detail/preprocessed/numeric_cast_traits_long_long.hpp \
+  /usr/include/boost/algorithm/string/predicate.hpp \
+  /usr/include/boost/algorithm/string/config.hpp \
+  /usr/include/boost/range/as_literal.hpp \
+  /usr/include/boost/range/iterator_range.hpp \
+  /usr/include/boost/range/iterator_range_core.hpp \
+  /usr/include/boost/range/functions.hpp \
+  /usr/include/boost/range/size.hpp \
+  /usr/include/boost/range/size_type.hpp \
+  /usr/include/boost/range/difference_type.hpp \
+  /usr/include/boost/range/has_range_iterator.hpp \
+  /usr/include/boost/range/concepts.hpp \
+  /usr/include/boost/concept_check.hpp \
+  /usr/include/boost/concept/assert.hpp \
+  /usr/include/boost/concept/detail/general.hpp \
+  /usr/include/boost/concept/detail/backward_compatibility.hpp \
+  /usr/include/boost/concept/detail/has_constraints.hpp \
+  /usr/include/boost/type_traits/conversion_traits.hpp \
+  /usr/include/boost/concept/usage.hpp \
+  /usr/include/boost/concept/detail/concept_def.hpp \
+  /usr/include/boost/preprocessor/seq/for_each_i.hpp \
+  /usr/include/boost/concept/detail/concept_undef.hpp \
+  /usr/include/boost/iterator/iterator_concepts.hpp \
+  /usr/include/boost/range/value_type.hpp \
+  /usr/include/boost/range/detail/misc_concept.hpp \
+  /usr/include/boost/type_traits/make_unsigned.hpp \
+  /usr/include/boost/type_traits/is_signed.hpp \
+  /usr/include/boost/type_traits/is_unsigned.hpp \
+  /usr/include/boost/type_traits/add_volatile.hpp \
+  /usr/include/boost/range/detail/has_member_size.hpp \
+  /usr/include/boost/utility.hpp \
+  /usr/include/boost/utility/base_from_member.hpp \
+  /usr/include/boost/preprocessor/repetition/repeat_from_to.hpp \
+  /usr/include/boost/utility/binary.hpp \
+  /usr/include/boost/preprocessor/control/deduce_d.hpp \
+  /usr/include/boost/preprocessor/seq/cat.hpp \
+  /usr/include/boost/preprocessor/arithmetic/mod.hpp \
+  /usr/include/boost/preprocessor/arithmetic/detail/div_base.hpp \
+  /usr/include/boost/utility/identity_type.hpp \
+  /usr/include/boost/next_prior.hpp \
+  /usr/include/boost/type_traits/has_plus.hpp \
+  /usr/include/boost/type_traits/detail/has_binary_operator.hpp \
+  /usr/include/boost/type_traits/is_fundamental.hpp \
+  /usr/include/boost/type_traits/has_plus_assign.hpp \
+  /usr/include/boost/type_traits/has_minus.hpp \
+  /usr/include/boost/type_traits/has_minus_assign.hpp \
+  /usr/include/boost/iterator/advance.hpp \
+  /usr/include/boost/range/distance.hpp \
+  /usr/include/boost/range/empty.hpp \
+  /usr/include/boost/range/algorithm/equal.hpp \
+  /usr/include/boost/range/detail/safe_bool.hpp \
+  /usr/include/boost/range/iterator_range_io.hpp \
+  /usr/include/boost/range/detail/str_types.hpp \
+  /usr/include/boost/algorithm/string/compare.hpp \
+  /usr/include/boost/algorithm/string/find.hpp \
+  /usr/include/boost/algorithm/string/finder.hpp \
+  /usr/include/boost/algorithm/string/constants.hpp \
+  /usr/include/boost/algorithm/string/detail/finder.hpp \
+  /usr/include/boost/algorithm/string/detail/predicate.hpp \
+  /usr/include/boost/interprocess/sync/file_lock.hpp \
+  /usr/include/boost/interprocess/detail/config_begin.hpp \
+  /usr/include/boost/interprocess/detail/workaround.hpp \
+  /usr/include/boost/interprocess/exceptions.hpp \
+  /usr/include/boost/interprocess/errors.hpp \
+  /usr/include/boost/interprocess/detail/config_end.hpp \
+  /usr/include/boost/interprocess/detail/os_file_functions.hpp \
+  /usr/include/boost/interprocess/permissions.hpp \
+  /usr/include/boost/interprocess/interprocess_fwd.hpp \
+  /usr/include/boost/interprocess/detail/std_fwd.hpp \
+  /usr/include/fcntl.h \
+  /usr/include/x86_64-linux-gnu/bits/fcntl.h \
+  /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
+  /usr/include/linux/falloc.h \
+  /usr/include/x86_64-linux-gnu/bits/stat.h \
+  /usr/include/x86_64-linux-gnu/sys/stat.h \
+  /usr/include/dirent.h \
+  /usr/include/x86_64-linux-gnu/bits/dirent.h \
+  /usr/include/boost/interprocess/detail/os_thread_functions.hpp \
+  /usr/include/boost/interprocess/streams/bufferstream.hpp \
+  /usr/include/boost/interprocess/detail/posix_time_types_wrk.hpp \
+  /usr/include/boost/date_time/microsec_time_clock.hpp \
+  /usr/include/boost/date_time/compiler_config.hpp \
+  /usr/include/boost/date_time/locale_config.hpp \
+  /usr/include/boost/config/auto_link.hpp \
+  /usr/include/boost/date_time/c_time.hpp \
+  /usr/include/x86_64-linux-gnu/sys/time.h \
+  /usr/include/boost/date_time/time_clock.hpp \
+  /usr/include/boost/date_time/filetime_functions.hpp \
+  /usr/include/boost/date_time/posix_time/ptime.hpp \
+  /usr/include/boost/date_time/posix_time/posix_time_system.hpp \
+  /usr/include/boost/date_time/posix_time/posix_time_config.hpp \
+  /usr/include/boost/date_time/time_duration.hpp \
+  /usr/include/boost/date_time/time_defs.hpp \
+  /usr/include/boost/date_time/special_defs.hpp \
+  /usr/include/boost/date_time/time_resolution_traits.hpp \
+  /usr/include/boost/date_time/int_adapter.hpp \
+  /usr/include/boost/date_time/gregorian/gregorian_types.hpp \
+  /usr/include/boost/date_time/date.hpp \
+  /usr/include/boost/date_time/year_month_day.hpp \
+  /usr/include/boost/date_time/period.hpp \
+  /usr/include/boost/date_time/gregorian/greg_calendar.hpp \
+  /usr/include/boost/date_time/gregorian/greg_weekday.hpp \
+  /usr/include/boost/date_time/constrained_value.hpp \
+  /usr/include/boost/date_time/date_defs.hpp \
+  /usr/include/boost/date_time/gregorian/greg_day_of_year.hpp \
+  /usr/include/boost/date_time/gregorian_calendar.hpp \
+  /usr/include/boost/date_time/gregorian_calendar.ipp \
+  /usr/include/boost/date_time/gregorian/greg_ymd.hpp \
+  /usr/include/boost/date_time/gregorian/greg_day.hpp \
+  /usr/include/boost/date_time/gregorian/greg_year.hpp \
+  /usr/include/boost/date_time/gregorian/greg_month.hpp \
+  /usr/include/boost/date_time/gregorian/greg_duration.hpp \
+  /usr/include/boost/date_time/date_duration.hpp \
+  /usr/include/boost/date_time/date_duration_types.hpp \
+  /usr/include/boost/date_time/gregorian/greg_duration_types.hpp \
+  /usr/include/boost/date_time/gregorian/greg_date.hpp \
+  /usr/include/boost/date_time/adjust_functors.hpp \
+  /usr/include/boost/date_time/wrapping_int.hpp \
+  /usr/include/boost/date_time/date_generators.hpp \
+  /usr/include/boost/date_time/date_clock_device.hpp \
+  /usr/include/boost/date_time/date_iterator.hpp \
+  /usr/include/boost/date_time/time_system_split.hpp \
+  /usr/include/boost/date_time/time_system_counted.hpp \
+  /usr/include/boost/date_time/time.hpp \
+  /usr/include/boost/date_time/posix_time/posix_time_duration.hpp \
+  /usr/include/boost/interprocess/sync/detail/common_algorithms.hpp \
+  /usr/include/boost/interprocess/sync/spin/wait.hpp \
+  /usr/include/boost/interprocess/sync/detail/locks.hpp \
+  /usr/local/include/pcl-1.12/pcl/io/impl/pcd_io.hpp \
+  /usr/include/boost/algorithm/string/trim.hpp \
+  /usr/include/boost/algorithm/string/detail/trim.hpp \
+  /usr/include/boost/algorithm/string/classification.hpp \
+  /usr/include/boost/algorithm/string/detail/classification.hpp \
+  /usr/include/boost/algorithm/string/predicate_facade.hpp \
+  /usr/local/include/pcl-1.12/pcl/io/low_level_io.h \
+  /usr/include/x86_64-linux-gnu/sys/mman.h \
+  /usr/include/x86_64-linux-gnu/bits/mman.h \
+  /usr/include/x86_64-linux-gnu/bits/mman-linux.h \
+  /usr/include/x86_64-linux-gnu/bits/mman-shared.h \
+  /usr/include/x86_64-linux-gnu/sys/fcntl.h \
+  /usr/local/include/pcl-1.12/pcl/io/lzf.h \
   pcl_visualizer_autogen/include/ui_pclviewer.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h \
@@ -5463,11 +5964,7 @@ CMakeFiles/pcl_visualizer.dir/pclviewer.cpp.o: /home/catolica/Documents/Github/P
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractscrollarea.h:
 
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractitemview.h:
-
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QHeaderView:
-
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qbuttongroup.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qaction.h:
 
@@ -5481,8 +5978,6 @@ pcl_visualizer_autogen/EWIEGA46WW/moc_pclviewer.cpp:
 
 pcl_visualizer_autogen/mocs_compilation.cpp:
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h:
-
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qeventloop.h:
@@ -5494,6 +5989,200 @@ pcl_visualizer_autogen/mocs_compilation.cpp:
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication:
+
+/usr/include/x86_64-linux-gnu/bits/mman-linux.h:
+
+/usr/local/include/pcl-1.12/pcl/io/low_level_io.h:
+
+/usr/include/boost/algorithm/string/detail/classification.hpp:
+
+/usr/include/boost/interprocess/sync/detail/common_algorithms.hpp:
+
+/usr/include/boost/date_time/time.hpp:
+
+/usr/include/boost/date_time/date_clock_device.hpp:
+
+/usr/include/boost/date_time/date_generators.hpp:
+
+/usr/include/boost/date_time/adjust_functors.hpp:
+
+/usr/include/boost/date_time/gregorian/greg_duration_types.hpp:
+
+/usr/include/boost/date_time/date_duration_types.hpp:
+
+/usr/include/boost/date_time/gregorian/greg_month.hpp:
+
+/usr/include/boost/date_time/gregorian/greg_year.hpp:
+
+/usr/include/boost/date_time/gregorian/greg_day.hpp:
+
+/usr/include/boost/date_time/gregorian/greg_ymd.hpp:
+
+/usr/include/boost/date_time/gregorian_calendar.ipp:
+
+/usr/include/boost/date_time/gregorian/greg_day_of_year.hpp:
+
+/usr/include/boost/date_time/date_defs.hpp:
+
+/usr/include/boost/date_time/constrained_value.hpp:
+
+/usr/include/boost/date_time/gregorian/greg_weekday.hpp:
+
+/usr/include/boost/date_time/gregorian/greg_calendar.hpp:
+
+/usr/include/boost/date_time/period.hpp:
+
+/usr/include/boost/date_time/year_month_day.hpp:
+
+/usr/include/boost/date_time/date.hpp:
+
+/usr/include/boost/date_time/gregorian/gregorian_types.hpp:
+
+/usr/include/boost/date_time/int_adapter.hpp:
+
+/usr/include/boost/date_time/time_resolution_traits.hpp:
+
+/usr/include/boost/date_time/special_defs.hpp:
+
+/usr/include/boost/date_time/time_duration.hpp:
+
+/usr/include/boost/date_time/posix_time/posix_time_config.hpp:
+
+/usr/include/boost/date_time/posix_time/posix_time_system.hpp:
+
+/usr/include/boost/date_time/posix_time/ptime.hpp:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qbuttongroup.h:
+
+/usr/include/boost/date_time/time_clock.hpp:
+
+/usr/include/x86_64-linux-gnu/sys/time.h:
+
+/usr/include/boost/config/auto_link.hpp:
+
+/usr/include/boost/date_time/locale_config.hpp:
+
+/usr/include/boost/date_time/compiler_config.hpp:
+
+/usr/include/boost/interprocess/streams/bufferstream.hpp:
+
+/usr/include/boost/interprocess/detail/os_thread_functions.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/dirent.h:
+
+/usr/include/dirent.h:
+
+/usr/include/x86_64-linux-gnu/sys/stat.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h:
+
+/usr/include/fcntl.h:
+
+/usr/include/boost/interprocess/detail/os_file_functions.hpp:
+
+/usr/include/boost/interprocess/detail/config_end.hpp:
+
+/usr/include/boost/interprocess/sync/file_lock.hpp:
+
+/usr/include/boost/algorithm/string/detail/predicate.hpp:
+
+/usr/include/boost/algorithm/string/constants.hpp:
+
+/usr/include/boost/range/detail/str_types.hpp:
+
+/usr/include/boost/range/detail/safe_bool.hpp:
+
+/usr/include/boost/range/algorithm/equal.hpp:
+
+/usr/include/boost/range/empty.hpp:
+
+/usr/include/boost/range/distance.hpp:
+
+/usr/include/boost/type_traits/has_minus.hpp:
+
+/usr/include/boost/type_traits/has_plus_assign.hpp:
+
+/usr/include/boost/type_traits/is_fundamental.hpp:
+
+/usr/include/boost/type_traits/detail/has_binary_operator.hpp:
+
+/usr/include/boost/type_traits/has_plus.hpp:
+
+/usr/include/boost/next_prior.hpp:
+
+/usr/include/boost/utility/identity_type.hpp:
+
+/usr/include/boost/preprocessor/arithmetic/detail/div_base.hpp:
+
+/usr/include/boost/preprocessor/arithmetic/mod.hpp:
+
+/usr/include/boost/algorithm/string/trim.hpp:
+
+/usr/include/boost/preprocessor/seq/cat.hpp:
+
+/usr/include/boost/preprocessor/repetition/repeat_from_to.hpp:
+
+/usr/include/boost/utility/base_from_member.hpp:
+
+/usr/include/boost/utility.hpp:
+
+/usr/include/boost/range/detail/has_member_size.hpp:
+
+/usr/include/boost/type_traits/add_volatile.hpp:
+
+/usr/include/boost/range/value_type.hpp:
+
+/usr/include/boost/concept/detail/concept_undef.hpp:
+
+/usr/include/boost/concept/detail/concept_def.hpp:
+
+/usr/include/boost/concept/usage.hpp:
+
+/usr/include/boost/concept/detail/has_constraints.hpp:
+
+/usr/include/boost/concept/assert.hpp:
+
+/usr/include/boost/range/size.hpp:
+
+/usr/include/boost/interprocess/detail/std_fwd.hpp:
+
+/usr/include/boost/range/functions.hpp:
+
+/usr/include/boost/range/iterator_range_core.hpp:
+
+/usr/include/boost/range/as_literal.hpp:
+
+/usr/include/boost/algorithm/string/config.hpp:
+
+/usr/include/boost/numeric/conversion/detail/converter.hpp:
+
+/usr/include/boost/config/no_tr1/cmath.hpp:
+
+/usr/include/boost/numeric/conversion/converter_policies.hpp:
+
+/usr/include/boost/mpl/times.hpp:
+
+/usr/include/boost/numeric/conversion/detail/is_subranged.hpp:
+
+/usr/include/boost/numeric/conversion/udt_builtin_mixture_enum.hpp:
+
+/usr/include/boost/numeric/conversion/sign_mixture_enum.hpp:
+
+/usr/include/boost/numeric/conversion/detail/sign_mixture.hpp:
+
+/usr/include/boost/numeric/conversion/detail/int_float_mixture.hpp:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractitemview.h:
+
+/usr/include/boost/numeric/conversion/detail/conversion_traits.hpp:
+
+/usr/include/boost/numeric/conversion/conversion_traits.hpp:
+
+/usr/include/boost/numeric/conversion/converter.hpp:
+
+/usr/local/include/pcl-1.12/pcl/io/file_io.h:
+
+/usr/local/include/pcl-1.12/pcl/io/pcd_io.h:
 
 /usr/local/include/pcl-1.12/pcl/common/impl/centroid.hpp:
 
@@ -5511,9 +6200,13 @@ pcl_visualizer_autogen/mocs_compilation.cpp:
 
 /usr/include/boost/fusion/include/filter_if.hpp:
 
+/usr/include/boost/mpl/aux_/preprocessed/gcc/times.hpp:
+
 /usr/include/boost/fusion/container/vector/detail/convert_impl.hpp:
 
 /usr/include/boost/fusion/container/vector/detail/distance_impl.hpp:
+
+/usr/include/boost/algorithm/string/find.hpp:
 
 /usr/include/boost/fusion/container/vector/detail/equal_to_impl.hpp:
 
@@ -5535,6 +6228,8 @@ pcl_visualizer_autogen/mocs_compilation.cpp:
 
 /usr/include/boost/mpl/aux_/pop_front_impl.hpp:
 
+/usr/include/boost/numeric/conversion/numeric_cast_traits.hpp:
+
 /usr/include/boost/fusion/iterator/iterator_adapter.hpp:
 
 /usr/include/boost/mpl/aux_/pop_back_impl.hpp:
@@ -5542,6 +6237,8 @@ pcl_visualizer_autogen/mocs_compilation.cpp:
 /usr/include/boost/fusion/mpl/pop_back.hpp:
 
 /usr/include/boost/fusion/algorithm/transformation/insert_range.hpp:
+
+/usr/include/boost/concept/detail/backward_compatibility.hpp:
 
 /usr/include/boost/fusion/algorithm/transformation/insert.hpp:
 
@@ -5576,6 +6273,8 @@ pcl_visualizer_autogen/mocs_compilation.cpp:
 /usr/include/boost/fusion/mpl/erase.hpp:
 
 /usr/include/boost/fusion/mpl/empty.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/fcntl-linux.h:
 
 /usr/include/boost/fusion/container/map/map_fwd.hpp:
 
@@ -5645,11 +6344,15 @@ pcl_visualizer_autogen/mocs_compilation.cpp:
 
 /usr/include/boost/fusion/view/joint_view/detail/begin_impl.hpp:
 
+/usr/include/boost/algorithm/string/classification.hpp:
+
 /usr/include/boost/fusion/iterator/detail/adapt_value_traits.hpp:
 
 /usr/include/boost/fusion/view/joint_view/detail/value_of_impl.hpp:
 
 /usr/include/boost/fusion/view/joint_view/detail/next_impl.hpp:
+
+/usr/include/boost/algorithm/string/predicate_facade.hpp:
 
 /usr/include/boost/fusion/view/joint_view/detail/deref_impl.hpp:
 
@@ -5693,9 +6396,13 @@ pcl_visualizer_autogen/mocs_compilation.cpp:
 
 /usr/include/boost/fusion/support/detail/segmented_fold_until_impl.hpp:
 
+/usr/include/boost/numeric/conversion/detail/preprocessed/numeric_cast_traits_long_long.hpp:
+
 /usr/include/boost/fusion/sequence/intrinsic/detail/segmented_begin.hpp:
 
 /usr/include/boost/fusion/sequence/intrinsic/begin.hpp:
+
+/usr/include/boost/date_time/wrapping_int.hpp:
 
 /usr/include/boost/fusion/iterator/detail/segmented_next_impl.hpp:
 
@@ -5743,11 +6450,15 @@ pcl_visualizer_autogen/mocs_compilation.cpp:
 
 /usr/include/boost/mpl/aux_/has_key_impl.hpp:
 
+/usr/include/boost/date_time/posix_time/posix_time_duration.hpp:
+
 /usr/include/boost/mpl/has_key_fwd.hpp:
 
 /usr/include/boost/fusion/adapted/mpl/detail/has_key_impl.hpp:
 
 /usr/include/boost/fusion/adapted/mpl/detail/at_impl.hpp:
+
+/usr/include/boost/interprocess/errors.hpp:
 
 /usr/include/boost/mpl/at.hpp:
 
@@ -5770,6 +6481,8 @@ pcl_visualizer_autogen/mocs_compilation.cpp:
 /usr/include/boost/fusion/support/is_iterator.hpp:
 
 /usr/include/boost/fusion/iterator/equal_to.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/mman.h:
 
 /usr/include/boost/fusion/iterator/detail/distance.hpp:
 
@@ -5815,9 +6528,13 @@ pcl_visualizer_autogen/mocs_compilation.cpp:
 
 /usr/include/vtk-6.3/vtkPolyDataNormals.h:
 
+/usr/include/boost/numeric/conversion/detail/numeric_cast_traits.hpp:
+
 /usr/include/vtk-6.3/vtkImageData.h:
 
 /usr/include/vtk-6.3/vtkSTLWriter.h:
+
+/usr/include/boost/interprocess/detail/posix_time_types_wrk.hpp:
 
 /usr/local/include/pcl-1.12/pcl/kdtree/kdtree_flann.h:
 
@@ -5832,6 +6549,8 @@ pcl_visualizer_autogen/mocs_compilation.cpp:
 /usr/include/vtk-6.3/vtkPLYReader.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qinputmethod.h:
+
+/usr/include/boost/algorithm/string/detail/finder.hpp:
 
 /usr/include/vtk-6.3/vtkWriter.h:
 
@@ -5885,6 +6604,8 @@ pcl_visualizer_autogen/mocs_compilation.cpp:
 
 /usr/include/boost/ref.hpp:
 
+/usr/include/boost/date_time/time_defs.hpp:
+
 /usr/include/boost/mpl/aux_/has_tag.hpp:
 
 /usr/include/boost/fusion/container/list/detail/next_impl.hpp:
@@ -5904,6 +6625,8 @@ pcl_visualizer_autogen/mocs_compilation.cpp:
 /usr/include/flann/config.h:
 
 /usr/include/boost/mpl/prior.hpp:
+
+/usr/include/boost/date_time/microsec_time_clock.hpp:
 
 /usr/include/boost/preprocessor/array/size.hpp:
 
@@ -5967,6 +6690,8 @@ pcl_visualizer_autogen/mocs_compilation.cpp:
 
 /usr/include/boost/mpl/not.hpp:
 
+/usr/include/boost/date_time/time_system_counted.hpp:
+
 /usr/include/boost/mpl/contains_fwd.hpp:
 
 /usr/include/vtk-6.3/vtkImagingHybridModule.h:
@@ -6015,9 +6740,13 @@ pcl_visualizer_autogen/mocs_compilation.cpp:
 
 /usr/include/boost/static_assert.hpp:
 
+/usr/include/boost/date_time/filetime_functions.hpp:
+
 /usr/include/boost/preprocessor/cat.hpp:
 
 /usr/include/boost/preprocessor/seq/fold_left.hpp:
+
+/usr/include/boost/type_traits/make_unsigned.hpp:
 
 /usr/include/boost/mpl/int_fwd.hpp:
 
@@ -6051,11 +6780,15 @@ pcl_visualizer_autogen/mocs_compilation.cpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
 
+/usr/include/boost/type_traits/conversion_traits.hpp:
+
 /usr/include/eigen3/Eigen/src/Core/Dot.h:
 
 /usr/include/boost/predef/compiler.h:
 
 /usr/include/eigen3/Eigen/src/Eigenvalues/GeneralizedSelfAdjointEigenSolver.h:
+
+/usr/include/boost/interprocess/detail/workaround.hpp:
 
 /usr/include/boost/mpl/aux_/config/ctps.hpp:
 
@@ -6091,6 +6824,8 @@ pcl_visualizer_autogen/mocs_compilation.cpp:
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qtransform.h:
 
+/usr/include/boost/iterator/iterator_concepts.hpp:
+
 /usr/include/boost/preprocessor/control/iif.hpp:
 
 /usr/local/include/pcl-1.12/pcl/point_cloud.h:
@@ -6102,6 +6837,8 @@ pcl_visualizer_autogen/mocs_compilation.cpp:
 /usr/include/boost/preprocessor/control/expr_iif.hpp:
 
 /usr/include/boost/mpl/aux_/config/msvc.hpp:
+
+/usr/include/boost/interprocess/exceptions.hpp:
 
 /usr/include/boost/fusion/sequence/intrinsic/detail/segmented_begin_impl.hpp:
 
@@ -6130,6 +6867,8 @@ pcl_visualizer_autogen/mocs_compilation.cpp:
 /usr/include/boost/predef/library/std/vacpp.h:
 
 /usr/include/eigen3/Eigen/src/Core/NoAlias.h:
+
+/usr/include/x86_64-linux-gnu/sys/fcntl.h:
 
 /usr/include/boost/current_function.hpp:
 
@@ -6181,6 +6920,8 @@ pcl_visualizer_autogen/mocs_compilation.cpp:
 
 /usr/include/boost/mpl/arg_fwd.hpp:
 
+/usr/include/x86_64-linux-gnu/sys/mman.h:
+
 /usr/include/boost/fusion/support/detail/mpl_iterator_category.hpp:
 
 /usr/include/vtk-6.3/vtkRenderingVolumeModule.h:
@@ -6196,6 +6937,8 @@ pcl_visualizer_autogen/mocs_compilation.cpp:
 /usr/include/boost/preprocessor/stringize.hpp:
 
 /usr/include/boost/mpl/aux_/yes_no.hpp:
+
+/usr/include/boost/numeric/conversion/detail/bounds.hpp:
 
 /usr/include/boost/mpl/aux_/preprocessor/params.hpp:
 
@@ -6213,6 +6956,8 @@ pcl_visualizer_autogen/mocs_compilation.cpp:
 
 /usr/include/boost/predef/os/ios.h:
 
+/usr/include/boost/algorithm/string/predicate.hpp:
+
 /usr/include/boost/utility/declval.hpp:
 
 /usr/include/boost/config/no_tr1/memory.hpp:
@@ -6222,6 +6967,8 @@ pcl_visualizer_autogen/mocs_compilation.cpp:
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:
 
 /usr/include/boost/bind/mem_fn_cc.hpp:
+
+/usr/include/boost/date_time/date_duration.hpp:
 
 /usr/local/include/pcl-1.12/pcl/memory.h:
 
@@ -6269,6 +7016,8 @@ pcl_visualizer_autogen/mocs_compilation.cpp:
 
 /usr/include/eigen3/Eigen/src/Core/products/SelfadjointProduct.h:
 
+/usr/include/boost/interprocess/sync/spin/wait.hpp:
+
 /usr/include/eigen3/Eigen/src/Core/products/SelfadjointMatrixMatrix.h:
 
 /usr/include/boost/preprocessor/detail/check.hpp:
@@ -6276,6 +7025,8 @@ pcl_visualizer_autogen/mocs_compilation.cpp:
 /usr/include/boost/smart_ptr/detail/sp_disable_deprecated.hpp:
 
 /usr/include/eigen3/Eigen/src/QR/ColPivHouseholderQR.h:
+
+/usr/include/boost/preprocessor/control/deduce_d.hpp:
 
 /usr/include/eigen3/Eigen/src/Core/PermutationMatrix.h:
 
@@ -6336,6 +7087,8 @@ pcl_visualizer_autogen/mocs_compilation.cpp:
 /usr/include/boost/mpl/aux_/nttp_decl.hpp:
 
 /usr/include/eigen3/Eigen/src/Core/Ref.h:
+
+/usr/include/boost/interprocess/interprocess_fwd.hpp:
 
 /usr/include/eigen3/Eigen/QR:
 
@@ -6414,6 +7167,8 @@ pcl_visualizer_autogen/mocs_compilation.cpp:
 /usr/include/boost/type_traits/is_nothrow_move_constructible.hpp:
 
 /usr/include/eigen3/Eigen/src/plugins/CommonCwiseBinaryOps.h:
+
+/usr/include/boost/date_time/c_time.hpp:
 
 /usr/include/eigen3/Eigen/src/plugins/CommonCwiseUnaryOps.h:
 
@@ -6653,6 +7408,8 @@ pcl_visualizer_autogen/mocs_compilation.cpp:
 
 /usr/include/c++/7/cstdlib:
 
+/usr/include/boost/mpl/multiplies.hpp:
+
 /usr/include/c++/7/bits/streambuf_iterator.h:
 
 /usr/include/eigen3/Eigen/src/Geometry/AlignedBox.h:
@@ -6660,6 +7417,8 @@ pcl_visualizer_autogen/mocs_compilation.cpp:
 /usr/include/boost/mpl/aux_/contains_impl.hpp:
 
 /usr/include/boost/preprocessor/comparison/equal.hpp:
+
+/usr/include/boost/numeric/conversion/int_float_mixture_enum.hpp:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qpair.h:
 
@@ -6698,6 +7457,8 @@ pcl_visualizer_autogen/mocs_compilation.cpp:
 /usr/include/boost/mpl/size_t.hpp:
 
 /usr/include/boost/mpl/identity.hpp:
+
+/usr/include/boost/preprocessor/seq/for_each_i.hpp:
 
 /usr/include/eigen3/Eigen/src/Cholesky/LDLT.h:
 
@@ -6793,6 +7554,8 @@ pcl_visualizer_autogen/mocs_compilation.cpp:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qscopedpointer.h:
 
+/usr/include/boost/numeric/conversion/detail/meta.hpp:
+
 /usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
 
 /usr/include/x86_64-linux-gnu/bits/cpu-set.h:
@@ -6861,6 +7624,8 @@ pcl_visualizer_autogen/mocs_compilation.cpp:
 
 /usr/lib/gcc/x86_64-linux-gnu/7/include/stdarg.h:
 
+/usr/include/boost/date_time/gregorian_calendar.hpp:
+
 /usr/include/boost/mpl/aux_/include_preprocessed.hpp:
 
 /usr/include/x86_64-linux-gnu/c++/7/bits/messages_members.h:
@@ -6902,6 +7667,8 @@ pcl_visualizer_autogen/mocs_compilation.cpp:
 /usr/include/eigen3/Eigen/src/Core/ReturnByValue.h:
 
 /usr/include/boost/range/detail/common.hpp:
+
+/usr/include/boost/date_time/date_iterator.hpp:
 
 /usr/include/c++/7/bits/stl_tree.h:
 
@@ -6989,6 +7756,8 @@ pcl_visualizer_autogen/mocs_compilation.cpp:
 
 /usr/local/include/pcl-1.12/pcl/pcl_macros.h:
 
+/usr/include/boost/date_time/gregorian/greg_duration.hpp:
+
 /usr/local/include/pcl-1.12/pcl/point_struct_traits.h:
 
 /usr/include/c++/7/cwctype:
@@ -7010,6 +7779,8 @@ pcl_visualizer_autogen/mocs_compilation.cpp:
 /usr/local/include/pcl-1.12/pcl/search/organized.h:
 
 /usr/include/boost/predef/compiler/digitalmars.h:
+
+/usr/include/boost/date_time/time_system_split.hpp:
 
 /usr/include/boost/mpl/bind_fwd.hpp:
 
@@ -7081,6 +7852,8 @@ pcl_visualizer_autogen/mocs_compilation.cpp:
 
 /usr/include/boost/predef/library/std.h:
 
+/usr/include/boost/algorithm/string/finder.hpp:
+
 /usr/include/boost/variant/detail/has_result_type.hpp:
 
 /usr/include/eigen3/Eigen/Eigenvalues:
@@ -7126,6 +7899,8 @@ pcl_visualizer_autogen/mocs_compilation.cpp:
 /usr/include/c++/7/complex:
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixelformat.h:
+
+/usr/include/boost/numeric/conversion/detail/preprocessed/numeric_cast_traits_common.hpp:
 
 /usr/include/boost/type_traits/has_trivial_move_assign.hpp:
 
@@ -7287,6 +8062,8 @@ pcl_visualizer_autogen/mocs_compilation.cpp:
 
 /usr/include/boost/signals2/detail/lwm_pthreads.hpp:
 
+/usr/include/boost/concept/detail/general.hpp:
+
 /usr/include/boost/fusion/algorithm/iteration/detail/for_each.hpp:
 
 /usr/include/x86_64-linux-gnu/c++/7/bits/error_constants.h:
@@ -7294,6 +8071,8 @@ pcl_visualizer_autogen/mocs_compilation.cpp:
 /usr/include/c++/7/atomic:
 
 /usr/include/x86_64-linux-gnu/bits/errno.h:
+
+/usr/include/boost/date_time/gregorian/greg_date.hpp:
 
 /usr/include/boost/optional.hpp:
 
@@ -7308,6 +8087,8 @@ pcl_visualizer_autogen/mocs_compilation.cpp:
 /usr/include/boost/detail/sp_typeinfo.hpp:
 
 /usr/include/boost/variant/detail/apply_visitor_delayed.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h:
 
@@ -7326,6 +8107,8 @@ pcl_visualizer_autogen/mocs_compilation.cpp:
 /usr/include/boost/predef/os/bsd/free.h:
 
 /usr/include/boost/mpl/push_back.hpp:
+
+/usr/include/boost/interprocess/sync/detail/locks.hpp:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobalstatic.h:
 
@@ -7411,6 +8194,8 @@ pcl_visualizer_autogen/mocs_compilation.cpp:
 
 /usr/include/boost/variant/detail/apply_visitor_binary.hpp:
 
+/usr/include/boost/range/iterator_range.hpp:
+
 /usr/include/eigen3/Eigen/src/Core/CwiseNullaryOp.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic_cxx11.h:
@@ -7450,6 +8235,8 @@ pcl_visualizer_autogen/mocs_compilation.cpp:
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qchar.h:
 
 /usr/include/boost/move/detail/iterator_traits.hpp:
+
+/usr/include/boost/numeric/conversion/cast.hpp:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:
 
@@ -7563,6 +8350,8 @@ pcl_visualizer_autogen/mocs_compilation.cpp:
 
 /usr/include/vtk-6.3/vtkRenderingFreeTypeModule.h:
 
+/usr/include/x86_64-linux-gnu/bits/fcntl.h:
+
 /usr/include/boost/range/const_iterator.hpp:
 
 /usr/include/c++/7/bits/stl_multimap.h:
@@ -7656,6 +8445,8 @@ pcl_visualizer_autogen/mocs_compilation.cpp:
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontmetrics.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabwidget.h:
+
+/usr/include/boost/algorithm/string/detail/trim.hpp:
 
 /usr/include/eigen3/Eigen/StdVector:
 
@@ -7945,6 +8736,8 @@ pcl_visualizer_autogen/mocs_compilation.cpp:
 
 /usr/include/boost/mpl/aux_/reverse_fold_impl.hpp:
 
+/usr/include/boost/range/detail/misc_concept.hpp:
+
 /usr/include/boost/optional/detail/optional_reference_spec.hpp:
 
 /usr/include/boost/mpl/aux_/preprocessed/gcc/reverse_fold_impl.hpp:
@@ -8015,13 +8808,19 @@ pcl_visualizer_autogen/mocs_compilation.cpp:
 
 /usr/include/c++/7/cxxabi.h:
 
+/usr/include/boost/interprocess/permissions.hpp:
+
 /usr/include/boost/fusion/support/sequence_base.hpp:
 
 /usr/include/boost/type_traits/is_void.hpp:
 
 /usr/include/boost/range/mutable_iterator.hpp:
 
+/usr/local/include/pcl-1.12/pcl/io/impl/pcd_io.hpp:
+
 /usr/include/vtk-6.3/vtkCell.h:
+
+/usr/include/x86_64-linux-gnu/bits/stat.h:
 
 /usr/include/boost/type_traits/remove_reference.hpp:
 
@@ -8030,6 +8829,8 @@ pcl_visualizer_autogen/mocs_compilation.cpp:
 /usr/include/boost/mpl/aux_/numeric_cast_utils.hpp:
 
 /usr/include/boost/iterator/iterator_traits.hpp:
+
+/usr/include/boost/type_traits/is_signed.hpp:
 
 /usr/include/boost/range/detail/msvc_has_iterator_workaround.hpp:
 
@@ -8107,6 +8908,8 @@ pcl_visualizer_autogen/mocs_compilation.cpp:
 
 /usr/include/boost/foreach_fwd.hpp:
 
+/usr/include/boost/range/iterator_range_io.hpp:
+
 /usr/include/c++/7/bits/hashtable_policy.h:
 
 /usr/include/c++/7/ext/concurrence.h:
@@ -8133,6 +8936,8 @@ pcl_visualizer_autogen/mocs_compilation.cpp:
 
 /usr/include/vtk-6.3/vtkCommonCoreModule.h:
 
+/usr/include/boost/numeric/conversion/detail/udt_builtin_mixture.hpp:
+
 /usr/include/vtk-6.3/vtkIndent.h:
 
 /usr/include/vtk-6.3/vtkIOStream.h:
@@ -8148,6 +8953,8 @@ pcl_visualizer_autogen/mocs_compilation.cpp:
 /usr/include/boost/signals2/detail/signal_template.hpp:
 
 /usr/include/vtk-6.3/vtkPolyData.h:
+
+/usr/include/boost/utility/binary.hpp:
 
 /usr/include/boost/mpl/has_key.hpp:
 
@@ -8174,6 +8981,8 @@ pcl_visualizer_autogen/mocs_compilation.cpp:
 /usr/include/vtk-6.3/vtkWeakPointerBase.h:
 
 /usr/include/vtk-6.3/vtkAbstractArray.h:
+
+/usr/include/boost/range/has_range_iterator.hpp:
 
 /usr/include/eigen3/Eigen/Jacobi:
 
@@ -8263,6 +9072,8 @@ pcl_visualizer_autogen/mocs_compilation.cpp:
 
 /usr/local/include/pcl-1.12/pcl/visualization/common/ren_win_interact_map.h:
 
+/usr/local/include/pcl-1.12/pcl/io/lzf.h:
+
 /usr/include/boost/fusion/view/filter_view/detail/end_impl.hpp:
 
 /home/catolica/Documents/Github/PCL-visualizer/viewer/src/pclviewer.h:
@@ -8272,6 +9083,8 @@ pcl_visualizer_autogen/mocs_compilation.cpp:
 /usr/include/boost/mpl/begin_end.hpp:
 
 /usr/include/vtk-6.3/vtkXYPlotActor.h:
+
+/usr/include/boost/range/size_type.hpp:
 
 /usr/include/vtk-6.3/vtkActor2D.h:
 
@@ -8327,6 +9140,8 @@ pcl_visualizer_autogen/mocs_compilation.cpp:
 
 /usr/include/boost/type_index/stl_type_index.hpp:
 
+/usr/include/boost/numeric/conversion/bounds.hpp:
+
 /usr/include/boost/type_index/type_index_facade.hpp:
 
 /usr/include/boost/type_traits/has_trivial_copy.hpp:
@@ -8357,9 +9172,13 @@ pcl_visualizer_autogen/mocs_compilation.cpp:
 
 /usr/include/boost/is_placeholder.hpp:
 
+/usr/include/boost/type_traits/has_minus_assign.hpp:
+
 /usr/include/boost/type_traits/composite_traits.hpp:
 
 /usr/include/boost/type_traits/alignment_of.hpp:
+
+/usr/include/boost/algorithm/string/compare.hpp:
 
 /usr/include/eigen3/Eigen/src/plugins/ArrayCwiseBinaryOps.h:
 
@@ -8408,6 +9227,8 @@ pcl_visualizer_autogen/mocs_compilation.cpp:
 /usr/include/boost/move/detail/workaround.hpp:
 
 /usr/include/boost/move/detail/meta_utils_core.hpp:
+
+/usr/include/boost/concept_check.hpp:
 
 /usr/include/boost/fusion/container/vector/detail/end_impl.hpp:
 
@@ -8539,6 +9360,8 @@ pcl_visualizer_autogen/mocs_compilation.cpp:
 
 /usr/include/boost/predef/compiler/metrowerks.h:
 
+/usr/include/boost/range/difference_type.hpp:
+
 /usr/include/boost/predef/version.h:
 
 /usr/include/boost/fusion/algorithm/transformation/erase.hpp:
@@ -8604,6 +9427,8 @@ pcl_visualizer_autogen/mocs_compilation.cpp:
 /usr/local/include/pcl-1.12/pcl/range_image/range_image.h:
 
 /usr/include/boost/predef/library/std/libcomo.h:
+
+/usr/include/linux/falloc.h:
 
 /usr/include/vtk-6.3/vtkVersionMacros.h:
 
@@ -8719,6 +9544,8 @@ pcl_visualizer_autogen/mocs_compilation.cpp:
 
 /usr/include/boost/utility/swap.hpp:
 
+/usr/include/boost/interprocess/detail/config_begin.hpp:
+
 /usr/local/include/pcl-1.12/pcl/conversions.h:
 
 /usr/include/boost/mpl/iterator_range.hpp:
@@ -8746,6 +9573,8 @@ pcl_visualizer_autogen/mocs_compilation.cpp:
 /usr/include/boost/variant/detail/hash_variant.hpp:
 
 /usr/include/boost/functional/hash_fwd.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/mman-shared.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
 
@@ -8780,6 +9609,8 @@ pcl_visualizer_autogen/mocs_compilation.cpp:
 /usr/include/boost/mpl/aux_/size_impl.hpp:
 
 /usr/include/boost/variant/variant_fwd.hpp:
+
+/usr/include/boost/type_traits/is_unsigned.hpp:
 
 /usr/include/boost/type_traits/remove_extent.hpp:
 
@@ -8849,6 +9680,8 @@ pcl_visualizer_autogen/mocs_compilation.cpp:
 
 /usr/include/boost/mpl/list/aux_/empty.hpp:
 
+/usr/include/boost/range/concepts.hpp:
+
 /usr/include/boost/mpl/list/aux_/include_preprocessed.hpp:
 
 /usr/include/boost/mpl/aux_/preprocessed/gcc/list.hpp:
@@ -8890,6 +9723,8 @@ pcl_visualizer_autogen/mocs_compilation.cpp:
 /usr/include/vtk-6.3/vtkPolygon.h:
 
 /usr/include/boost/mpl/front.hpp:
+
+/usr/include/boost/iterator/advance.hpp:
 
 /usr/include/boost/mpl/aux_/front_impl.hpp:
 
