@@ -147,7 +147,6 @@
 #define __PTRDIFF_MAX__ 0x7fffffffffffffffL
 #define __amd64 1
 #define __STDC_NO_THREADS__ 1
-#define DISABLE_LIBUSB 1
 #define __ATOMIC_HLE_ACQUIRE 65536
 #define __FLT32_HAS_QUIET_NAN__ 1
 #define __GNUG__ 7
@@ -384,7 +383,7 @@
 #define __SSE_MATH__ 1
 #define __SIZEOF_LONG_LONG__ 8
 #define __cpp_user_defined_literals 200809
-#define vtkRenderingCore_AUTOINIT 3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL)
+#define vtkRenderingCore_AUTOINIT 3(vtkInteractionStyle,vtkRenderingFreeType,vtkRenderingOpenGL2)
 #define __FLT128_DECIMAL_DIG__ 36
 #define __GCC_ATOMIC_LLONG_LOCK_FREE 2
 #define __FLT32X_MIN__ 2.22507385850720138309023271733240406e-308F32x

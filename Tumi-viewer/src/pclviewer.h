@@ -76,30 +76,3 @@ private:
   Ui::PCLViewer *ui;
 };
 
-//aditional functions
-/*
-void toPCLPolygonMesh(double* downsampled_cloud,int* downsampled_surface,pcl::PolygonMesh::Ptr mesh,int num_points_downsamp,int num_triangles_downsamp){
-
-  pcl::Vertices Vertex;
-  Vertex.vertices.resize(3);
-  (*mesh).polygons.resize(num_triangles_downsamp);
-  pcl::PointCloud<pcl::PointXYZ>::Ptr TempCloud;
-  TempCloud->resize(num_points_downsamp);
-  //double::Ptr to pcl::Point::Ptr
-  unsigned int z=0;
-  for (auto& point: *TempCloud){
-    point.x=downsampled_cloud[z*3+0];
-    point.y=downsampled_cloud[z*3+1];
-    point.z=downsampled_cloud[z*3+2];
-    z++;
-  }
-  pcl::toPCLPointCloud2(*TempCloud, (*mesh).cloud);
-  //int::Ptr to pcl:Vertices. then attacht to pcl::PolygonMesh type
-  for (z=0;z<num_triangles_downsamp;z++){
-    Vertex.vertices[0]=downsampled_surface[z*3+0];
-    Vertex.vertices[1]=downsampled_surface[z*3+1];
-    Vertex.vertices[2]=downsampled_surface[z*3+2];
-    (*mesh).polygons[z]= Vertex;
-  }
-}
-*/

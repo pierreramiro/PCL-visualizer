@@ -1,0 +1,4 @@
+/home/catolica/Documents/Github/PCL-visualizer/viewer/build/CMakeFiles/pcl_visualizer.dir
+/home/catolica/Documents/Github/PCL-visualizer/viewer/build/CMakeFiles/edit_cache.dir
+/home/catolica/Documents/Github/PCL-visualizer/viewer/build/CMakeFiles/rebuild_cache.dir
+/home/catolica/Documents/Github/PCL-visualizer/viewer/build/CMakeFiles/pcl_visualizer_autogen.dir

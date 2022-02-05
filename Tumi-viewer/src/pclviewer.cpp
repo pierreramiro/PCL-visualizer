@@ -9,8 +9,36 @@
 #if VTK_MAJOR_VERSION > 8
 #include <vtkGenericOpenGLRenderWindow.h>
 #endif
-#include "voxel_reconstruction.h"
+//#include "voxel_reconstruction.h"
 
+
+
+//aditional functions
+
+void toPCLPolygonMesh(double* downsampled_cloud,int* downsampled_surface,pcl::PolygonMesh::Ptr mesh,int num_points_downsamp,int num_triangles_downsamp){
+
+  pcl::Vertices Vertex;
+  Vertex.vertices.resize(3);
+  (*mesh).polygons.resize(num_triangles_downsamp);
+  pcl::PointCloud<pcl::PointXYZ>::Ptr TempCloud;
+  TempCloud->resize(num_points_downsamp);
+  //double::Ptr to pcl::Point::Ptr
+  unsigned int z=0;
+  for (auto& point: *TempCloud){
+    point.x=downsampled_cloud[z*3+0];
+    point.y=downsampled_cloud[z*3+1];
+    point.z=downsampled_cloud[z*3+2];
+    z++;
+  }
+  pcl::toPCLPointCloud2(*TempCloud, (*mesh).cloud);
+  //int::Ptr to pcl:Vertices. then attacht to pcl::PolygonMesh type
+  for (z=0;z<num_triangles_downsamp;z++){
+    Vertex.vertices[0]=downsampled_surface[z*3+0];
+    Vertex.vertices[1]=downsampled_surface[z*3+1];
+    Vertex.vertices[2]=downsampled_surface[z*3+2];
+    (*mesh).polygons[z]= Vertex;
+  }
+}
 
 PCLViewer::PCLViewer (QWidget *parent) :
   QMainWindow (parent),
@@ -30,9 +58,9 @@ PCLViewer::PCLViewer (QWidget *parent) :
   FILE* archivo;
   char buffer[400];
   char* token;
-#define testingUI 0
-#if  testingUI==1
-  archivo = fopen("home/tumi/GUI/bunny/MinaData.csv", "r+");
+#define testingUI 1
+#if  testingUI==0
+  archivo = fopen("/home/catolica/Documents/Github/PCL-visualizer/Tumi-viewer/src/MinaData.csv", "r+");
   //Saltamos la primera línea
   double* Point_Cloud = (double*)malloc(n_total_points * 3 *sizeof(double));
   fgets(buffer,sizeof(buffer),archivo);
@@ -51,7 +79,7 @@ PCLViewer::PCLViewer (QWidget *parent) :
   /*************************************************************/
   /************* Generate the surface reconstruction ***********/
   /*************************************************************/
-#if testingUI==0
+#if testingUI==1
 
   triangles.reset (new pcl::PolygonMesh);
   //Downsample data Mina
@@ -59,7 +87,7 @@ PCLViewer::PCLViewer (QWidget *parent) :
   vex.vertices.resize(3);
   cloud->resize(3969);//change
   // archivo = fopen("/home/catolica/Documents/Github/PCL-visualizer/viewer/src/downsamp_cloud.csv", "r+");
-  archivo = fopen("/home/tumi/GUI/bunny/downsamp_cloud.csv", "r+");
+  archivo = fopen("/home/catolica/Documents/Github/PCL-visualizer/Tumi-viewer/src/downsamp_cloud.csv", "r+");
   for (auto& point: *cloud){
     fgets(buffer,sizeof(buffer),archivo);
     token = strtok(buffer," ");
@@ -71,7 +99,7 @@ PCLViewer::PCLViewer (QWidget *parent) :
   }
   pcl::toPCLPointCloud2(*cloud, triangles->cloud);
   // archivo = fopen("/home/catolica/Documents/Github/PCL-visualizer/viewer/src/downsamp_surf.csv", "r+");
-  archivo = fopen("/home/tumi/GUI/bunny/downsamp_surf.csv", "r+");
+  archivo = fopen("/home/catolica/Documents/Github/PCL-visualizer/Tumi-viewer/src/downsamp_surf.csv", "r+");
   for (unsigned int i=0; i<7898; ++i)
   { 
     fgets(buffer,sizeof(buffer),archivo);
@@ -92,7 +120,7 @@ PCLViewer::PCLViewer (QWidget *parent) :
   double *downsampled_cloud;
   int *downsampled_surface;
   int num_points_downsamp=0, num_triangles_downsamp=0;
-  Voxel_Reconstruction(Point_Cloud,downsampled_cloud,downsampled_surface, &num_points_downsamp, &num_triangles_downsamp);
+  //Voxel_Reconstruction(Point_Cloud,downsampled_cloud,downsampled_surface, &num_points_downsamp, &num_triangles_downsamp);
 
   //Transform data to PCL PolygonMesh type
   //toPCLPolygonMesh(downsampled_cloud,downsampled_surface,triangles,num_points_downsamp,num_triangles_downsamp);
