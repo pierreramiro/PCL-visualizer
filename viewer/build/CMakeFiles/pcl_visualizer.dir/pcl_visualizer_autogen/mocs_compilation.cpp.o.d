@@ -828,95 +828,94 @@ CMakeFiles/pcl_visualizer.dir/pcl_visualizer_autogen/mocs_compilation.cpp.o: \
  /usr/local/include/pcl-1.12/pcl/common/concatenate.h \
  /usr/local/include/pcl-1.12/pcl/common/copy_point.h \
  /usr/local/include/pcl-1.12/pcl/common/impl/copy_point.hpp \
- /usr/local/include/vtk-8.1/vtkSmartPointer.h \
- /usr/local/include/vtk-8.1/vtkSmartPointerBase.h \
- /usr/local/include/vtk-8.1/vtkCommonCoreModule.h \
- /usr/local/include/vtk-8.1/vtkObjectBase.h \
- /usr/local/include/vtk-8.1/vtkIndent.h \
- /usr/local/include/vtk-8.1/vtkSystemIncludes.h \
- /usr/local/include/vtk-8.1/vtkWin32Header.h \
- /usr/local/include/vtk-8.1/vtkConfigure.h \
- /usr/local/include/vtk-8.1/vtkVersionMacros.h \
- /usr/local/include/vtk-8.1/vtkABI.h \
- /usr/local/include/vtk-8.1/vtkIOStream.h /usr/include/c++/7/fstream \
+ /usr/local/include/vtk-7.1/vtkSmartPointer.h \
+ /usr/local/include/vtk-7.1/vtkSmartPointerBase.h \
+ /usr/local/include/vtk-7.1/vtkCommonCoreModule.h \
+ /usr/local/include/vtk-7.1/vtkObjectBase.h \
+ /usr/local/include/vtk-7.1/vtkIndent.h \
+ /usr/local/include/vtk-7.1/vtkSystemIncludes.h \
+ /usr/local/include/vtk-7.1/vtkWin32Header.h \
+ /usr/local/include/vtk-7.1/vtkConfigure.h \
+ /usr/local/include/vtk-7.1/vtkVersionMacros.h \
+ /usr/local/include/vtk-7.1/vtkABI.h \
+ /usr/local/include/vtk-7.1/vtkIOStream.h /usr/include/c++/7/fstream \
  /usr/include/x86_64-linux-gnu/c++/7/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/7/bits/c++io.h \
  /usr/include/c++/7/bits/fstream.tcc /usr/include/c++/7/iomanip \
  /usr/include/c++/7/bits/quoted_string.h \
- /usr/local/include/vtk-8.1/vtkType.h \
- /usr/local/include/vtk-8.1/vtk_kwiml.h \
- /usr/local/include/vtk-8.1/vtkkwiml/abi.h \
- /usr/local/include/vtk-8.1/vtkkwiml/int.h \
- /usr/local/include/vtk-8.1/vtkkwiml/abi.h /usr/include/inttypes.h \
- /usr/local/include/vtk-8.1/vtkWrappingHints.h \
- /usr/local/include/vtk-8.1/vtkOStreamWrapper.h \
- /usr/local/include/vtk-8.1/vtkOStrStreamWrapper.h \
- /usr/local/include/vtk-8.1/vtkAtomicTypes.h \
- /usr/local/include/vtk-8.1/vtkAtomic.h \
- /usr/local/include/vtk-8.1/vtkAtomicTypeConcepts.h \
- /usr/local/include/vtk-8.1/vtkNew.h \
- /usr/local/include/vtk-8.1/vtkPoints.h \
- /usr/local/include/vtk-8.1/vtkObject.h \
- /usr/local/include/vtk-8.1/vtkSetGet.h /usr/include/c++/7/math.h \
- /usr/local/include/vtk-8.1/vtkTimeStamp.h \
- /usr/local/include/vtk-8.1/vtkWeakPointerBase.h \
- /usr/local/include/vtk-8.1/vtkDataArray.h \
- /usr/local/include/vtk-8.1/vtkAbstractArray.h \
- /usr/local/include/vtk-8.1/vtkVariant.h \
- /usr/local/include/vtk-8.1/vtkStdString.h \
- /usr/local/include/vtk-8.1/vtkUnicodeString.h \
- /usr/local/include/vtk-8.1/vtkVariantInlineOperators.h \
- /usr/local/include/vtk-8.1/vtkFloatArray.h \
- /usr/local/include/vtk-8.1/vtkAOSDataArrayTemplate.h \
- /usr/local/include/vtk-8.1/vtkGenericDataArray.h \
- /usr/local/include/vtk-8.1/vtkSmartPointer.h \
- /usr/local/include/vtk-8.1/vtkTypeTraits.h \
- /usr/local/include/vtk-8.1/vtkGenericDataArrayLookupHelper.h \
- /usr/local/include/vtk-8.1/vtkIdList.h \
- /usr/local/include/vtk-8.1/vtkGenericDataArray.txx \
- /usr/local/include/vtk-8.1/vtkMath.h \
- /usr/local/include/vtk-8.1/vtkMathConfigure.h \
+ /usr/local/include/vtk-7.1/vtkType.h \
+ /usr/local/include/vtk-7.1/vtk_kwiml.h \
+ /usr/local/include/vtk-7.1/vtkkwiml/abi.h \
+ /usr/local/include/vtk-7.1/vtkkwiml/int.h \
+ /usr/local/include/vtk-7.1/vtkkwiml/abi.h /usr/include/inttypes.h \
+ /usr/local/include/vtk-7.1/vtkWrappingHints.h \
+ /usr/local/include/vtk-7.1/vtkOStreamWrapper.h \
+ /usr/local/include/vtk-7.1/vtkOStrStreamWrapper.h \
+ /usr/local/include/vtk-7.1/vtkAtomicTypes.h \
+ /usr/local/include/vtk-7.1/vtkAtomic.h \
+ /usr/local/include/vtk-7.1/vtkAtomicTypeConcepts.h \
+ /usr/local/include/vtk-7.1/vtkPoints.h \
+ /usr/local/include/vtk-7.1/vtkObject.h \
+ /usr/local/include/vtk-7.1/vtkSetGet.h /usr/include/c++/7/math.h \
+ /usr/local/include/vtk-7.1/vtkTimeStamp.h \
+ /usr/local/include/vtk-7.1/vtkWeakPointerBase.h \
+ /usr/local/include/vtk-7.1/vtkDataArray.h \
+ /usr/local/include/vtk-7.1/vtkAbstractArray.h \
+ /usr/local/include/vtk-7.1/vtkVariant.h \
+ /usr/local/include/vtk-7.1/vtkStdString.h \
+ /usr/local/include/vtk-7.1/vtkUnicodeString.h \
+ /usr/local/include/vtk-7.1/vtkVariantInlineOperators.h \
+ /usr/local/include/vtk-7.1/vtkFloatArray.h \
+ /usr/local/include/vtk-7.1/vtkAOSDataArrayTemplate.h \
+ /usr/local/include/vtk-7.1/vtkGenericDataArray.h \
+ /usr/local/include/vtk-7.1/vtkSmartPointer.h \
+ /usr/local/include/vtk-7.1/vtkTypeTraits.h \
+ /usr/local/include/vtk-7.1/vtkGenericDataArrayLookupHelper.h \
+ /usr/local/include/vtk-7.1/vtkIdList.h \
+ /usr/local/include/vtk-7.1/vtkGenericDataArray.txx \
+ /usr/local/include/vtk-7.1/vtkMath.h \
+ /usr/local/include/vtk-7.1/vtkMathConfigure.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include/float.h \
- /usr/local/include/vtk-8.1/vtkVariantCast.h \
- /usr/local/include/vtk-8.1/vtkBuffer.h \
- /usr/local/include/vtk-8.1/vtkObjectFactory.h \
- /usr/local/include/vtk-8.1/vtkDebugLeaksManager.h \
+ /usr/local/include/vtk-7.1/vtkVariantCast.h \
+ /usr/local/include/vtk-7.1/vtkBuffer.h \
+ /usr/local/include/vtk-7.1/vtkObjectFactory.h \
+ /usr/local/include/vtk-7.1/vtkDebugLeaksManager.h \
  /usr/local/include/pcl-1.12/pcl/visualization/point_cloud_color_handlers.h \
  /usr/local/include/pcl-1.12/pcl/visualization/common/common.h \
- /usr/local/include/vtk-8.1/vtkMatrix4x4.h \
- /usr/local/include/vtk-8.1/vtkCommonMathModule.h \
- /usr/local/include/vtk-8.1/vtkLookupTable.h \
- /usr/local/include/vtk-8.1/vtkScalarsToColors.h \
- /usr/local/include/vtk-8.1/vtkUnsignedCharArray.h \
+ /usr/local/include/vtk-7.1/vtkMatrix4x4.h \
+ /usr/local/include/vtk-7.1/vtkCommonMathModule.h \
+ /usr/local/include/vtk-7.1/vtkLookupTable.h \
+ /usr/local/include/vtk-7.1/vtkScalarsToColors.h \
+ /usr/local/include/vtk-7.1/vtkUnsignedCharArray.h \
  /usr/local/include/pcl-1.12/pcl/visualization/common/impl/common.hpp \
- /usr/local/include/vtk-8.1/vtkDataArray.h \
- /usr/local/include/vtk-8.1/vtkUnsignedCharArray.h \
+ /usr/local/include/vtk-7.1/vtkDataArray.h \
+ /usr/local/include/vtk-7.1/vtkUnsignedCharArray.h \
  /usr/local/include/pcl-1.12/pcl/visualization/impl/point_cloud_color_handlers.hpp \
  /usr/include/c++/7/set /usr/include/c++/7/bits/stl_set.h \
  /usr/include/c++/7/bits/stl_multiset.h \
  /usr/local/include/pcl-1.12/pcl/common/colors.h \
  /usr/local/include/pcl-1.12/pcl/common/point_tests.h \
- /usr/local/include/vtk-8.1/vtkLODActor.h \
- /usr/local/include/vtk-8.1/vtkRenderingLODModule.h \
- /usr/local/include/vtk-8.1/vtkRenderingCoreModule.h \
- /usr/local/include/vtk-8.1/vtkFiltersCoreModule.h \
- /usr/local/include/vtk-8.1/vtkAutoInit.h \
- /usr/local/include/vtk-8.1/vtkActor.h \
- /usr/local/include/vtk-8.1/vtkProp3D.h \
- /usr/local/include/vtk-8.1/vtkProp.h \
- /usr/local/include/vtk-8.1/vtkIdTypeArray.h \
+ /usr/local/include/vtk-7.1/vtkLODActor.h \
+ /usr/local/include/vtk-7.1/vtkRenderingLODModule.h \
+ /usr/local/include/vtk-7.1/vtkRenderingCoreModule.h \
+ /usr/local/include/vtk-7.1/vtkFiltersCoreModule.h \
+ /usr/local/include/vtk-7.1/vtkAutoInit.h \
+ /usr/local/include/vtk-7.1/vtkActor.h \
+ /usr/local/include/vtk-7.1/vtkProp3D.h \
+ /usr/local/include/vtk-7.1/vtkProp.h \
+ /usr/local/include/vtk-7.1/vtkIdTypeArray.h \
  /usr/include/c++/7/unordered_map /usr/include/c++/7/bits/hashtable.h \
  /usr/include/c++/7/bits/hashtable_policy.h \
  /usr/include/c++/7/bits/unordered_map.h \
  /usr/local/include/pcl-1.12/pcl/visualization/point_picking_event.h \
- /usr/local/include/vtk-8.1/vtkCommand.h \
+ /usr/local/include/vtk-7.1/vtkCommand.h \
  /usr/local/include/pcl-1.12/pcl/visualization/area_picking_event.h \
  /usr/local/include/pcl-1.12/pcl/visualization/interactor_style.h \
  /usr/local/include/pcl-1.12/pcl/visualization/common/ren_win_interact_map.h \
- /usr/local/include/vtk-8.1/vtkXYPlotActor.h \
- /usr/local/include/vtk-8.1/vtkRenderingAnnotationModule.h \
- /usr/local/include/vtk-8.1/vtkActor2D.h \
- /usr/local/include/vtk-8.1/vtkCoordinate.h \
+ /usr/local/include/vtk-7.1/vtkXYPlotActor.h \
+ /usr/local/include/vtk-7.1/vtkRenderingAnnotationModule.h \
+ /usr/local/include/vtk-7.1/vtkActor2D.h \
+ /usr/local/include/vtk-7.1/vtkCoordinate.h \
  /usr/local/include/pcl-1.12/pcl/visualization/keyboard_event.h \
  /usr/local/include/pcl-1.12/pcl/visualization/mouse_event.h \
  /usr/include/boost/signals2/signal.hpp /usr/include/boost/assert.hpp \
@@ -1275,80 +1274,80 @@ CMakeFiles/pcl_visualizer.dir/pcl_visualizer_autogen/mocs_compilation.cpp.o: \
  /usr/include/boost/signals2/detail/variadic_slot_invoker.hpp \
  /usr/include/boost/type_traits/function_traits.hpp \
  /usr/include/boost/signals2/detail/signal_template.hpp \
- /usr/local/include/vtk-8.1/vtkInteractorStyleRubberBandPick.h \
- /usr/local/include/vtk-8.1/vtkInteractionStyleModule.h \
- /usr/local/include/vtk-8.1/vtkInteractorStyleTrackballCamera.h \
- /usr/local/include/vtk-8.1/vtkInteractorStyle.h \
- /usr/local/include/vtk-8.1/vtkInteractorObserver.h \
- /usr/local/include/vtk-8.1/vtkRendererCollection.h \
- /usr/local/include/vtk-8.1/vtkCollection.h \
- /usr/local/include/vtk-8.1/vtkRenderer.h \
- /usr/local/include/vtk-8.1/vtkViewport.h \
- /usr/local/include/vtk-8.1/vtkVolumeCollection.h \
- /usr/local/include/vtk-8.1/vtkPropCollection.h \
- /usr/local/include/vtk-8.1/vtkVolume.h \
- /usr/local/include/vtk-8.1/vtkActorCollection.h \
- /usr/local/include/vtk-8.1/vtkRenderWindow.h \
- /usr/local/include/vtk-8.1/vtkWindow.h \
- /usr/local/include/vtk-8.1/vtkOrientationMarkerWidget.h \
- /usr/local/include/vtk-8.1/vtkInteractionWidgetsModule.h \
- /usr/local/include/vtk-8.1/vtkFiltersGeneralModule.h \
- /usr/local/include/vtk-8.1/vtkRenderWindowInteractor.h \
- /usr/local/include/vtk-8.1/vtkCommand.h \
+ /usr/local/include/vtk-7.1/vtkInteractorStyleRubberBandPick.h \
+ /usr/local/include/vtk-7.1/vtkInteractionStyleModule.h \
+ /usr/local/include/vtk-7.1/vtkInteractorStyleTrackballCamera.h \
+ /usr/local/include/vtk-7.1/vtkInteractorStyle.h \
+ /usr/local/include/vtk-7.1/vtkInteractorObserver.h \
+ /usr/local/include/vtk-7.1/vtkRendererCollection.h \
+ /usr/local/include/vtk-7.1/vtkCollection.h \
+ /usr/local/include/vtk-7.1/vtkRenderer.h \
+ /usr/local/include/vtk-7.1/vtkViewport.h \
+ /usr/local/include/vtk-7.1/vtkVolumeCollection.h \
+ /usr/local/include/vtk-7.1/vtkPropCollection.h \
+ /usr/local/include/vtk-7.1/vtkVolume.h \
+ /usr/local/include/vtk-7.1/vtkActorCollection.h \
+ /usr/local/include/vtk-7.1/vtkRenderWindow.h \
+ /usr/local/include/vtk-7.1/vtkWindow.h \
+ /usr/local/include/vtk-7.1/vtkOrientationMarkerWidget.h \
+ /usr/local/include/vtk-7.1/vtkInteractionWidgetsModule.h \
+ /usr/local/include/vtk-7.1/vtkFiltersGeneralModule.h \
+ /usr/local/include/vtk-7.1/vtkRenderWindowInteractor.h \
+ /usr/local/include/vtk-7.1/vtkCommand.h \
  /usr/local/include/pcl-1.12/pcl/visualization/impl/pcl_visualizer.hpp \
- /usr/local/include/vtk-8.1/vtkVersion.h \
- /usr/local/include/vtk-8.1/vtkCellArray.h \
- /usr/local/include/vtk-8.1/vtkCommonDataModelModule.h \
- /usr/local/include/vtk-8.1/vtkIdTypeArray.h \
- /usr/local/include/vtk-8.1/vtkCell.h \
- /usr/local/include/vtk-8.1/vtkCellType.h \
- /usr/local/include/vtk-8.1/vtkLeaderActor2D.h \
- /usr/local/include/vtk-8.1/vtkVectorText.h \
- /usr/local/include/vtk-8.1/vtkRenderingFreeTypeModule.h \
- /usr/local/include/vtk-8.1/vtkPolyDataAlgorithm.h \
- /usr/local/include/vtk-8.1/vtkCommonExecutionModelModule.h \
- /usr/local/include/vtk-8.1/vtkAlgorithm.h \
- /usr/local/include/vtk-8.1/vtkPolyData.h \
- /usr/local/include/vtk-8.1/vtkPointSet.h \
- /usr/local/include/vtk-8.1/vtkDataSet.h \
- /usr/local/include/vtk-8.1/vtkDataObject.h \
- /usr/local/include/vtk-8.1/vtkPoints.h \
- /usr/local/include/vtk-8.1/vtkCellTypes.h \
- /usr/local/include/vtk-8.1/vtkIntArray.h \
- /usr/local/include/vtk-8.1/vtkCellLinks.h \
- /usr/local/include/vtk-8.1/vtkAbstractCellLinks.h \
- /usr/local/include/vtk-8.1/vtkCellArray.h \
- /usr/local/include/vtk-8.1/vtkAlgorithmOutput.h \
- /usr/local/include/vtk-8.1/vtkFollower.h \
- /usr/local/include/vtk-8.1/vtkMath.h \
- /usr/local/include/vtk-8.1/vtkSphereSource.h \
- /usr/local/include/vtk-8.1/vtkFiltersSourcesModule.h \
- /usr/local/include/vtk-8.1/vtkProperty2D.h \
- /usr/local/include/vtk-8.1/vtkDataSetSurfaceFilter.h \
- /usr/local/include/vtk-8.1/vtkFiltersGeometryModule.h \
- /usr/local/include/vtk-8.1/vtkPointData.h \
- /usr/local/include/vtk-8.1/vtkDataSetAttributes.h \
- /usr/local/include/vtk-8.1/vtkFieldData.h \
- /usr/local/include/vtk-8.1/vtkPolyDataMapper.h \
- /usr/local/include/vtk-8.1/vtkMapper.h \
- /usr/local/include/vtk-8.1/vtkAbstractMapper3D.h \
- /usr/local/include/vtk-8.1/vtkAbstractMapper.h \
- /usr/local/include/vtk-8.1/vtkTexture.h \
- /usr/local/include/vtk-8.1/vtkImageAlgorithm.h \
- /usr/local/include/vtk-8.1/vtkProperty.h \
- /usr/local/include/vtk-8.1/vtkMapper.h \
- /usr/local/include/vtk-8.1/vtkCellData.h \
- /usr/local/include/vtk-8.1/vtkDataSetMapper.h \
- /usr/local/include/vtk-8.1/vtkRenderer.h \
- /usr/local/include/vtk-8.1/vtkAppendPolyData.h \
- /usr/local/include/vtk-8.1/vtkTextProperty.h \
- /usr/local/include/vtk-8.1/vtkLineSource.h \
+ /usr/local/include/vtk-7.1/vtkVersion.h \
+ /usr/local/include/vtk-7.1/vtkCellArray.h \
+ /usr/local/include/vtk-7.1/vtkCommonDataModelModule.h \
+ /usr/local/include/vtk-7.1/vtkIdTypeArray.h \
+ /usr/local/include/vtk-7.1/vtkCell.h \
+ /usr/local/include/vtk-7.1/vtkCellType.h \
+ /usr/local/include/vtk-7.1/vtkLeaderActor2D.h \
+ /usr/local/include/vtk-7.1/vtkVectorText.h \
+ /usr/local/include/vtk-7.1/vtkRenderingFreeTypeModule.h \
+ /usr/local/include/vtk-7.1/vtkPolyDataAlgorithm.h \
+ /usr/local/include/vtk-7.1/vtkCommonExecutionModelModule.h \
+ /usr/local/include/vtk-7.1/vtkAlgorithm.h \
+ /usr/local/include/vtk-7.1/vtkPolyData.h \
+ /usr/local/include/vtk-7.1/vtkPointSet.h \
+ /usr/local/include/vtk-7.1/vtkDataSet.h \
+ /usr/local/include/vtk-7.1/vtkDataObject.h \
+ /usr/local/include/vtk-7.1/vtkPoints.h \
+ /usr/local/include/vtk-7.1/vtkCellTypes.h \
+ /usr/local/include/vtk-7.1/vtkIntArray.h \
+ /usr/local/include/vtk-7.1/vtkCellLinks.h \
+ /usr/local/include/vtk-7.1/vtkAbstractCellLinks.h \
+ /usr/local/include/vtk-7.1/vtkCellArray.h \
+ /usr/local/include/vtk-7.1/vtkAlgorithmOutput.h \
+ /usr/local/include/vtk-7.1/vtkFollower.h \
+ /usr/local/include/vtk-7.1/vtkMath.h \
+ /usr/local/include/vtk-7.1/vtkSphereSource.h \
+ /usr/local/include/vtk-7.1/vtkFiltersSourcesModule.h \
+ /usr/local/include/vtk-7.1/vtkProperty2D.h \
+ /usr/local/include/vtk-7.1/vtkDataSetSurfaceFilter.h \
+ /usr/local/include/vtk-7.1/vtkFiltersGeometryModule.h \
+ /usr/local/include/vtk-7.1/vtkPointData.h \
+ /usr/local/include/vtk-7.1/vtkDataSetAttributes.h \
+ /usr/local/include/vtk-7.1/vtkFieldData.h \
+ /usr/local/include/vtk-7.1/vtkPolyDataMapper.h \
+ /usr/local/include/vtk-7.1/vtkMapper.h \
+ /usr/local/include/vtk-7.1/vtkAbstractMapper3D.h \
+ /usr/local/include/vtk-7.1/vtkAbstractMapper.h \
+ /usr/local/include/vtk-7.1/vtkTexture.h \
+ /usr/local/include/vtk-7.1/vtkImageAlgorithm.h \
+ /usr/local/include/vtk-7.1/vtkProperty.h \
+ /usr/local/include/vtk-7.1/vtkMapper.h \
+ /usr/local/include/vtk-7.1/vtkCellData.h \
+ /usr/local/include/vtk-7.1/vtkDataSetMapper.h \
+ /usr/local/include/vtk-7.1/vtkRenderer.h \
+ /usr/local/include/vtk-7.1/vtkAppendPolyData.h \
+ /usr/local/include/vtk-7.1/vtkTextProperty.h \
+ /usr/local/include/vtk-7.1/vtkLineSource.h \
  /usr/local/include/pcl-1.12/pcl/common/utils.h \
  /usr/local/include/pcl-1.12/pcl/visualization/common/shapes.h \
  /usr/local/include/pcl-1.12/pcl/visualization/common/impl/shapes.hpp \
- /usr/local/include/vtk-8.1/vtkPolygon.h \
- /usr/local/include/vtk-8.1/vtkUnstructuredGrid.h \
- /usr/local/include/vtk-8.1/vtkUnstructuredGridBase.h \
+ /usr/local/include/vtk-7.1/vtkPolygon.h \
+ /usr/local/include/vtk-7.1/vtkUnstructuredGrid.h \
+ /usr/local/include/vtk-7.1/vtkUnstructuredGridBase.h \
  /usr/local/include/pcl-1.12/pcl/io/pcd_io.h \
  /usr/local/include/pcl-1.12/pcl/io/file_io.h \
  /usr/include/boost/numeric/conversion/cast.hpp \

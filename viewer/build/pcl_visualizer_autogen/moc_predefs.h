@@ -110,7 +110,6 @@
 #define __FLT64_MANT_DIG__ 53
 #define qh_QHpointer 1
 #define __GNUC__ 7
-#define DISABLE_OPENNI 1
 #define __GXX_RTTI 1
 #define __pie__ 2
 #define __MMX__ 1
@@ -193,7 +192,6 @@
 #define __cpp_decltype_auto 201304
 #define __GCC_ATOMIC_INT_LOCK_FREE 2
 #define __FLT128_MAX_EXP__ 16384
-#define DISABLE_OPENNI2 1
 #define __FLT32_MANT_DIG__ 24
 #define __FLOAT_WORD_ORDER__ __ORDER_LITTLE_ENDIAN__
 #define DISABLE_PNG 1
